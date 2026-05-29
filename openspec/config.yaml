@@ -1,0 +1,49 @@
+schema: spec-driven
+
+contexto: |
+  Proyecto: openspec-manager
+  Idioma: Español
+  Audiencia: Destroyer y cliente
+  Dominio: Herramienta interna de escritorio para visualizar el estado de proyectos OpenSpec.
+  Descripción: Aplicación desktop (Tauri + Rust) que detecta si un proyecto contiene una carpeta .openspec, carga sus datos y muestra el estado del proyecto de forma visual.
+  Stack: Tauri, Rust
+
+reglas:
+  propuesta:
+    - Mantén la propuesta en menos de 500 palabras salvo que el cambio sea excepcionalmente amplio.
+    - Cubre solo el por qué, qué cambia, alcance, no-objetivos, capacidades e impacto.
+    - Mueve las decisiones de implementación y detalles a nivel de fichero al diseño.
+
+  specs:
+    - Trata las specs como el contrato de comportamiento, no como un plan de implementación.
+    - Incluye solo comportamiento observable, resultados para el usuario y contratos externos.
+    - Excluye estructura de código, rutas de ficheros, componentes, comandos y decisiones de arquitectura.
+
+  diseño:
+    - Mantén las secciones de diseño concisas y orientadas a decisiones.
+    - Incluye ficheros concretos, rutas, assets, dependencias o integraciones solo cuando clarifiquen la implementación.
+    - No repitas la motivación de la propuesta ni los requisitos de las specs.
+
+  tareas:
+    - Escribe cada tarea como un entregable concreto.
+    - Incluye tareas de validación para el comportamiento modificado.
+    - Evita reiterar la propuesta, las specs o el diseño en el texto de las tareas.
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+# Add your tech stack, conventions, style guides, domain knowledge, etc.
+# Example:
+#   context: |
+#     Tech stack: TypeScript, React, Node.js
+#     We use conventional commits
+#     Domain: e-commerce platform
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
