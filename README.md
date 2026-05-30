@@ -1,12 +1,13 @@
 # OpenSpec Desktop
 
-[![App Version](https://img.shields.io/badge/app-0.1.0-0969da?style=for-the-badge)](#versiones--versions)
-[![OpenSpec CLI](https://img.shields.io/badge/OpenSpec_CLI-1.3.1-238636?style=for-the-badge)](https://github.com/Fission-AI/OpenSpec)
-[![Tauri](https://img.shields.io/badge/Tauri-2-24c8db?style=for-the-badge&logo=tauri&logoColor=white)](https://tauri.app/)
-[![Svelte](https://img.shields.io/badge/Svelte-5-ff3e00?style=for-the-badge&logo=svelte&logoColor=white)](https://svelte.dev/)
-[![Rust](https://img.shields.io/badge/Rust-stable-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/badge/license-MIT-6e7781?style=for-the-badge)](#licencia--license)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#licencia--license)
+[![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)](#requisitos--requirements)
+[![OpenSpec CLI](https://img.shields.io/badge/OpenSpec_CLI-1.3.1-green.svg)](https://github.com/Fission-AI/OpenSpec)
+[![App](https://img.shields.io/badge/OpenSpec_Desktop-0.1.0-1f6feb.svg)](#versiones--versions)
+[![Tauri](https://img.shields.io/badge/Tauri-2-24c8db.svg)](https://tauri.app/)
+[![Svelte](https://img.shields.io/badge/Svelte-5-ff3e00.svg)](https://svelte.dev/)
+[![Rust](https://img.shields.io/badge/Rust-stable-black.svg)](https://www.rust-lang.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6.svg)](https://www.typescriptlang.org/)
 
 ## Español
 
