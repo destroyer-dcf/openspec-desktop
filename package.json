@@ -1,7 +1,7 @@
 {
   "name": "openspec-desktop",
   "version": "0.1.0",
-  "description": "",
+  "description": "Frontand for OpenSpec Manager built with SvelteKit and Tauri",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
