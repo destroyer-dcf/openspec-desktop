@@ -3,10 +3,10 @@ mod openspec;
 
 use commands::project::{
     archive_proposals, bootstrap_state, check_openspec_cli, delete_proposals, get_active_index, get_projects,
-    get_versions,
+    get_versions, list_schemas,
     create_spec_document, get_proposal, get_state, init_project, list_proposals, list_spec_documents, open_project, pick_project_folder,
     read_file, save_proposal, set_active_project, unlink_project, write_file, AppState,
-    copy_to_clipboard,
+    copy_to_clipboard, persist_window_size,
 };
 use tauri::Manager;
 
@@ -20,6 +20,8 @@ fn build_app_menu<R: tauri::Runtime>(app: &tauri::AppHandle<R>) -> tauri::Result
         name: Some("OpenSpec Desktop".to_string()),
         version: Some(env!("CARGO_PKG_VERSION").to_string()),
         short_version: Some(env!("CARGO_PKG_VERSION").to_string()),
+        copyright: Some("Copyright Destroyer 2026".to_string()),
+        website: Some("https://github.com/destroyer-dcf/openspec-desktop".to_string()),
         icon: Some(APP_ICON.clone()),
         ..Default::default()
     };
@@ -113,6 +115,18 @@ pub fn run() {
         .menu(build_app_menu)
         .plugin(tauri_plugin_opener::init())
         .plugin(tauri_plugin_dialog::init())
+        .on_window_event(|window, event| {
+            if window.label() != "main" {
+                return;
+            }
+            if matches!(event, tauri::WindowEvent::CloseRequested { .. }) {
+                if let Ok(size) = window.inner_size() {
+                    if let Ok(pos) = window.outer_position() {
+                        let _ = persist_window_size(&window.app_handle(), size.width, size.height, pos.x, pos.y);
+                    }
+                }
+            }
+        })
         .manage(AppState::default())
         .setup(|app| {
             let handle = app.handle();
@@ -145,6 +159,7 @@ pub fn run() {
             copy_to_clipboard,
             check_openspec_cli,
             get_versions,
+            list_schemas,
             init_project
         ])
         .run(tauri::generate_context!())

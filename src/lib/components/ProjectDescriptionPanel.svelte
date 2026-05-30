@@ -2,6 +2,9 @@
   import { Info } from "lucide-svelte";
 
   export let contexto: string | null | undefined;
+  export let schema: string | null | undefined;
+  export let schemaLabel = "Schema";
+  export let unavailableLabel = "No disponible";
   export let percent = 0;
   export let completedTasks = 0;
   export let totalTasks = 0;
@@ -32,6 +35,7 @@
 
   $: pairs = parseContexto(contexto);
   $: safePairs = pairs.length > 0 ? pairs : [{ label: "Contexto", value: "No definido" }];
+  $: schemaValue = schema && schema.trim() ? schema.trim() : unavailableLabel;
   $: totalChanges = activeChanges + archivedChanges;
   $: taskPercent = clamp(percent);
   $: activePercent = totalChanges === 0 ? 0 : clamp((activeChanges / totalChanges) * 100);
@@ -42,6 +46,10 @@
     <div class="left">
       <h2 class="panel-title"><Info size={15} /> Proyecto</h2>
       <ul class="pairs">
+        <li class="pair">
+          <span class="label">{schemaLabel}</span>
+          <span class="value" title={schemaValue}>{schemaValue}</span>
+        </li>
         {#each safePairs as pair}
           <li class="pair">
             <span class="label">{pair.label}</span>
