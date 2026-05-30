@@ -8,7 +8,7 @@ use std::fs;
 use std::path::{Path, PathBuf};
 use std::process::Command;
 use std::sync::Mutex;
-use tauri::{AppHandle, Emitter, Manager, State};
+use tauri::{AppHandle, Emitter, Manager, PhysicalPosition, PhysicalSize, Position, Size, State};
 use tauri_plugin_dialog::DialogExt;
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -22,7 +22,16 @@ pub struct ProjectHandle {
 struct PersistedAppState {
     project_paths: Vec<String>,
     active_index: Option<usize>,
+    window_width: Option<u32>,
+    window_height: Option<u32>,
+    window_x: Option<i32>,
+    window_y: Option<i32>,
 }
+
+const DEFAULT_WINDOW_WIDTH: u32 = 1280;
+const DEFAULT_WINDOW_HEIGHT: u32 = 800;
+const MIN_WINDOW_WIDTH: u32 = 1024;
+const MIN_WINDOW_HEIGHT: u32 = 700;
 
 #[derive(Default)]
 pub struct AppState {
@@ -42,6 +51,7 @@ pub enum OpenProjectResponse {
 pub struct InitProjectInput {
     pub path: String,
     pub name: String,
+    pub schema: Option<String>,
     pub language: Option<String>,
     pub audience: Option<String>,
     pub domain: Option<String>,
@@ -49,7 +59,11 @@ pub struct InitProjectInput {
     pub stack: String,
     pub architecture: Option<String>,
     pub deployment_flow: Option<String>,
-    pub ai_provider: String,
+    pub ai_provider: Vec<String>,
+    pub proposal_rules: Option<Vec<String>>,
+    pub specs_rules: Option<Vec<String>>,
+    pub design_rules: Option<Vec<String>>,
+    pub tasks_rules: Option<Vec<String>>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -86,6 +100,22 @@ pub struct VersionInfo {
     pub openspec_version: String,
 }
 
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct SchemaList {
+    pub schemas: Vec<String>,
+    pub templates: Vec<SchemaTemplateInfo>,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct SchemaTemplateInfo {
+    pub schema: String,
+    pub proposal_template: Option<String>,
+    pub specs_template: Option<String>,
+    pub design_template: Option<String>,
+    pub tasks_template: Option<String>,
+    pub suggested_rules: RulesConfig,
+}
+
 #[derive(Debug, Clone, Deserialize)]
 pub struct SaveProposalInput {
     pub path: Option<String>,
@@ -99,10 +129,19 @@ struct InitConfig {
     schema: String,
     ai_provider: String,
     contexto: String,
+    rules: RulesConfig,
     #[serde(skip_serializing_if = "Option::is_none")]
     architecture: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     deployment_flow: Option<String>,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct RulesConfig {
+    proposal: Vec<String>,
+    specs: Vec<String>,
+    design: Vec<String>,
+    tasks: Vec<String>,
 }
 
 pub fn bootstrap_state(app: &AppHandle, state: &State<'_, AppState>) -> Result<(), String> {
@@ -148,6 +187,13 @@ pub fn bootstrap_state(app: &AppHandle, state: &State<'_, AppState>) -> Result<(
     }
 
     register_all_watchers(app, state)?;
+    apply_window_bounds(
+        app,
+        persisted.window_width,
+        persisted.window_height,
+        persisted.window_x,
+        persisted.window_y,
+    )?;
     save_app_state(app, state)?;
 
     Ok(())
@@ -518,8 +564,166 @@ pub fn get_versions() -> Result<VersionInfo, String> {
 }
 
 #[tauri::command]
+pub fn list_schemas() -> Result<SchemaList, String> {
+    let output = match Command::new("openspec").arg("templates").output() {
+        Ok(out) if out.status.success() => out,
+        _ => {
+            return Ok(SchemaList {
+                schemas: vec!["spec-driven".to_string()],
+                templates: vec![SchemaTemplateInfo {
+                    schema: "spec-driven".to_string(),
+                    proposal_template: None,
+                    specs_template: None,
+                    design_template: None,
+                    tasks_template: None,
+                    suggested_rules: default_rules("spec-driven", "Español"),
+                }],
+            });
+        }
+    };
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let mut schemas: Vec<String> = Vec::new();
+    let mut templates: Vec<SchemaTemplateInfo> = Vec::new();
+    let mut current: Option<SchemaTemplateInfo> = None;
+    let mut pending_key: Option<String> = None;
+
+    for raw_line in stdout.lines() {
+        let line = raw_line.trim_end();
+        let trimmed = line.trim();
+        if let Some(schema_name) = trimmed.strip_prefix("Schema:") {
+            if let Some(mut info) = current.take() {
+                hydrate_suggested_rules(&mut info);
+                templates.push(info);
+            }
+            let schema = schema_name.trim().to_string();
+            if !schema.is_empty() {
+                schemas.push(schema.clone());
+            }
+            current = Some(SchemaTemplateInfo {
+                schema,
+                proposal_template: None,
+                specs_template: None,
+                design_template: None,
+                tasks_template: None,
+                suggested_rules: default_rules("spec-driven", "Español"),
+            });
+            pending_key = None;
+            continue;
+        }
+
+        if current.is_none() {
+            continue;
+        }
+
+        if let Some(key) = trimmed.strip_suffix(':') {
+            if matches!(key, "proposal" | "specs" | "design" | "tasks") {
+                pending_key = Some(key.to_string());
+            } else {
+                pending_key = None;
+            }
+            continue;
+        }
+
+        if let Some(key) = pending_key.take() {
+            let value = trimmed.to_string();
+            if value.is_empty() {
+                continue;
+            }
+            if let Some(info) = current.as_mut() {
+                match key.as_str() {
+                    "proposal" => info.proposal_template = Some(value),
+                    "specs" => info.specs_template = Some(value),
+                    "design" => info.design_template = Some(value),
+                    "tasks" => info.tasks_template = Some(value),
+                    _ => {}
+                }
+            }
+        }
+    }
+
+    if let Some(mut info) = current.take() {
+        hydrate_suggested_rules(&mut info);
+        templates.push(info);
+    }
+
+    if schemas.is_empty() {
+        schemas.push("spec-driven".to_string());
+        if templates.is_empty() {
+            templates.push(SchemaTemplateInfo {
+                schema: "spec-driven".to_string(),
+                proposal_template: None,
+                specs_template: None,
+                design_template: None,
+                tasks_template: None,
+                suggested_rules: default_rules("spec-driven", "Español"),
+            });
+        }
+    } else {
+        schemas.sort();
+        schemas.dedup();
+    }
+
+    Ok(SchemaList { schemas, templates })
+}
+
+fn hydrate_suggested_rules(info: &mut SchemaTemplateInfo) {
+    info.suggested_rules = RulesConfig {
+        proposal: rules_from_template_path(info.proposal_template.as_deref()),
+        specs: rules_from_template_path(info.specs_template.as_deref()),
+        design: rules_from_template_path(info.design_template.as_deref()),
+        tasks: rules_from_template_path(info.tasks_template.as_deref()),
+    };
+}
+
+fn rules_from_template_path(path: Option<&str>) -> Vec<String> {
+    let Some(p) = path else {
+        return Vec::new();
+    };
+    match fs::read_to_string(p) {
+        Ok(content) => extract_template_rules(&content),
+        Err(_) => Vec::new(),
+    }
+}
+
+fn extract_template_rules(content: &str) -> Vec<String> {
+    let mut rules = Vec::new();
+    let mut cursor = 0usize;
+    while let Some(start_rel) = content[cursor..].find("<!--") {
+        let start = cursor + start_rel + 4;
+        let end_rel = match content[start..].find("-->") {
+            Some(v) => v,
+            None => break,
+        };
+        let end = start + end_rel;
+        let comment = content[start..end].trim();
+        if !comment.is_empty() {
+            for sentence in split_comment_into_rules(comment) {
+                if !sentence.is_empty() {
+                    rules.push(sentence);
+                }
+            }
+        }
+        cursor = end + 3;
+    }
+    rules
+}
+
+fn split_comment_into_rules(comment: &str) -> Vec<String> {
+    comment
+        .lines()
+        .map(|line| line.trim().trim_start_matches('-').trim())
+        .filter(|line| !line.is_empty())
+        .map(|line| {
+            let clean = line.replace("  ", " ");
+            clean.trim().to_string()
+        })
+        .collect()
+}
+
+#[tauri::command]
 pub fn init_project(input: InitProjectInput, app: AppHandle, state: State<'_, AppState>) -> Result<ProjectState, String> {
-    if input.name.trim().is_empty() || input.ai_provider.trim().is_empty() {
+    if input.name.trim().is_empty() || input.ai_provider.is_empty() {
         return Err("Nombre y proveedor IA son obligatorios".to_string());
     }
 
@@ -531,10 +735,19 @@ pub fn init_project(input: InitProjectInput, app: AppHandle, state: State<'_, Ap
     fs::create_dir_all(&openspec_dir)
         .map_err(|e| format!("No se pudo crear openspec/: {e}"))?;
 
+    let selected_schema = input
+        .schema
+        .as_deref()
+        .map(str::trim)
+        .filter(|v| !v.is_empty())
+        .unwrap_or("spec-driven")
+        .to_string();
+
     let config = InitConfig {
-        schema: "spec-driven".to_string(),
-        ai_provider: input.ai_provider.clone(),
+        schema: selected_schema.clone(),
+        ai_provider: input.ai_provider.join(","),
         contexto: build_context(&input),
+        rules: build_rules(&input, &selected_schema),
         architecture: normalize_opt(input.architecture),
         deployment_flow: normalize_opt(input.deployment_flow),
     };
@@ -583,6 +796,90 @@ fn build_context(input: &InitProjectInput) -> String {
     lines.join("\n")
 }
 
+fn build_rules(input: &InitProjectInput, schema: &str) -> RulesConfig {
+    let fallback = default_rules(schema, input.language.as_deref().unwrap_or("Español"));
+
+    let proposal = normalize_rules(input.proposal_rules.clone()).unwrap_or(fallback.proposal);
+    let specs = normalize_rules(input.specs_rules.clone()).unwrap_or(fallback.specs);
+    let design = normalize_rules(input.design_rules.clone()).unwrap_or(fallback.design);
+    let tasks = normalize_rules(input.tasks_rules.clone()).unwrap_or(fallback.tasks);
+
+    RulesConfig {
+        proposal,
+        specs,
+        design,
+        tasks,
+    }
+}
+
+fn normalize_rules(value: Option<Vec<String>>) -> Option<Vec<String>> {
+    let rules: Vec<String> = value
+        .unwrap_or_default()
+        .into_iter()
+        .map(|line| line.trim().to_string())
+        .filter(|line| !line.is_empty())
+        .collect();
+    if rules.is_empty() {
+        None
+    } else {
+        Some(rules)
+    }
+}
+
+fn default_rules(schema: &str, language: &str) -> RulesConfig {
+    let is_spanish = language.to_ascii_lowercase().contains("espa")
+        || language.to_ascii_lowercase().contains("spanish")
+        || language.to_ascii_lowercase().contains("es");
+
+    if schema == "spec-driven" && is_spanish {
+        return RulesConfig {
+            proposal: vec![
+                "Mantén la propuesta en menos de 500 palabras salvo que el cambio sea excepcionalmente amplio.".to_string(),
+                "Cubre solo el por qué, qué cambia, alcance, no-objetivos, capacidades e impacto.".to_string(),
+                "Mueve las decisiones de implementación y detalles a nivel de fichero al diseño.".to_string(),
+            ],
+            specs: vec![
+                "Trata las specs como el contrato de comportamiento, no como un plan de implementación.".to_string(),
+                "Incluye solo comportamiento observable, resultados para el usuario y contratos externos.".to_string(),
+                "Excluye estructura de código, rutas de ficheros, componentes, comandos y decisiones de arquitectura.".to_string(),
+            ],
+            design: vec![
+                "Mantén las secciones de diseño concisas y orientadas a decisiones.".to_string(),
+                "Incluye ficheros concretos, rutas, assets, dependencias o integraciones solo cuando clarifiquen la implementación.".to_string(),
+                "No repitas la motivación de la propuesta ni los requisitos de las specs.".to_string(),
+            ],
+            tasks: vec![
+                "Escribe cada tarea como un entregable concreto.".to_string(),
+                "Incluye tareas de validación para el comportamiento modificado.".to_string(),
+                "Evita reiterar la propuesta, las specs o el diseño en el texto de las tareas.".to_string(),
+            ],
+        };
+    }
+
+    RulesConfig {
+        proposal: vec![
+            "Keep the proposal under 500 words unless the change is exceptionally broad.".to_string(),
+            "Cover only why, what changes, scope, non-goals, capabilities, and impact.".to_string(),
+            "Move implementation decisions and file-level details to design.".to_string(),
+        ],
+        specs: vec![
+            "Treat specs as the behavior contract, not an implementation plan.".to_string(),
+            "Include only observable behavior, user outcomes, and external contracts.".to_string(),
+            "Exclude code structure, file paths, components, commands, and architecture decisions.".to_string(),
+        ],
+        design: vec![
+            "Keep design sections concise and decision-oriented.".to_string(),
+            "Include concrete files, paths, assets, dependencies, or integrations only when they clarify implementation.".to_string(),
+            "Do not repeat proposal motivation or specs requirements.".to_string(),
+        ],
+        tasks: vec![
+            "Write each task as a concrete deliverable.".to_string(),
+            "Include validation tasks for modified behavior.".to_string(),
+            "Avoid repeating proposal, specs, or design text in tasks.".to_string(),
+        ],
+    }
+}
+
 fn normalize_opt(value: Option<String>) -> Option<String> {
     value.and_then(|v| {
         let trimmed = v.trim().to_string();
@@ -594,13 +891,24 @@ fn normalize_opt(value: Option<String>) -> Option<String> {
     })
 }
 
-fn tools_for_provider(provider: &str) -> &'static str {
-    match provider.trim().to_ascii_lowercase().as_str() {
-        "codex" => "codex",
-        "copilot" => "github-copilot",
-        "opencode" => "opencode",
-        _ => "codex",
+fn tools_for_provider(providers: &[String]) -> String {
+    let mut mapped: Vec<String> = providers
+        .iter()
+        .map(|provider| match provider.trim().to_ascii_lowercase().as_str() {
+            "codex" => "codex".to_string(),
+            "copilot" => "github-copilot".to_string(),
+            "opencode" => "opencode".to_string(),
+            other if !other.is_empty() => other.to_string(),
+            _ => "codex".to_string(),
+        })
+        .collect();
+
+    if mapped.is_empty() {
+        mapped.push("codex".to_string());
     }
+    mapped.sort();
+    mapped.dedup();
+    mapped.join(",")
 }
 
 fn upsert_project(app: &AppHandle, state: &State<'_, AppState>, path: &str, project: ProjectState) -> Result<(), String> {
@@ -716,15 +1024,77 @@ fn save_app_state(app: &AppHandle, state: &State<'_, AppState>) -> Result<(), St
         .lock()
         .map_err(|_| "No se pudo bloquear active_index".to_string())?;
 
+    let (window_width, window_height, window_x, window_y) = if let Some(window) = app.get_webview_window("main") {
+        if let Ok(size) = window.inner_size() {
+            let (x, y) = match window.outer_position() {
+                Ok(pos) => (Some(pos.x), Some(pos.y)),
+                Err(_) => (None, None),
+            };
+            (Some(size.width), Some(size.height), x, y)
+        } else {
+            (None, None, None, None)
+        }
+    } else {
+        (None, None, None, None)
+    };
+
     let persisted = PersistedAppState {
         project_paths: projects.iter().map(|p| p.path.clone()).collect(),
         active_index,
+        window_width,
+        window_height,
+        window_x,
+        window_y,
     };
 
     let data = serde_json::to_string_pretty(&persisted)
         .map_err(|e| format!("No se pudo serializar app-state.json: {e}"))?;
     fs::write(app_state_path(app)?, data)
         .map_err(|e| format!("No se pudo guardar app-state.json: {e}"))?;
+    Ok(())
+}
+
+pub fn persist_window_size(app: &AppHandle, width: u32, height: u32, x: i32, y: i32) -> Result<(), String> {
+    let mut persisted = load_app_state(app)?;
+    persisted.window_width = Some(width);
+    persisted.window_height = Some(height);
+    persisted.window_x = Some(x);
+    persisted.window_y = Some(y);
+    let data = serde_json::to_string_pretty(&persisted)
+        .map_err(|e| format!("No se pudo serializar app-state.json: {e}"))?;
+    fs::write(app_state_path(app)?, data)
+        .map_err(|e| format!("No se pudo guardar app-state.json: {e}"))?;
+    Ok(())
+}
+
+fn apply_window_bounds(
+    app: &AppHandle,
+    width: Option<u32>,
+    height: Option<u32>,
+    x: Option<i32>,
+    y: Option<i32>,
+) -> Result<(), String> {
+    let Some(window) = app.get_webview_window("main") else {
+        return Ok(());
+    };
+
+    let (target_width, target_height) = match (width, height) {
+        (Some(w), Some(h)) if w >= MIN_WINDOW_WIDTH && h >= MIN_WINDOW_HEIGHT => (w, h),
+        _ => (DEFAULT_WINDOW_WIDTH, DEFAULT_WINDOW_HEIGHT),
+    };
+
+    window
+        .set_size(Size::Physical(PhysicalSize::new(target_width, target_height)))
+        .map_err(|e| format!("No se pudo restaurar tamaño de ventana: {e}"))?;
+
+    if let (Some(pos_x), Some(pos_y)) = (x, y) {
+        window
+            .set_position(Position::Physical(PhysicalPosition::new(pos_x, pos_y)))
+            .map_err(|e| format!("No se pudo restaurar posición de ventana: {e}"))?;
+    } else {
+        let _ = window.center();
+    }
+
     Ok(())
 }
 

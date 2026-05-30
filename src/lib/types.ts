@@ -42,6 +42,7 @@ export type OpenProjectResponse =
 export type InitProjectInput = {
   path: string;
   name: string;
+  schema?: string;
   language?: string;
   audience?: string;
   domain?: string;
@@ -49,7 +50,11 @@ export type InitProjectInput = {
   stack: string;
   architecture?: string;
   deployment_flow?: string;
-  ai_provider: string;
+  ai_provider: string[];
+  proposal_rules?: string[];
+  specs_rules?: string[];
+  design_rules?: string[];
+  tasks_rules?: string[];
 };
 
 export type ProposalType = "feature" | "bug";

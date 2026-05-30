@@ -6,7 +6,7 @@ use std::path::{Path, PathBuf};
 
 pub fn load_project(root: &str) -> Result<Project, String> {
     let openspec_path = find_openspec_path(root)?;
-    let config = parse_project_config(&openspec_path.join("config.yaml"))?;
+    let config = parse_project_config(&openspec_path.join("config.yaml")).unwrap_or_default();
 
     let changes_dir = openspec_path.join("changes");
     let archive_dir = changes_dir.join("archive");

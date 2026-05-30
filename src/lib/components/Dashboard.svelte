@@ -261,11 +261,12 @@
 
 {#if !state}
   <p>Abre carpeta para cargar proyecto OpenSpec.</p>
-{:else if state.active_changes.length === 0 && state.archived_changes.length === 0 && state.specs.length === 0}
-  <p>Proyecto vacío: no hay cambios ni specs.</p>
 {:else}
   <ProjectDescriptionPanel
     contexto={state?.config?.contexto}
+    schema={state?.config?.schema}
+    schemaLabel={t("schema")}
+    unavailableLabel={t("version_unavailable")}
     {percent}
     {completedTasks}
     {totalTasks}

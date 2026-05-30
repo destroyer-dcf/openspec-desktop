@@ -1,9 +1,4 @@
-# panel-versiones-configuracion Specification
-
-## Purpose
-Display version information panel in configuration modal showing OpenSpec CLI and app versions.
-
-## Requirements
+## MODIFIED Requirements
 
 ### Requirement: Panel de versiones en configuración
 La app SHALL mostrar en la parte superior del modal de configuración un panel informativo con la versión de OpenSpec CLI y la versión de la aplicación de escritorio, y SHALL mantener estos valores alineados con la identidad institucional mostrada en About (nombre de producto, copyright y referencia de repositorio).
