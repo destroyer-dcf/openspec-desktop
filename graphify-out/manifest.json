@@ -10,9 +10,9 @@
     "semantic_hash": "236a6e200f0ace8bbbb533c3d158b60f"
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/package.json": {
-    "mtime": 1780137524.4370985,
-    "ast_hash": "5b71ad66406fc1667d56526933a88d1a",
-    "semantic_hash": "5b71ad66406fc1667d56526933a88d1a"
+    "mtime": 1780225648.230526,
+    "ast_hash": "033be4b8ca6b57b1d129993e99d679bd",
+    "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/tsconfig.json": {
     "mtime": 1779474354.2655184,
@@ -25,8 +25,8 @@
     "semantic_hash": "bc4105f797304ae00bc7e12f4f85bd1a"
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/tauri.conf.json": {
-    "mtime": 1780221641.2190983,
-    "ast_hash": "0f4cccdd9810ab2f98980dad0698ea3e",
+    "mtime": 1780226413.9690213,
+    "ast_hash": "09003c0951c5353037a72e2b20f3849a",
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/build.rs": {
@@ -215,13 +215,13 @@
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/scripts/build.sh": {
-    "mtime": 1780221611.5852728,
-    "ast_hash": "245dd124b33c8fc7e22ba5cf931b56a5",
+    "mtime": 1780226826.2703235,
+    "ast_hash": "fc30b2beecd85f8f94c8be05c25c2360",
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/README.md": {
-    "mtime": 1780224338.9966128,
-    "ast_hash": "430a01994a92a3b90826663d43a89100",
+    "mtime": 1780226537.763715,
+    "ast_hash": "57e8ec08a36e7aaa10b53cd7b49a24c2",
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/STYLEGUIDELINES.md": {
@@ -2380,8 +2380,18 @@
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/scripts/bump_release.py": {
-    "mtime": 1780224723.0422945,
-    "ast_hash": "f9379180130332c1ae862316d7557800",
+    "mtime": 1780225510.323933,
+    "ast_hash": "257929590b44e467c31f99b2b7d26b6e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/docs/translations/README.es-ES.md": {
+    "mtime": 1780226589.938628,
+    "ast_hash": "2e93687cedcf84152db315f1ea738a89",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/docs/translations/README.en-US.md": {
+    "mtime": 1780226589.9388578,
+    "ast_hash": "440e3548738efb255ebb5e66994e47ec",
     "semantic_hash": ""
   }
 }
