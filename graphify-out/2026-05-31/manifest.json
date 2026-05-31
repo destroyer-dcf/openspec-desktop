@@ -75,8 +75,8 @@
     "semantic_hash": "8c21442e282f90afff3797db09d28ef8"
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/commands/project.rs": {
-    "mtime": 1780222652.255115,
-    "ast_hash": "9f837b7435cf543747e878da8650672f",
+    "mtime": 1780222915.4590132,
+    "ast_hash": "8514412f64ae349ed78eb31d277331fd",
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/scanner.rs": {
@@ -185,9 +185,9 @@
     "semantic_hash": "ae43632340fa4d4a39ba16c19ced9664"
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/Dashboard.svelte": {
-    "mtime": 1780137524.6838908,
-    "ast_hash": "d509c614d2b9cca44df9711bd936c362",
-    "semantic_hash": "d509c614d2b9cca44df9711bd936c362"
+    "mtime": 1780223783.15237,
+    "ast_hash": "1b02a140e5a4b5b7815555d5e39f7b61",
+    "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/routes/+layout.ts": {
     "mtime": 1779474354.2651293,
@@ -195,8 +195,8 @@
     "semantic_hash": "6fcc01a9e86b5ac2814ef7b2e6831657"
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/routes/+page.svelte": {
-    "mtime": 1780222608.3755896,
-    "ast_hash": "4d20cc575eda3e4c737431360bce4b95",
+    "mtime": 1780223062.9002204,
+    "ast_hash": "fcafcd7230c8ea11209d9e4f8284649d",
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/opencode.json": {
@@ -2310,13 +2310,8 @@
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/config/cli_compatibility.json": {
-    "mtime": 1780222587.161803,
-    "ast_hash": "2d1ea6625bfe52d713b5db481c410b1e",
-    "semantic_hash": ""
-  },
-  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/actives/chequeo-de-version-cli-de-opencode.md": {
-    "mtime": 1780222308.8299673,
-    "ast_hash": "1b43e408e79dae56557c239660624e2f",
+    "mtime": 1780223288.1703427,
+    "ast_hash": "eb73f04c81439585de6eb0d9e64b755d",
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/actives/propuestas-archivadas.md": {
@@ -2347,6 +2342,41 @@
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md": {
     "mtime": 1780222398.064554,
     "ast_hash": "d50507fee0b9e1154a7fcdda8dbbdfd4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/chequeo-de-version-cli-de-opencode.md": {
+    "mtime": 1780222308.8299673,
+    "ast_hash": "1b43e408e79dae56557c239660624e2f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/hide-edit-button-for-archived-proposals/.openspec.yaml": {
+    "mtime": 1780223652.4760454,
+    "ast_hash": "51dc568b9cbeba6e85af494e3a64a063",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/hide-edit-button-for-archived-proposals/tasks.md": {
+    "mtime": 1780223814.9759233,
+    "ast_hash": "c06a7516fddd946702002b3edc1b1636",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/hide-edit-button-for-archived-proposals/design.md": {
+    "mtime": 1780223709.0246575,
+    "ast_hash": "1be94a62c237b524a7122568a65d2b77",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/hide-edit-button-for-archived-proposals/proposal.md": {
+    "mtime": 1780223671.8944492,
+    "ast_hash": "813084122d7cc4f5ab9079d460a18a5c",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md": {
+    "mtime": 1780223709.0239182,
+    "ast_hash": "420c674a83029845c74b98172501f439",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/docs/openspec-desktop.png": {
+    "mtime": 1780223465.179312,
+    "ast_hash": "21912e130bef8a2aa890034284fc4d7f",
     "semantic_hash": ""
   }
 }

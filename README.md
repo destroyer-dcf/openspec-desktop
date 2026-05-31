@@ -20,6 +20,11 @@ OpenSpec Desktop es una aplicación de escritorio para gestionar proyectos basad
 
 OpenSpec es un framework de desarrollo guiado por especificaciones para asistentes de programación con IA. OpenSpec Desktop no sustituye al CLI: lo complementa con una experiencia de escritorio para inspeccionar, editar y operar sobre la estructura `openspec/` de un proyecto.
 
+**Base operativa obligatoria:** OpenSpec Desktop trabaja siempre sobre dos fuentes:  
+1) el flujo y comandos de `openspec` CLI, y  
+2) los artefactos markdown que genera el flujo asistido por IA (proposals, design, specs, tasks).  
+A partir de esa base, la app de escritorio permite visualizar, editar, organizar y dar seguimiento al contenido; no redefine el modelo de OpenSpec ni reemplaza su CLI.
+
 ### Características
 
 - Gestión de múltiples proyectos OpenSpec desde una barra lateral redimensionable.
@@ -33,6 +38,19 @@ OpenSpec es un framework de desarrollo guiado por especificaciones para asistent
 - Soporte multiidioma: español, inglés, francés, alemán y portugués.
 - Integración con el CLI de OpenSpec para inicializar proyectos.
 - Aplicación de escritorio multiplataforma basada en Tauri.
+
+### Qué puedes hacer con OpenSpec Desktop
+
+- Abrir carpeta de proyecto y detectar automáticamente si ya contiene estructura `openspec/`.
+- Inicializar proyecto OpenSpec nuevo con wizard (schema, idioma, reglas y contexto).
+- Crear propuestas `Feature` o `Bug`, editarlas en markdown y archivarlas/eliminarlas.
+- Filtrar propuestas por tipo y estado (`active` / `archived`) para revisión rápida.
+- Copiar contenido markdown de propuestas y nombres de cambios al portapapeles.
+- Consultar cambios activos, ver progreso de tareas y abrir artefactos asociados.
+- Editar artefactos (`proposal`, `design`, `tasks`, `specs`) desde interfaz.
+- Marcar tareas en `tasks.md` y ver reflejado progreso del cambio en panel.
+- Consultar cambios archivados y documentación histórica en modo solo lectura.
+- Ajustar preferencias de UI (tema, idioma, densidad, colores) y conservarlas localmente.
 
 ### Tecnologías
 
@@ -179,6 +197,19 @@ OpenSpec is a spec-driven development framework for AI coding assistants. OpenSp
 - OpenSpec CLI integration for project initialization.
 - Cross-platform desktop app powered by Tauri.
 
+### What You Can Do With OpenSpec Desktop
+
+- Open a project folder and auto-detect whether it already contains an `openspec/` workspace.
+- Initialize a new OpenSpec project with the setup wizard (schema, language, rules, context).
+- Create `Feature` or `Bug` proposals, edit them in markdown, archive or delete them.
+- Filter proposals by type and status (`active` / `archived`) for quick triage.
+- Copy proposal markdown content and change names directly to clipboard.
+- Inspect active changes, track task progress, and open linked artifacts.
+- Edit change artifacts (`proposal`, `design`, `tasks`, `specs`) from the desktop UI.
+- Toggle tasks in `tasks.md` and immediately reflect progress in dashboard panels.
+- Browse archived changes and historical documents in read-only mode.
+- Customize UI preferences (theme, language, density, card colors) with local persistence.
+
 ### Technology Stack
 
 | Layer | Technology |
@@ -297,6 +328,8 @@ OpenSpec Desktop is a visual front for [Fission-AI/OpenSpec](https://github.com/
 - `openspec/changes/archive/**`
 
 The app is not intended to replace `/opsx:*` commands or the OpenSpec CLI. Its role is to make project visualization, editing, and progress tracking easier.
+
+Core contract: this desktop app is always built on top of `openspec` CLI behavior and the AI-assisted artifacts generated in the OpenSpec workflow. From that baseline, the desktop UI helps you review, edit, organize, and track those artifacts locally.
 
 ### License
 
