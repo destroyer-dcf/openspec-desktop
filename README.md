@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#licencia--license)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)](#requisitos--requirements)
 [![OpenSpec CLI](https://img.shields.io/badge/OpenSpec_CLI-1.3.1-green.svg)](https://github.com/Fission-AI/OpenSpec)
-[![App](https://img.shields.io/badge/OpenSpec_Desktop-0.1.0-1f6feb.svg)](#versiones--versions)
+[![App](https://img.shields.io/badge/OpenSpec_Desktop-0.2.2-1f6feb.svg)](#versiones--versions)
 [![Tauri](https://img.shields.io/badge/Tauri-2-24c8db.svg)](https://tauri.app/)
 [![Svelte](https://img.shields.io/badge/Svelte-5-ff3e00.svg)](https://svelte.dev/)
 [![Rust](https://img.shields.io/badge/Rust-stable-black.svg)](https://www.rust-lang.org/)
@@ -68,7 +68,7 @@ A partir de esa base, la app de escritorio permite visualizar, editar, organizar
 
 | Componente | Versión |
 | --- | --- |
-| OpenSpec Desktop | `0.1.0` |
+| OpenSpec Desktop | `0.2.2` |
 | OpenSpec CLI verificado localmente | `1.3.1` |
 | Tauri | `2.x` |
 | Svelte | `5.x` |
@@ -247,7 +247,7 @@ OpenSpec is a spec-driven development framework for AI coding assistants. OpenSp
 
 | Component | Version |
 | --- | --- |
-| OpenSpec Desktop | `0.1.0` |
+| OpenSpec Desktop | `0.2.2` |
 | Locally verified OpenSpec CLI | `1.3.1` |
 | Tauri | `2.x` |
 | Svelte | `5.x` |
