@@ -73,6 +73,7 @@ jobs:
           name: openspec-desktop-${{ matrix.target }}
           path: |
             src-tauri/target/${{ matrix.target }}/release/bundle/deb/*.deb
+            src-tauri/target/${{ matrix.target }}/release/bundle/rpm/*.rpm
             src-tauri/target/${{ matrix.target }}/release/bundle/appimage/*.AppImage
           if-no-files-found: error
 
@@ -112,7 +113,7 @@ jobs:
       - name: Normalize artifact names
         run: |
           mkdir -p release-artifacts
-          shopt -s nullglob
+          found=0
 
           for dir in artifacts/openspec-desktop-*; do
             [ -d "$dir" ] || continue
@@ -131,13 +132,20 @@ jobs:
               aarch64-*) arch="arm64" ;;
             esac
 
-            for f in "$dir"/*; do
-              [ -f "$f" ] || continue
+            while IFS= read -r -d '' f; do
               ext="${f##*.}"
               out="release-artifacts/openspec-desktop-${{ steps.version.outputs.version }}-${os}-${arch}.${ext}"
               cp "$f" "$out"
-            done
+              found=1
+            done < <(find "$dir" -type f -print0)
           done
+
+          if [ "$found" -ne 1 ]; then
+            echo "No artifacts found after download step"
+            exit 1
+          fi
+
+          ls -la release-artifacts
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
