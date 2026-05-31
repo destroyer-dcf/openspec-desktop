@@ -92,6 +92,11 @@ jobs:
         id: version
         run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
 
+      - name: Get supported OpenSpec CLI version
+        id: cli
+        run: |
+          echo "supported=$(node -e "const fs=require('fs');const p='src-tauri/config/cli_compatibility.json';const j=JSON.parse(fs.readFileSync(p,'utf8'));const r=(j.supported_ranges||[]).join(' || ')||'unknown';process.stdout.write(r);")" >> $GITHUB_OUTPUT
+
       - name: Generate changelog from commits
         id: changelog
         run: |
@@ -153,6 +158,8 @@ jobs:
           tag_name: v${{ steps.version.outputs.version }}
           name: v${{ steps.version.outputs.version }}
           body: |
+            OpenSpec CLI soportado: `${{ steps.cli.outputs.supported }}`
+
             ## Cambios en esta versión
 
             ${{ steps.changelog.outputs.changelog }}
