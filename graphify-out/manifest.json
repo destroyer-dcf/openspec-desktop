@@ -1,0 +1,2302 @@
+{
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/svelte.config.js": {
+    "mtime": 1779474354.2654068,
+    "ast_hash": "fae3b4234d5404c4d196bf6cf09d951a",
+    "semantic_hash": "fae3b4234d5404c4d196bf6cf09d951a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/vite.config.js": {
+    "mtime": 1779475359.7857225,
+    "ast_hash": "236a6e200f0ace8bbbb533c3d158b60f",
+    "semantic_hash": "236a6e200f0ace8bbbb533c3d158b60f"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/package.json": {
+    "mtime": 1780137524.4370985,
+    "ast_hash": "5b71ad66406fc1667d56526933a88d1a",
+    "semantic_hash": "5b71ad66406fc1667d56526933a88d1a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/tsconfig.json": {
+    "mtime": 1779474354.2655184,
+    "ast_hash": "415e23230fd503b970a67a0ebcc0cfee",
+    "semantic_hash": "415e23230fd503b970a67a0ebcc0cfee"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/package.json": {
+    "mtime": 1779530248.9591913,
+    "ast_hash": "bc4105f797304ae00bc7e12f4f85bd1a",
+    "semantic_hash": "bc4105f797304ae00bc7e12f4f85bd1a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/tauri.conf.json": {
+    "mtime": 1780082164.0026646,
+    "ast_hash": "bde8d69daf0d360f88d086687e92d21a",
+    "semantic_hash": "bde8d69daf0d360f88d086687e92d21a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/build.rs": {
+    "mtime": 1779474354.2607908,
+    "ast_hash": "1be34a5c61c2c35365de3dab14298f0b",
+    "semantic_hash": "1be34a5c61c2c35365de3dab14298f0b"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/capabilities/default.json": {
+    "mtime": 1779474354.260896,
+    "ast_hash": "d2b1ea61ac2075eb0d44587bf81ee127",
+    "semantic_hash": "d2b1ea61ac2075eb0d44587bf81ee127"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/gen/schemas/capabilities.json": {
+    "mtime": 1779475272.535683,
+    "ast_hash": "b4b4509fac6d93c938aeea37674d7c0e",
+    "semantic_hash": "b4b4509fac6d93c938aeea37674d7c0e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/gen/schemas/acl-manifests.json": {
+    "mtime": 1779476417.573617,
+    "ast_hash": "5dc1febef9c810ffc2e2ed05ab3e6ca4",
+    "semantic_hash": "5dc1febef9c810ffc2e2ed05ab3e6ca4"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/gen/schemas/macOS-schema.json": {
+    "mtime": 1779476417.577449,
+    "ast_hash": "178d41a2338178040f1e32a71157035e",
+    "semantic_hash": "178d41a2338178040f1e32a71157035e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/gen/schemas/desktop-schema.json": {
+    "mtime": 1779476417.577449,
+    "ast_hash": "178d41a2338178040f1e32a71157035e",
+    "semantic_hash": "178d41a2338178040f1e32a71157035e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/lib.rs": {
+    "mtime": 1780137524.6829288,
+    "ast_hash": "6c8b69536e40440f94875ae762d126d0",
+    "semantic_hash": "6c8b69536e40440f94875ae762d126d0"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/main.rs": {
+    "mtime": 1780082196.4563813,
+    "ast_hash": "53548d75ee9066628636d65d95853cea",
+    "semantic_hash": "53548d75ee9066628636d65d95853cea"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/commands/mod.rs": {
+    "mtime": 1779475182.2091281,
+    "ast_hash": "8c21442e282f90afff3797db09d28ef8",
+    "semantic_hash": "8c21442e282f90afff3797db09d28ef8"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/commands/project.rs": {
+    "mtime": 1780137524.6822944,
+    "ast_hash": "28a966217f61acfbe07f47cd574d5f97",
+    "semantic_hash": "28a966217f61acfbe07f47cd574d5f97"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/scanner.rs": {
+    "mtime": 1779475182.202169,
+    "ast_hash": "c8284b7f0ef72cd7f6e173f1f5fc431c",
+    "semantic_hash": "c8284b7f0ef72cd7f6e173f1f5fc431c"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/mod.rs": {
+    "mtime": 1779475182.198203,
+    "ast_hash": "d747cdfff06b0bce8903e13b800de9b9",
+    "semantic_hash": "d747cdfff06b0bce8903e13b800de9b9"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/loader.rs": {
+    "mtime": 1780137524.6831906,
+    "ast_hash": "16a8c5393a2fa9d431cd6fb0e4ef5df9",
+    "semantic_hash": "16a8c5393a2fa9d431cd6fb0e4ef5df9"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/parser.rs": {
+    "mtime": 1779475182.2044606,
+    "ast_hash": "f226fcef43f58ec0ac82807cc6d58c32",
+    "semantic_hash": "f226fcef43f58ec0ac82807cc6d58c32"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/model.rs": {
+    "mtime": 1780137524.6834667,
+    "ast_hash": "6e2f3399913b4f494435ba1182a8c815",
+    "semantic_hash": "6e2f3399913b4f494435ba1182a8c815"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.vscode/settings.json": {
+    "mtime": 1779474354.2645104,
+    "ast_hash": "01cd72541f9011df8d2361cbb382a230",
+    "semantic_hash": "01cd72541f9011df8d2361cbb382a230"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.vscode/extensions.json": {
+    "mtime": 1779474354.2644536,
+    "ast_hash": "66bc4d2caa831e7f64813c7fb1715f8a",
+    "semantic_hash": "66bc4d2caa831e7f64813c7fb1715f8a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/ui-prefs.ts": {
+    "mtime": 1780080615.5659893,
+    "ast_hash": "8fc148ad26d681d9fb8c428c1cf6904d",
+    "semantic_hash": "8fc148ad26d681d9fb8c428c1cf6904d"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/i18n.ts": {
+    "mtime": 1780137524.6853397,
+    "ast_hash": "86e6c12a31b717826f5ebaad472ceba7",
+    "semantic_hash": "86e6c12a31b717826f5ebaad472ceba7"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/types.ts": {
+    "mtime": 1780137524.685773,
+    "ast_hash": "f2613866fc801a9e92bcdcef9bfe3c75",
+    "semantic_hash": "f2613866fc801a9e92bcdcef9bfe3c75"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ChangeDetail.svelte": {
+    "mtime": 1780081401.6770227,
+    "ast_hash": "29c9656c545dda75657de22cd6103296",
+    "semantic_hash": "29c9656c545dda75657de22cd6103296"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/EditorMarkdown.svelte": {
+    "mtime": 1780081390.6486702,
+    "ast_hash": "b3140b7497917fe28f0852117f74d134",
+    "semantic_hash": "b3140b7497917fe28f0852117f74d134"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ProposalModal.svelte": {
+    "mtime": 1779531756.5907981,
+    "ast_hash": "7bbe5c28270ae7bf9896bfc8d1834b65",
+    "semantic_hash": "7bbe5c28270ae7bf9896bfc8d1834b65"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ArchivedChangeModal.svelte": {
+    "mtime": 1780081080.3800256,
+    "ast_hash": "566049663502255cafba509c6c70d989",
+    "semantic_hash": "566049663502255cafba509c6c70d989"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ProjectDescriptionPanel.svelte": {
+    "mtime": 1780137524.6843388,
+    "ast_hash": "03bbe835fe2d1408c6dfc761c418764f",
+    "semantic_hash": "03bbe835fe2d1408c6dfc761c418764f"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/CircularProgress.svelte": {
+    "mtime": 1779527409.6230114,
+    "ast_hash": "ed395836690e0e10cd8e2125d675f75e",
+    "semantic_hash": "ed395836690e0e10cd8e2125d675f75e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ProgressBar.svelte": {
+    "mtime": 1779527409.620778,
+    "ast_hash": "baa4f9a5db9f2265e01bf238c09fbfaa",
+    "semantic_hash": "baa4f9a5db9f2265e01bf238c09fbfaa"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/SettingsModal.svelte": {
+    "mtime": 1780080740.051746,
+    "ast_hash": "a4bc6fb97997afa6e9faa5cd8d7ac6c1",
+    "semantic_hash": "a4bc6fb97997afa6e9faa5cd8d7ac6c1"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ActiveChangeModal.svelte": {
+    "mtime": 1780081068.4854107,
+    "ast_hash": "9eef848e7dd35147de2de43e77eda76c",
+    "semantic_hash": "9eef848e7dd35147de2de43e77eda76c"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/Sidebar.svelte": {
+    "mtime": 1780080647.9165742,
+    "ast_hash": "f519282dd3c6057faaad8ebf52b5950e",
+    "semantic_hash": "f519282dd3c6057faaad8ebf52b5950e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/WizardInit.svelte": {
+    "mtime": 1780137524.6847143,
+    "ast_hash": "ae43632340fa4d4a39ba16c19ced9664",
+    "semantic_hash": "ae43632340fa4d4a39ba16c19ced9664"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/Dashboard.svelte": {
+    "mtime": 1780137524.6838908,
+    "ast_hash": "d509c614d2b9cca44df9711bd936c362",
+    "semantic_hash": "d509c614d2b9cca44df9711bd936c362"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/routes/+layout.ts": {
+    "mtime": 1779474354.2651293,
+    "ast_hash": "6fcc01a9e86b5ac2814ef7b2e6831657",
+    "semantic_hash": "6fcc01a9e86b5ac2814ef7b2e6831657"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/routes/+page.svelte": {
+    "mtime": 1780081410.6393032,
+    "ast_hash": "d5272ff64475e265e6c06b5f5a80122e",
+    "semantic_hash": "d5272ff64475e265e6c06b5f5a80122e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/opencode.json": {
+    "mtime": 1780217386.1403496,
+    "ast_hash": "abcc8b9dcd80bca5f9dde6d9f0c3ae79",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/plugins/graphify.js": {
+    "mtime": 1780217386.1401954,
+    "ast_hash": "64ccd3c03dbfe0980b6095766f5c4e52",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/hooks.json": {
+    "mtime": 1780217361.7952085,
+    "ast_hash": "fd1460de350cad6dbf38bb29bcc61393",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/scripts/build.sh": {
+    "mtime": 1780138394.5609314,
+    "ast_hash": "7591e107c286de03b968e72c6a43c39e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/README.md": {
+    "mtime": 1780099343.7359412,
+    "ast_hash": "5236771bb8833813fe876389f9247801",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/STYLEGUIDELINES.md": {
+    "mtime": 1779526468.979417,
+    "ast_hash": "6feed516b1ae5e426e7073de9055e2c9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/AGENTS.md": {
+    "mtime": 1780217361.79433,
+    "ast_hash": "62c05a2bf20bf036a0b2633478663e64",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-new.md": {
+    "mtime": 1779530189.3721213,
+    "ast_hash": "a0b9d57306d8b2b82c6f128ba83ff16d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-sync.md": {
+    "mtime": 1779530189.3731272,
+    "ast_hash": "27b235c9ae806ab46bdff2741e97fb9d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-verify.md": {
+    "mtime": 1779530189.3738413,
+    "ast_hash": "fd2f1059e735ea3421838264bda34a72",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-onboard.md": {
+    "mtime": 1779530189.3740935,
+    "ast_hash": "8fb6bd8f49e77b62b9af41f74aba3b99",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-continue.md": {
+    "mtime": 1779530189.372358,
+    "ast_hash": "b2719b0e0880bcaf42f47b84d507cd69",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-propose.md": {
+    "mtime": 1779530189.3743188,
+    "ast_hash": "a0c6cfc575d565b5343b1d829a198909",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-apply.md": {
+    "mtime": 1779530189.3725998,
+    "ast_hash": "98dfe12d359f39ac0d631c06c7f4d134",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-bulk-archive.md": {
+    "mtime": 1779530189.3736181,
+    "ast_hash": "94172a51465377f5c9192858ea5b61e5",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-archive.md": {
+    "mtime": 1779530189.3733735,
+    "ast_hash": "48a27c2c74ccc0c38f73f5fe1731403b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-explore.md": {
+    "mtime": 1779530189.3719602,
+    "ast_hash": "74d5125862b00db97818eb3cbbee8167",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/commands/opsx-ff.md": {
+    "mtime": 1779530189.3728418,
+    "ast_hash": "b842802793fa791c2e05f8c9acc64228",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-apply-change/SKILL.md": {
+    "mtime": 1779530189.369444,
+    "ast_hash": "78fc4f21278a5f6609f5fa00b2b22306",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-explore/SKILL.md": {
+    "mtime": 1779530189.368122,
+    "ast_hash": "01227b0646944af4c0a5fd1b31ec6ce1",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-verify-change/SKILL.md": {
+    "mtime": 1779530189.371109,
+    "ast_hash": "590d531c456cf2ab5fc5a966c3c5fb0e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-new-change/SKILL.md": {
+    "mtime": 1779530189.368614,
+    "ast_hash": "0cdc26632213a3f476e888d48d21ff0e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-archive-change/SKILL.md": {
+    "mtime": 1779530189.370498,
+    "ast_hash": "f010cb3292d101742592bcad1abfe762",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-onboard/SKILL.md": {
+    "mtime": 1779530189.3713746,
+    "ast_hash": "9b2074c2c2e5ee9d95a10666af98a8de",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-propose/SKILL.md": {
+    "mtime": 1779530189.3716218,
+    "ast_hash": "cafdd99d14adcd7f90c0cd6a50ed5f9a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-bulk-archive-change/SKILL.md": {
+    "mtime": 1779530189.3707516,
+    "ast_hash": "7289c3287328e38b7925dcd8eb0464d6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-continue-change/SKILL.md": {
+    "mtime": 1779530189.368996,
+    "ast_hash": "ea7ab3d94ad87c0d64b168bea910bfc4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-sync-specs/SKILL.md": {
+    "mtime": 1779530189.3702016,
+    "ast_hash": "d269e14a2598498a608dc7eb9f6d82a6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/skills/openspec-ff-change/SKILL.md": {
+    "mtime": 1779530189.3699348,
+    "ast_hash": "b28fd46bd0aa5f4c96222bb3eb49d7c2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/docs/layout-ui-actual.md": {
+    "mtime": 1779525943.6440048,
+    "ast_hash": "8a3b202c97acbdd233b0ec06822c38ad",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-apply-change/SKILL.md": {
+    "mtime": 1779474690.8538845,
+    "ast_hash": "113ad4a13c30634311141d6dadcc0464",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-explore/SKILL.md": {
+    "mtime": 1779474690.853024,
+    "ast_hash": "d160105373f4fe54bfbe1790b343c51b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-verify-change/SKILL.md": {
+    "mtime": 1779474690.8555133,
+    "ast_hash": "590d531c456cf2ab5fc5a966c3c5fb0e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-new-change/SKILL.md": {
+    "mtime": 1779474690.8533468,
+    "ast_hash": "0cdc26632213a3f476e888d48d21ff0e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-archive-change/SKILL.md": {
+    "mtime": 1779474690.8549933,
+    "ast_hash": "f010cb3292d101742592bcad1abfe762",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-onboard/SKILL.md": {
+    "mtime": 1779474690.856015,
+    "ast_hash": "3632b93353cfc12b5f14967419f2210b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-propose/SKILL.md": {
+    "mtime": 1779474690.8562627,
+    "ast_hash": "0753f4a4ce92da2b27bef07c994bef17",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-bulk-archive-change/SKILL.md": {
+    "mtime": 1779474690.855263,
+    "ast_hash": "7289c3287328e38b7925dcd8eb0464d6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-continue-change/SKILL.md": {
+    "mtime": 1779474690.8536377,
+    "ast_hash": "ea7ab3d94ad87c0d64b168bea910bfc4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-sync-specs/SKILL.md": {
+    "mtime": 1779474690.8547099,
+    "ast_hash": "d269e14a2598498a608dc7eb9f6d82a6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.codex/skills/openspec-ff-change/SKILL.md": {
+    "mtime": 1779474690.8541367,
+    "ast_hash": "1387e5a1f2de8155bfa96044cdf05a34",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/workflows/build.yml": {
+    "mtime": 1780138396.581006,
+    "ast_hash": "a5e16906f7478e2ac0bcc5716f3d99f7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-verify.prompt.md": {
+    "mtime": 1779474690.8641748,
+    "ast_hash": "65264f406b872b015211f7368383e656",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-ff.prompt.md": {
+    "mtime": 1779474690.8632925,
+    "ast_hash": "68e1f9edaa7487d714bc7b889f53733d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-continue.prompt.md": {
+    "mtime": 1779474690.8627942,
+    "ast_hash": "6bfdbcf06eefc7c0bfb01e20522d09a4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-bulk-archive.prompt.md": {
+    "mtime": 1779474690.8639908,
+    "ast_hash": "94172a51465377f5c9192858ea5b61e5",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-propose.prompt.md": {
+    "mtime": 1779474690.864643,
+    "ast_hash": "54c8d81441a57671450d903206978447",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-sync.prompt.md": {
+    "mtime": 1779474690.8634748,
+    "ast_hash": "ff37c63c11efaf5ba6982a083d692714",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-new.prompt.md": {
+    "mtime": 1779474690.8626113,
+    "ast_hash": "b544e23ac69eb702b67b0641f9a32396",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-apply.prompt.md": {
+    "mtime": 1779474690.8629982,
+    "ast_hash": "bb34cb1101207c46f0bb431f7b8e0c5a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-explore.prompt.md": {
+    "mtime": 1779474690.8624651,
+    "ast_hash": "499dae8cb9d463bc7e7fa0a43a5634bc",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-onboard.prompt.md": {
+    "mtime": 1779474690.8644598,
+    "ast_hash": "35d4ec2eea1cedce31b102a5d51b6820",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-archive.prompt.md": {
+    "mtime": 1779474690.863771,
+    "ast_hash": "ff9017090a9eb3643dd810c32915d03b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-apply-change/SKILL.md": {
+    "mtime": 1779474690.8603978,
+    "ast_hash": "113ad4a13c30634311141d6dadcc0464",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-explore/SKILL.md": {
+    "mtime": 1779474690.859792,
+    "ast_hash": "d160105373f4fe54bfbe1790b343c51b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-verify-change/SKILL.md": {
+    "mtime": 1779474690.8615737,
+    "ast_hash": "590d531c456cf2ab5fc5a966c3c5fb0e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-new-change/SKILL.md": {
+    "mtime": 1779474690.8599827,
+    "ast_hash": "0cdc26632213a3f476e888d48d21ff0e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-archive-change/SKILL.md": {
+    "mtime": 1779474690.8611171,
+    "ast_hash": "f010cb3292d101742592bcad1abfe762",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-onboard/SKILL.md": {
+    "mtime": 1779474690.8619382,
+    "ast_hash": "3632b93353cfc12b5f14967419f2210b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-propose/SKILL.md": {
+    "mtime": 1779474690.8621814,
+    "ast_hash": "0753f4a4ce92da2b27bef07c994bef17",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-bulk-archive-change/SKILL.md": {
+    "mtime": 1779474690.8613427,
+    "ast_hash": "7289c3287328e38b7925dcd8eb0464d6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-continue-change/SKILL.md": {
+    "mtime": 1779474690.8601894,
+    "ast_hash": "ea7ab3d94ad87c0d64b168bea910bfc4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-sync-specs/SKILL.md": {
+    "mtime": 1779474690.8608398,
+    "ast_hash": "d269e14a2598498a608dc7eb9f6d82a6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/skills/openspec-ff-change/SKILL.md": {
+    "mtime": 1779474690.8606043,
+    "ast_hash": "1387e5a1f2de8155bfa96044cdf05a34",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/config.yaml": {
+    "mtime": 1779474726.1175153,
+    "ast_hash": "efd9cb042646a81eab86a12b37b4f88a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/bug-lectura-de-spec.md": {
+    "mtime": 1779616022.667207,
+    "ast_hash": "0625a7df9ea12a8a1ecef0139b828a5c",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/solicitar-confirmacion-de-borrado-de-propuesta.md": {
+    "mtime": 1779533486.6918068,
+    "ast_hash": "d6e3ec4aceea6bef2e5a21b99ad3cd93",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/mostrar-en-las-tarjetas-de-cambios-activos-el-texto-de-proposal.md": {
+    "mtime": 1779616788.2636335,
+    "ast_hash": "f1e3dbd56fc8633c79f4982a26cfd99a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/quitar-botones-de-propuestas.md": {
+    "mtime": 1779613860.1264515,
+    "ast_hash": "3499af5ec017482bb49cba81918b8646",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/mejoras-en-content.md": {
+    "mtime": 1779612376.695215,
+    "ast_hash": "56a71f1a6a5843a87be52ce974292ab7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/ventana-unica-mostar-archivados.md": {
+    "mtime": 1779582149.3924494,
+    "ast_hash": "4f4cadb51d93fec5105b756b0efa7d4b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/guardar-dimensi-nes-de-ventana.md": {
+    "mtime": 1780137524.6794484,
+    "ast_hash": "ac143b6014bba299190120c714035d07",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/paneles-en-sliderbar.md": {
+    "mtime": 1779531896.4229727,
+    "ast_hash": "d2a741ea7f35b26581092ee9ad962ba3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/quitar-el-circulo-con-el-tanto-por-ciento.md": {
+    "mtime": 1779617549.1687908,
+    "ast_hash": "791eb07669aae8d4d561e002024dbdcf",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/mostar-update.md": {
+    "mtime": 1780137524.6796253,
+    "ast_hash": "30b018365f7f3c16f612192361f994ce",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/copyright-en-el-about.md": {
+    "mtime": 1780137524.6791506,
+    "ast_hash": "a57a9e16454941b4d834b7f0351266d8",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/panel-cambios-activpos-bugs.md": {
+    "mtime": 1779612985.4720547,
+    "ast_hash": "200c5d3ee8c8ed881190e0ca5bdca4a0",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/desactivar-botones-guarda-y-editar.md": {
+    "mtime": 1780076422.1551535,
+    "ast_hash": "b1403069d77aec2c66c594eb5accfd11",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/mostrar-schema.md": {
+    "mtime": 1780137524.6798372,
+    "ast_hash": "d31bf137b38ef89eeec4dd423d6471a4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/combo-selecccion-de-tipo-de-propuestas.md": {
+    "mtime": 1779532603.8988574,
+    "ast_hash": "e46034ad3dad838cf7f7398439e8bc05",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/cambio-boton-cambios-archivado.md": {
+    "mtime": 1779611459.7988033,
+    "ast_hash": "cf127bcbe3d104e5727750474fc66d37",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/panel-propuestas.md": {
+    "mtime": 1779611063.0657868,
+    "ast_hash": "204ee3b80d3cf9e230916648932e08fe",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/boton-de-configuraci-n-a-la-izquierda.md": {
+    "mtime": 1779619435.3549273,
+    "ast_hash": "8540e6aedc2ea737ef6cc7f1930f4f46",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/version-de-openspec.md": {
+    "mtime": 1780079184.4867294,
+    "ast_hash": "52b26a18559a0b7b62796660bdb6cc79",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/bug-ruta-propuestas.md": {
+    "mtime": 1779532107.570342,
+    "ast_hash": "77dd8e51f88420d883c9117135ea14ff",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/cambio-resumen-global.md": {
+    "mtime": 1779610329.7140021,
+    "ast_hash": "c21f84b77e0ed81442e278943558859a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/pedir-schema-en-inicio.md": {
+    "mtime": 1780137524.679013,
+    "ast_hash": "f7010dda044f5a2d1f213297ebd43ae7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/multi-idioma.md": {
+    "mtime": 1780078479.6051102,
+    "ast_hash": "6216421053fdafb9d0598e688fb7e1eb",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/alineacion-tarjetas-dentro-de-paneles.md": {
+    "mtime": 1779611801.301177,
+    "ast_hash": "aa38729c76fe8f371895c2fdf5a551dc",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/contador-de-tareas-archivadas.md": {
+    "mtime": 1780076137.405398,
+    "ast_hash": "37812bb65eed353b6460fad80de8c4ea",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/archived/copiar-propuesta.md": {
+    "mtime": 1779532062.3528452,
+    "ast_hash": "33f1ae9c7c595774834b7262be8dddf8",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/sistema-iconos/spec.md": {
+    "mtime": 1780074372.147785,
+    "ast_hash": "14bf289bbb4d6a6d8b700c4a1e5acec1",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/progreso-proyecto/spec.md": {
+    "mtime": 1780077943.3481991,
+    "ast_hash": "34fc06605220b33bda93502b21a7e1c1",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/resumen-propuesta-en-tarjeta/spec.md": {
+    "mtime": 1780075415.254308,
+    "ast_hash": "6bac3bbd6dbd9a33d22df01ce204b344",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/internacionalizacion-ui/spec.md": {
+    "mtime": 1780081538.0565958,
+    "ast_hash": "be1f516a08a5bbee99048ccbea9cf075",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/bloqueo-acciones-edicion-cambio-completo/spec.md": {
+    "mtime": 1780080582.9327881,
+    "ast_hash": "2ee0e2a3ea788ac167697c94eda67c8b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/selector-schema-init-proyecto/spec.md": {
+    "mtime": 1780137728.4937656,
+    "ast_hash": "a36566bf357db77c7a22a8feb8284086",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/layout-resumen-proyecto-integrado/spec.md": {
+    "mtime": 1779615957.9962287,
+    "ast_hash": "b3cbc00104fa58faa173c0f75c6d9394",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/estado-vacio-specs-con-crear/spec.md": {
+    "mtime": 1780075050.3786101,
+    "ast_hash": "f09d315d1b5f96d5e9a74254bf51351e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/ajuste-fino-tarjetas-activos/spec.md": {
+    "mtime": 1780075778.220885,
+    "ast_hash": "020114d0b48079ea779fcb2189b90c47",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/panel-descripcion-proyecto/spec.md": {
+    "mtime": 1780137524.6806252,
+    "ast_hash": "02614b78b271f263d6f30da79bf457f6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/panel-versiones-configuracion/spec.md": {
+    "mtime": 1780137524.6809998,
+    "ast_hash": "747baf91f815c59f7b81a607050381a4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/configuracion-densidad-y-color/spec.md": {
+    "mtime": 1780081543.4568245,
+    "ast_hash": "1e1bf2c36ea9de8d728eb6fb67798a88",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/configuracion-sidebar-estilo-ligero/spec.md": {
+    "mtime": 1780074372.147008,
+    "ast_hash": "36ca8a292b8edfb23d571e3344f53655",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/editor-markdown/spec.md": {
+    "mtime": 1780080594.7201722,
+    "ast_hash": "10437dac1b35fe24b68253293fd0045f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/ux-acciones-propuestas/spec.md": {
+    "mtime": 1780075449.458738,
+    "ast_hash": "71180dd753cdce8fcaff0a4412c6f90b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/resumen-why-en-tarjetas-cambio/spec.md": {
+    "mtime": 1780075174.8809352,
+    "ast_hash": "d4b38ec151f132b1b62a186e26f6dbeb",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/persistencia-dimension-ventana/spec.md": {
+    "mtime": 1780137524.681322,
+    "ast_hash": "97d4ca1c8dd9f091e50a1e7cd787b511",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/wizard-init-proyecto/spec.md": {
+    "mtime": 1780137735.844435,
+    "ast_hash": "c33404275c4c1cef6739eacd61d72334",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/modal-consulta-archivados-scroll/spec.md": {
+    "mtime": 1780075538.3954523,
+    "ast_hash": "4e6d3239775315e2097f30e20d6dc733",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/consulta-cambios-archivados/spec.md": {
+    "mtime": 1780075543.5302289,
+    "ast_hash": "9fa0c82bf4a2962ca033a73e661b50a9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/modal-activo-vista-edicion/spec.md": {
+    "mtime": 1780075282.0029845,
+    "ast_hash": "00afcd1a4a321ead282d1c350d768663",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/deteccion-proyecto/spec.md": {
+    "mtime": 1779529761.4434586,
+    "ast_hash": "ea7ed8936f42aa52ef4282b91ba2f75d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/indicador-textual-progreso-tarjeta/spec.md": {
+    "mtime": 1780075185.6078017,
+    "ast_hash": "020382847819db141612b966cf7465e0",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/configuracion-colores-por-panel/spec.md": {
+    "mtime": 1780074059.8632607,
+    "ast_hash": "6b330ca5f13408b27aa6f3899107d3e3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/manejo-rutas-directorio/spec.md": {
+    "mtime": 1780075064.877232,
+    "ast_hash": "15c9a487742d4c0a810b9dd5f7000542",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/dashboard-estado/spec.md": {
+    "mtime": 1780080589.2489433,
+    "ast_hash": "43f0689f5b95c9d093ce43bf1e3d2cdc",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/layout-paneles-columna-unica/spec.md": {
+    "mtime": 1780075328.0755432,
+    "ast_hash": "c6d2f27a47c4d133b880291b72bc7261",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/sidebar-proyectos/spec.md": {
+    "mtime": 1780074372.1475794,
+    "ast_hash": "0fcd6640dd3f62f1b8442cdf4c918f84",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/estado-general-proyecto-barras/spec.md": {
+    "mtime": 1780077930.9928775,
+    "ast_hash": "6ca20363805e0461748180c50ef9bb0d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/about-metadata-legal/spec.md": {
+    "mtime": 1780137524.6802568,
+    "ast_hash": "32ed300c2ab45cb575e736b5168a7be7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/ui-controles-botones/spec.md": {
+    "mtime": 1780075439.784805,
+    "ast_hash": "6fcdb57bb24a44a05794a5cf910f3b02",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/schema-en-descripcion-proyecto/spec.md": {
+    "mtime": 1780137524.6815293,
+    "ast_hash": "6fadaf004ec68b4006df7f69e6b7bf99",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/ux-panel-propuestas/spec.md": {
+    "mtime": 1779581843.4582746,
+    "ast_hash": "e2f984313a3994f83e4301c854168cdc",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/gestion-propuestas/spec.md": {
+    "mtime": 1780075435.3718169,
+    "ast_hash": "3e484a28e40b25298b9abd7d90e37f5f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/accion-consultar-archivado-icono/spec.md": {
+    "mtime": 1780074977.6824582,
+    "ast_hash": "22f81e036f921c73aace56951448ffe4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/specs/tema-aplicacion/spec.md": {
+    "mtime": 1780137524.681889,
+    "ast_hash": "970fe624c8f9bceca15b830a2846f275",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-tema-dark-light-modal-configuracion/.openspec.yaml": {
+    "mtime": 1779526582.4339976,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-tema-dark-light-modal-configuracion/tasks.md": {
+    "mtime": 1779527938.7465436,
+    "ast_hash": "1674fd91af5fa87159e7821720cd6db3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-tema-dark-light-modal-configuracion/design.md": {
+    "mtime": 1779526661.7024853,
+    "ast_hash": "790e3aecc38cea042165278148892c32",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-tema-dark-light-modal-configuracion/proposal.md": {
+    "mtime": 1779526606.151281,
+    "ast_hash": "bf979a4c76589cd082cc3fc31cefc5f4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-tema-dark-light-modal-configuracion/specs/dashboard-estado/spec.md": {
+    "mtime": 1779526642.7821512,
+    "ast_hash": "6bee730bf02afe0c23a3be289c7f5540",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-tema-dark-light-modal-configuracion/specs/tema-aplicacion/spec.md": {
+    "mtime": 1779526642.7797487,
+    "ast_hash": "719489da61e0be702519f5c87daa2bf5",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-ajustar-boton-configuracion-sidebar/.openspec.yaml": {
+    "mtime": 1779619451.1980586,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-ajustar-boton-configuracion-sidebar/tasks.md": {
+    "mtime": 1779621732.4261415,
+    "ast_hash": "4852362b164205cc2725d8080e3a34ad",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-ajustar-boton-configuracion-sidebar/design.md": {
+    "mtime": 1779619493.2034519,
+    "ast_hash": "2f8372cb0382aeb430206e670e345545",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-ajustar-boton-configuracion-sidebar/proposal.md": {
+    "mtime": 1779619479.8991432,
+    "ast_hash": "520c88985a9f6806600cd2d9c58c2d61",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-ajustar-boton-configuracion-sidebar/specs/sistema-iconos/spec.md": {
+    "mtime": 1779619524.4151802,
+    "ast_hash": "0c677eb8baa13190a8e26c71e513e6c7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-ajustar-boton-configuracion-sidebar/specs/configuracion-sidebar-estilo-ligero/spec.md": {
+    "mtime": 1779619524.3965516,
+    "ast_hash": "7166323829f8a65055cc9589042178a6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-ajustar-boton-configuracion-sidebar/specs/sidebar-proyectos/spec.md": {
+    "mtime": 1779619524.4067223,
+    "ast_hash": "dc9f19f96b265953b21a4b2b229c4706",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-persistir-dimensiones-ventana/.openspec.yaml": {
+    "mtime": 1780137524.6753354,
+    "ast_hash": "6e9a0c5a97aa37e8dc19c2e630c4ef19",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-persistir-dimensiones-ventana/tasks.md": {
+    "mtime": 1780137524.6769552,
+    "ast_hash": "383613a64786874c848b72934a4e63fe",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-persistir-dimensiones-ventana/design.md": {
+    "mtime": 1780137524.6757982,
+    "ast_hash": "050c088c3b78e0560dfcf0656bca3e49",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-persistir-dimensiones-ventana/proposal.md": {
+    "mtime": 1780137524.6760292,
+    "ast_hash": "104b2ef12f48596663253263b4f5aeb3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-persistir-dimensiones-ventana/specs/persistencia-dimension-ventana/spec.md": {
+    "mtime": 1780137524.676399,
+    "ast_hash": "5bd3c20df21e3dada0efd76e1f1b9147",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-persistir-dimensiones-ventana/specs/tema-aplicacion/spec.md": {
+    "mtime": 1780137524.6766703,
+    "ast_hash": "700cb25c98b355b43da23fec30f50cc2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-about-copyright-y-repositorio/.openspec.yaml": {
+    "mtime": 1780137524.671529,
+    "ast_hash": "6e9a0c5a97aa37e8dc19c2e630c4ef19",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-about-copyright-y-repositorio/tasks.md": {
+    "mtime": 1780137524.6734653,
+    "ast_hash": "68c1ecc2da57ffb8b8b8d6452d627f5a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-about-copyright-y-repositorio/design.md": {
+    "mtime": 1780137524.6721761,
+    "ast_hash": "bf6f1dcb2a8b3bb47dc4126658d10c2a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-about-copyright-y-repositorio/proposal.md": {
+    "mtime": 1780137524.67244,
+    "ast_hash": "1f5e6de7c5f07a0e2bdc2d3c235182e2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-about-copyright-y-repositorio/specs/panel-versiones-configuracion/spec.md": {
+    "mtime": 1780137524.6731803,
+    "ast_hash": "eae552fb358d0b6fe67fca856d15e043",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-about-copyright-y-repositorio/specs/about-metadata-legal/spec.md": {
+    "mtime": 1780137524.6728222,
+    "ast_hash": "c3ce0c4f69a6efc28bb469d2cf23ed9d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-ruta-propuestas-en-openspec/.openspec.yaml": {
+    "mtime": 1779532148.509207,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-ruta-propuestas-en-openspec/tasks.md": {
+    "mtime": 1779532260.5101914,
+    "ast_hash": "2d3b0bd4cc1d3750a92a41bd824f171e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-ruta-propuestas-en-openspec/design.md": {
+    "mtime": 1779532190.217449,
+    "ast_hash": "b54c2badb4e09d5f2076b04a7cea72ff",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-ruta-propuestas-en-openspec/proposal.md": {
+    "mtime": 1779532190.2153554,
+    "ast_hash": "b6936bb11a63ac8444583f9857e1057a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-ruta-propuestas-en-openspec/specs/gestion-propuestas/spec.md": {
+    "mtime": 1779532190.2194824,
+    "ast_hash": "af5fbc2524056943bea0597f8313783d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-confirmacion-modal-y-hover-colores-acciones/.openspec.yaml": {
+    "mtime": 1779579362.4619641,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-confirmacion-modal-y-hover-colores-acciones/tasks.md": {
+    "mtime": 1779579518.8668456,
+    "ast_hash": "7933a4664129a33cfaa209ed566cc5b0",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-confirmacion-modal-y-hover-colores-acciones/design.md": {
+    "mtime": 1779579396.598437,
+    "ast_hash": "c292541d260b8acbe447777db63b4b66",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-confirmacion-modal-y-hover-colores-acciones/proposal.md": {
+    "mtime": 1779579396.5963876,
+    "ast_hash": "9b84c18a58f0ec36cbbfd2ca0dbd5242",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-confirmacion-modal-y-hover-colores-acciones/specs/ux-acciones-propuestas/spec.md": {
+    "mtime": 1779579396.600303,
+    "ast_hash": "e843c845be8314bdfc1737d18de1df06",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-ui-dashboard-progreso/.openspec.yaml": {
+    "mtime": 1779474710.6366913,
+    "ast_hash": "2c508fe82d9583ed1fb0c700dbf80c41",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-ui-dashboard-progreso/tasks.md": {
+    "mtime": 1779477403.904349,
+    "ast_hash": "2ed6b9cc59a7aef23b04e29df51b7d53",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-ui-dashboard-progreso/design.md": {
+    "mtime": 1779474961.1813858,
+    "ast_hash": "d803f0699f1063f700951d63fd1f0fed",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-ui-dashboard-progreso/proposal.md": {
+    "mtime": 1779474961.1588647,
+    "ast_hash": "e936a10386edef6a67980e2aa7249711",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-ui-dashboard-progreso/specs/sistema-iconos/spec.md": {
+    "mtime": 1779474990.5105917,
+    "ast_hash": "2d887279bf377e4fa4578745522063f4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-ui-dashboard-progreso/specs/progreso-proyecto/spec.md": {
+    "mtime": 1779474990.5303936,
+    "ast_hash": "3d1ed657aab6bbe9f8f60005556c94f2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-ui-dashboard-progreso/specs/dashboard-estado/spec.md": {
+    "mtime": 1779474990.5503716,
+    "ast_hash": "e665c7a8f8560f75e9948cab5cb76e6e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-eliminar-propuestas-seleccionadas/.openspec.yaml": {
+    "mtime": 1779533230.8691692,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-eliminar-propuestas-seleccionadas/tasks.md": {
+    "mtime": 1779533370.3467112,
+    "ast_hash": "9a08dc0547b5f50ae41356a7699d345b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-eliminar-propuestas-seleccionadas/design.md": {
+    "mtime": 1779533265.1677122,
+    "ast_hash": "51c54644bed9534fff125d2c6bcaa169",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-eliminar-propuestas-seleccionadas/proposal.md": {
+    "mtime": 1779533265.1655755,
+    "ast_hash": "1bc413de1c83319967a5a137e89b6846",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-eliminar-propuestas-seleccionadas/specs/gestion-propuestas/spec.md": {
+    "mtime": 1779533265.169545,
+    "ast_hash": "c58e8ceef295495722ed43b145faa1de",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-fix-tarjetas-activos-botones-task-header/.openspec.yaml": {
+    "mtime": 1779613029.2293313,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-fix-tarjetas-activos-botones-task-header/tasks.md": {
+    "mtime": 1779613278.0142438,
+    "ast_hash": "b5cd9c8c936534cb4851096e30df4c37",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-fix-tarjetas-activos-botones-task-header/design.md": {
+    "mtime": 1779613097.6133797,
+    "ast_hash": "371f10ac38217f475669309e232ff43d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-fix-tarjetas-activos-botones-task-header/proposal.md": {
+    "mtime": 1779613056.7058356,
+    "ast_hash": "060d0cbc1c27de4f5e5f38a506a963a4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-fix-tarjetas-activos-botones-task-header/specs/ajuste-fino-tarjetas-activos/spec.md": {
+    "mtime": 1779613097.6188731,
+    "ast_hash": "539359f5bd207591b33023d6e0d89c22",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-fix-tarjetas-activos-botones-task-header/specs/editor-markdown/spec.md": {
+    "mtime": 1779613097.6232092,
+    "ast_hash": "0674a45a50a72cf91eb3b648b419a66c",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-fix-tarjetas-activos-botones-task-header/specs/dashboard-estado/spec.md": {
+    "mtime": 1779613097.6211996,
+    "ast_hash": "7f65e7ad75366bb2327ec99b770a2e26",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-propuestas-content/.openspec.yaml": {
+    "mtime": 1779531286.0160317,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-propuestas-content/tasks.md": {
+    "mtime": 1779531823.63476,
+    "ast_hash": "16c06ca6148f826173013e5858dca121",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-propuestas-content/design.md": {
+    "mtime": 1779531405.574797,
+    "ast_hash": "9b476e4473f640f0aeee94831f0001bd",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-propuestas-content/proposal.md": {
+    "mtime": 1779531405.5724072,
+    "ast_hash": "b309e02fdfed471444692b52bccb15b2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-propuestas-content/specs/dashboard-estado/spec.md": {
+    "mtime": 1779531405.5788069,
+    "ast_hash": "fdbee7338911b69088183b9a6c5b88f4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-propuestas-content/specs/gestion-propuestas/spec.md": {
+    "mtime": 1779531405.5769,
+    "ast_hash": "5b97e25ca3cb2c73c7ccb062b70db588",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-versiones-en-configuracion/.openspec.yaml": {
+    "mtime": 1780080038.7587543,
+    "ast_hash": "59cc35661f8e7cd9ef8ca0082302edb4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-versiones-en-configuracion/tasks.md": {
+    "mtime": 1780080346.0371754,
+    "ast_hash": "057b8d3ce2d3d00242b3d1268000c3d9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-versiones-en-configuracion/design.md": {
+    "mtime": 1780080102.3550258,
+    "ast_hash": "2156ad21cc84f83ebd1f2b93c0774b14",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-versiones-en-configuracion/proposal.md": {
+    "mtime": 1780080076.085202,
+    "ast_hash": "d58cd1c330de130b3511e054cc843f7f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-versiones-en-configuracion/specs/panel-versiones-configuracion/spec.md": {
+    "mtime": 1780080102.3550255,
+    "ast_hash": "0fb005dfe879faf41dbfca650febeb3f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-versiones-en-configuracion/specs/configuracion-densidad-y-color/spec.md": {
+    "mtime": 1780080102.3878024,
+    "ast_hash": "58de401825ccd3f022ab7e19e959df19",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-versiones-en-configuracion/specs/tema-aplicacion/spec.md": {
+    "mtime": 1780080102.395157,
+    "ast_hash": "c5219c333f2887774c4637ad62e01969",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-reemplazar-rosco-tarjeta-por-texto-progreso/.openspec.yaml": {
+    "mtime": 1779617580.0897224,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-reemplazar-rosco-tarjeta-por-texto-progreso/tasks.md": {
+    "mtime": 1779619401.8052528,
+    "ast_hash": "e32d715cb298d7e3a065046ebf6e3f8f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-reemplazar-rosco-tarjeta-por-texto-progreso/design.md": {
+    "mtime": 1779617659.1990428,
+    "ast_hash": "3729cac47286b6ed784404a1bbb3211a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-reemplazar-rosco-tarjeta-por-texto-progreso/proposal.md": {
+    "mtime": 1779617599.3169506,
+    "ast_hash": "bcf196459c68db647d0bd3ca7d33b223",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-reemplazar-rosco-tarjeta-por-texto-progreso/specs/progreso-proyecto/spec.md": {
+    "mtime": 1779617681.7614717,
+    "ast_hash": "88660d12f1262b685ffe3ae08b2320bd",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-reemplazar-rosco-tarjeta-por-texto-progreso/specs/indicador-textual-progreso-tarjeta/spec.md": {
+    "mtime": 1779617681.757366,
+    "ast_hash": "40882495c98f35dd953e307d335d8f86",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-reemplazar-rosco-tarjeta-por-texto-progreso/specs/dashboard-estado/spec.md": {
+    "mtime": 1779619171.1491919,
+    "ast_hash": "8a55c9de48d1aa14cced9fb1d46890ff",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-propuestas-pipeline-izquierda/.openspec.yaml": {
+    "mtime": 1779611135.6951087,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-propuestas-pipeline-izquierda/tasks.md": {
+    "mtime": 1779611363.0620677,
+    "ast_hash": "2c7bf00965f32ff3c48bdfa927374daa",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-propuestas-pipeline-izquierda/design.md": {
+    "mtime": 1779611218.5866575,
+    "ast_hash": "18941b8229c9def6d6b427652dd1d6ad",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-propuestas-pipeline-izquierda/proposal.md": {
+    "mtime": 1779611176.3409097,
+    "ast_hash": "1aa00c5171f90345d076efc0faa6aa3b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-propuestas-pipeline-izquierda/specs/pipeline-visual-estado-proyecto/spec.md": {
+    "mtime": 1779611218.5931244,
+    "ast_hash": "7d48bc86c1611fd4e0e298eb87748dd9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-propuestas-pipeline-izquierda/specs/dashboard-estado/spec.md": {
+    "mtime": 1779611218.5954378,
+    "ast_hash": "1574fb31b0d479be526a5733dbb1d0be",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-propuestas-pipeline-izquierda/specs/gestion-propuestas/spec.md": {
+    "mtime": 1779611218.597473,
+    "ast_hash": "387d06b7b7fc286760213ef746c134a4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-fix-lectura-specs-y-solape-layout/.openspec.yaml": {
+    "mtime": 1779529248.888643,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-fix-lectura-specs-y-solape-layout/tasks.md": {
+    "mtime": 1779529745.3435345,
+    "ast_hash": "af02bd45d6d2fea89cd8370c7447812f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-fix-lectura-specs-y-solape-layout/design.md": {
+    "mtime": 1779529287.4708908,
+    "ast_hash": "0a5cced9fae1ec15a303097c49394b1b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-fix-lectura-specs-y-solape-layout/proposal.md": {
+    "mtime": 1779529287.459305,
+    "ast_hash": "245c2c661e5220631eaf0a6831c8245b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-fix-lectura-specs-y-solape-layout/specs/editor-markdown/spec.md": {
+    "mtime": 1779529287.4667244,
+    "ast_hash": "76c5e848871ac3a80f4d4b2b94ed8698",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-fix-lectura-specs-y-solape-layout/specs/manejo-rutas-directorio/spec.md": {
+    "mtime": 1779529287.464334,
+    "ast_hash": "e7a112b5b6c2502aab8dd2e803e8019d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-fix-lectura-specs-y-solape-layout/specs/dashboard-estado/spec.md": {
+    "mtime": 1779529287.4687834,
+    "ast_hash": "716b64af626024e660b1851ddb48f04a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-modal-archivados-tamano-fijo-scroll/.openspec.yaml": {
+    "mtime": 1779582531.3355095,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-modal-archivados-tamano-fijo-scroll/tasks.md": {
+    "mtime": 1779582726.7323396,
+    "ast_hash": "8ad79a378456b2e7eca25b07bd05386e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-modal-archivados-tamano-fijo-scroll/design.md": {
+    "mtime": 1779582588.3782449,
+    "ast_hash": "a561d81e3d7f85674722a47992661ad4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-modal-archivados-tamano-fijo-scroll/proposal.md": {
+    "mtime": 1779582553.8949745,
+    "ast_hash": "e203c52ff99f78438c4e600944f60403",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-modal-archivados-tamano-fijo-scroll/specs/modal-consulta-archivados-scroll/spec.md": {
+    "mtime": 1779582588.386131,
+    "ast_hash": "6da5a2670b6467f2304e497461eac185",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-modal-archivados-tamano-fijo-scroll/specs/consulta-cambios-archivados/spec.md": {
+    "mtime": 1779582588.3879328,
+    "ast_hash": "da08549d97b76ba563b1d08425448371",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-colores-por-panel-y-tipo-en-configuracion/.openspec.yaml": {
+    "mtime": 1779613782.5728767,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-colores-por-panel-y-tipo-en-configuracion/tasks.md": {
+    "mtime": 1779614200.6009576,
+    "ast_hash": "fa1a5b38b6e1eea9fe9b8a06c14f057a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-colores-por-panel-y-tipo-en-configuracion/design.md": {
+    "mtime": 1779613833.6311693,
+    "ast_hash": "500687b8c26f0dd4646fcc374d644b4a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-colores-por-panel-y-tipo-en-configuracion/proposal.md": {
+    "mtime": 1779613808.552908,
+    "ast_hash": "ae5198c462cee99e50c3feec4ba00a5b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-colores-por-panel-y-tipo-en-configuracion/specs/configuracion-densidad-y-color/spec.md": {
+    "mtime": 1779613855.6236033,
+    "ast_hash": "6d5a8a8f0dad76213ce6a5f1aefcfca3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-colores-por-panel-y-tipo-en-configuracion/specs/configuracion-colores-por-panel/spec.md": {
+    "mtime": 1779613855.6172469,
+    "ast_hash": "29baf3a638a5c2b38c621b317410d0d3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-colores-por-panel-y-tipo-en-configuracion/specs/dashboard-estado/spec.md": {
+    "mtime": 1779613855.6193285,
+    "ast_hash": "faadd9748f7114a2994601abafd44786",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-colores-por-panel-y-tipo-en-configuracion/specs/sidebar-proyectos/spec.md": {
+    "mtime": 1779613855.625388,
+    "ast_hash": "a584c180f3cfb8b795b29509dd418a17",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-colores-por-panel-y-tipo-en-configuracion/specs/gestion-propuestas/spec.md": {
+    "mtime": 1779613855.62155,
+    "ast_hash": "33bef4cf9061a71ec2d4586c01be81a3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-propuestas-acciones-por-tarjeta-y-eliminar-color-botones/.openspec.yaml": {
+    "mtime": 1779614593.938978,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-propuestas-acciones-por-tarjeta-y-eliminar-color-botones/tasks.md": {
+    "mtime": 1779615855.615827,
+    "ast_hash": "6e168ed3816f0d7fe4b74a92e0a1ea51",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-propuestas-acciones-por-tarjeta-y-eliminar-color-botones/design.md": {
+    "mtime": 1779614634.1303864,
+    "ast_hash": "70396a637c370ea157755c6f1a66dc05",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-propuestas-acciones-por-tarjeta-y-eliminar-color-botones/proposal.md": {
+    "mtime": 1779614612.4838135,
+    "ast_hash": "2d88b1fa0b6f0fd18e943cbe366a8d98",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-propuestas-acciones-por-tarjeta-y-eliminar-color-botones/specs/resumen-propuesta-en-tarjeta/spec.md": {
+    "mtime": 1779614657.4599009,
+    "ast_hash": "e427f190fc49b2863806a122719c50af",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-propuestas-acciones-por-tarjeta-y-eliminar-color-botones/specs/configuracion-densidad-y-color/spec.md": {
+    "mtime": 1779614657.4665983,
+    "ast_hash": "114e0f3d501fe151fe8f09712907f962",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-propuestas-acciones-por-tarjeta-y-eliminar-color-botones/specs/ux-acciones-propuestas/spec.md": {
+    "mtime": 1779614657.4645438,
+    "ast_hash": "39071c4b93452d7a5095368f67b959b9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-propuestas-acciones-por-tarjeta-y-eliminar-color-botones/specs/ui-controles-botones/spec.md": {
+    "mtime": 1779614657.468492,
+    "ast_hash": "7f00d8fabc5ad873c5810d87dc59c87b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-propuestas-acciones-por-tarjeta-y-eliminar-color-botones/specs/gestion-propuestas/spec.md": {
+    "mtime": 1779614657.4624712,
+    "ast_hash": "f90a03b8f208565a1f7e8035be368eaf",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-descripcion-proyecto-horizontal/.openspec.yaml": {
+    "mtime": 1779530108.4087853,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-descripcion-proyecto-horizontal/tasks.md": {
+    "mtime": 1779530527.0506024,
+    "ast_hash": "cb9095b12d4a48c9ab4db9d6eff5b123",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-descripcion-proyecto-horizontal/design.md": {
+    "mtime": 1779530183.587178,
+    "ast_hash": "073b5c44d51fc0b2c9bbbf3013e069a4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-descripcion-proyecto-horizontal/proposal.md": {
+    "mtime": 1779530150.9766245,
+    "ast_hash": "d42f892f18b32f7967f07629ff2a004a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-descripcion-proyecto-horizontal/specs/panel-descripcion-proyecto/spec.md": {
+    "mtime": 1779530183.5892136,
+    "ast_hash": "2068189607d945e668c0544dae70948d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-panel-descripcion-proyecto-horizontal/specs/dashboard-estado/spec.md": {
+    "mtime": 1779530183.5909393,
+    "ast_hash": "9ba4aa39cbafc0363a5d68df2435a569",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-grid-cambios-archivados-consulta/.openspec.yaml": {
+    "mtime": 1779530736.340901,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-grid-cambios-archivados-consulta/tasks.md": {
+    "mtime": 1779530998.9684148,
+    "ast_hash": "b5a76e7fd930ef8fdfe64a7e9eb8d080",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-grid-cambios-archivados-consulta/design.md": {
+    "mtime": 1779530783.717914,
+    "ast_hash": "85a1973f074025fd1c5b07c327e9a18b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-grid-cambios-archivados-consulta/proposal.md": {
+    "mtime": 1779530783.715733,
+    "ast_hash": "bbd9ad56b89146b183a05a6b3ff28322",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-grid-cambios-archivados-consulta/specs/consulta-cambios-archivados/spec.md": {
+    "mtime": 1779530783.7200184,
+    "ast_hash": "b8c2bbdcce7ceaf54ea644a99d8f3df9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-grid-cambios-archivados-consulta/specs/dashboard-estado/spec.md": {
+    "mtime": 1779530783.7219117,
+    "ast_hash": "37a81a844fb93f3e60b0366ed8322454",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-mover-rosco-a-panel-descripcion/.openspec.yaml": {
+    "mtime": 1779610374.801473,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-mover-rosco-a-panel-descripcion/tasks.md": {
+    "mtime": 1779610580.8376112,
+    "ast_hash": "1bcb1b1d84c863abb0f3eff2422ac04a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-mover-rosco-a-panel-descripcion/design.md": {
+    "mtime": 1779610446.334144,
+    "ast_hash": "dcefae8fb3bebae1c5e7cc013932b9f8",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-mover-rosco-a-panel-descripcion/proposal.md": {
+    "mtime": 1779610407.5621765,
+    "ast_hash": "55578101935034bfc4eb9414a1d59a88",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-mover-rosco-a-panel-descripcion/specs/layout-resumen-proyecto-integrado/spec.md": {
+    "mtime": 1779610446.341056,
+    "ast_hash": "69c0998305d757f4458cf45114b10a59",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-mover-rosco-a-panel-descripcion/specs/panel-descripcion-proyecto/spec.md": {
+    "mtime": 1779610446.3431857,
+    "ast_hash": "96d6585db6145a4e7a4c544131ebf41d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-mover-rosco-a-panel-descripcion/specs/dashboard-estado/spec.md": {
+    "mtime": 1779610446.3450756,
+    "ast_hash": "1529847eee5eb40e7329e6f32f122e28",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-22-visor-proyecto/.openspec.yaml": {
+    "mtime": 1779474709.4001412,
+    "ast_hash": "2c508fe82d9583ed1fb0c700dbf80c41",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-22-visor-proyecto/tasks.md": {
+    "mtime": 1779476128.7546263,
+    "ast_hash": "ef9ef054b2616ae55de0c78d5edf5d04",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-22-visor-proyecto/design.md": {
+    "mtime": 1779474781.8828456,
+    "ast_hash": "04c7e692ad4b9aed96cb13ada1f659a8",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-22-visor-proyecto/proposal.md": {
+    "mtime": 1779474781.862156,
+    "ast_hash": "ee6ea4331cf27d75f5de92a4e5a06c61",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-22-visor-proyecto/specs/editor-markdown/spec.md": {
+    "mtime": 1779474810.7590497,
+    "ast_hash": "d72ce308593dcefb910d21e7109827e1",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-22-visor-proyecto/specs/deteccion-proyecto/spec.md": {
+    "mtime": 1779474810.7272558,
+    "ast_hash": "969fda1dc7a4d18c29d710fab05ffbf5",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-22-visor-proyecto/specs/dashboard-estado/spec.md": {
+    "mtime": 1779474810.7293785,
+    "ast_hash": "067df03ca971cbbc29e34dd836752ac4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-evitar-error-specs-directorio-y-ofrecer-crear/.openspec.yaml": {
+    "mtime": 1779616048.5751565,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-evitar-error-specs-directorio-y-ofrecer-crear/tasks.md": {
+    "mtime": 1779616323.2152214,
+    "ast_hash": "0cdce150c8a3d12386c6152ffb4f4a27",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-evitar-error-specs-directorio-y-ofrecer-crear/design.md": {
+    "mtime": 1779616098.0274549,
+    "ast_hash": "c2b37ee24905a4ac20cd6c931b5c5c48",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-evitar-error-specs-directorio-y-ofrecer-crear/proposal.md": {
+    "mtime": 1779616070.2572656,
+    "ast_hash": "4d3f43e1b2f6542cca8ddf998be38b79",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-evitar-error-specs-directorio-y-ofrecer-crear/specs/estado-vacio-specs-con-crear/spec.md": {
+    "mtime": 1779616120.876409,
+    "ast_hash": "822747f34cf9fc1b6c4d82da572a37a4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-evitar-error-specs-directorio-y-ofrecer-crear/specs/editor-markdown/spec.md": {
+    "mtime": 1779616120.8832285,
+    "ast_hash": "877c5bbb8e51a3a98a7407f09263249c",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-evitar-error-specs-directorio-y-ofrecer-crear/specs/manejo-rutas-directorio/spec.md": {
+    "mtime": 1779616120.8790545,
+    "ast_hash": "7761461689e3a3efe1cf291c6a53e0c7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-evitar-error-specs-directorio-y-ofrecer-crear/specs/dashboard-estado/spec.md": {
+    "mtime": 1779616120.8812463,
+    "ast_hash": "68da20ebd3141f1d17c1f0c35f683886",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-desactivar-edicion-en-cambios-completados/.openspec.yaml": {
+    "mtime": 1780077030.4567304,
+    "ast_hash": "59cc35661f8e7cd9ef8ca0082302edb4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-desactivar-edicion-en-cambios-completados/tasks.md": {
+    "mtime": 1780077545.2882645,
+    "ast_hash": "512aa468b97095624b10b669d5f1686c",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-desactivar-edicion-en-cambios-completados/design.md": {
+    "mtime": 1780077081.485087,
+    "ast_hash": "b391c36212e60d80cdf1c4069eccc5b8",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-desactivar-edicion-en-cambios-completados/proposal.md": {
+    "mtime": 1780077053.8684201,
+    "ast_hash": "9cc03fd878f703d1b769418400b1787c",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-desactivar-edicion-en-cambios-completados/specs/bloqueo-acciones-edicion-cambio-completo/spec.md": {
+    "mtime": 1780077081.485858,
+    "ast_hash": "ce9ca00e8d90fd550883588b5070a4db",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-desactivar-edicion-en-cambios-completados/specs/editor-markdown/spec.md": {
+    "mtime": 1780077081.507495,
+    "ast_hash": "771d9e7c259e3e0f8b57ebb954eec2ab",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-desactivar-edicion-en-cambios-completados/specs/dashboard-estado/spec.md": {
+    "mtime": 1780077081.5084383,
+    "ast_hash": "b784931044f4c3b626de4f3ddb20c9f9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-paneles-una-columna-interna/.openspec.yaml": {
+    "mtime": 1779611822.9894009,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-paneles-una-columna-interna/tasks.md": {
+    "mtime": 1779611976.7531502,
+    "ast_hash": "9b1657e1ee7425f06adfcc50d626cb1d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-paneles-una-columna-interna/design.md": {
+    "mtime": 1779611876.2890024,
+    "ast_hash": "e0d67a6939284cb67a2fed1378686dfa",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-paneles-una-columna-interna/proposal.md": {
+    "mtime": 1779611839.4582105,
+    "ast_hash": "80831076188b029e472c9ee486d51b0f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-paneles-una-columna-interna/specs/dashboard-estado/spec.md": {
+    "mtime": 1779611876.2981305,
+    "ast_hash": "fbffe089caa7f8f925b38c41748ca53d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-paneles-una-columna-interna/specs/layout-paneles-columna-unica/spec.md": {
+    "mtime": 1779611876.2956562,
+    "ast_hash": "c97a0e72b926508177a4b9584d3fa5a0",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-paneles-una-columna-interna/specs/gestion-propuestas/spec.md": {
+    "mtime": 1779611876.2999766,
+    "ast_hash": "265a21e0bfaea92f875a524136e28401",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-iconos-tooltips-y-configuracion-ui/.openspec.yaml": {
+    "mtime": 1779528591.6977549,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-iconos-tooltips-y-configuracion-ui/tasks.md": {
+    "mtime": 1779529218.5392778,
+    "ast_hash": "c805fab135ecbfcb93fee61c26b99f4d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-iconos-tooltips-y-configuracion-ui/design.md": {
+    "mtime": 1779528653.5452254,
+    "ast_hash": "d7960128776f21c742b62c8fab9f55ae",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-iconos-tooltips-y-configuracion-ui/proposal.md": {
+    "mtime": 1779528605.6834774,
+    "ast_hash": "a1cc98fddd81cc38aa0a228b14ecc0a9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-iconos-tooltips-y-configuracion-ui/specs/configuracion-densidad-y-color/spec.md": {
+    "mtime": 1779528628.2878463,
+    "ast_hash": "34fac5e809b55cfaa4cdfda0db42e9d0",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-iconos-tooltips-y-configuracion-ui/specs/ui-controles-botones/spec.md": {
+    "mtime": 1779528628.285408,
+    "ast_hash": "ad2d1a5ddd73df3d1957c28834192b33",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-iconos-tooltips-y-configuracion-ui/specs/tema-aplicacion/spec.md": {
+    "mtime": 1779528628.289663,
+    "ast_hash": "25c8aaa7ea59f92025cd160d7f903c4c",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-filtros-iconos-y-copiar-propuestas/.openspec.yaml": {
+    "mtime": 1779532635.4405477,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-filtros-iconos-y-copiar-propuestas/tasks.md": {
+    "mtime": 1779532822.3379016,
+    "ast_hash": "5cff2bd93726024332d71d7812625e80",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-filtros-iconos-y-copiar-propuestas/design.md": {
+    "mtime": 1779532698.6321437,
+    "ast_hash": "37720e9dbd2f0aac2cefa59fa3f70eb2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-filtros-iconos-y-copiar-propuestas/proposal.md": {
+    "mtime": 1779532698.6300535,
+    "ast_hash": "de5ed25e69cfcecbe066ff5759b6a1e8",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-filtros-iconos-y-copiar-propuestas/specs/ux-panel-propuestas/spec.md": {
+    "mtime": 1779532698.6343098,
+    "ast_hash": "f0519211b46966ba01ccdb477b663ed7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-filtros-iconos-y-copiar-propuestas/specs/gestion-propuestas/spec.md": {
+    "mtime": 1779532698.6363664,
+    "ast_hash": "b438e41228fb1dac90eefd809092391a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-sidebar-proyectos/.openspec.yaml": {
+    "mtime": 1779474710.012831,
+    "ast_hash": "2c508fe82d9583ed1fb0c700dbf80c41",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-sidebar-proyectos/tasks.md": {
+    "mtime": 1779478055.2773867,
+    "ast_hash": "3f0481ee99eb0cb952e7f53a86173871",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-sidebar-proyectos/design.md": {
+    "mtime": 1779474873.6009023,
+    "ast_hash": "cdd148fb388ab9381a8574bc18072252",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-sidebar-proyectos/proposal.md": {
+    "mtime": 1779476016.7611415,
+    "ast_hash": "d36315191795b41262de782b6ca0d1df",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-sidebar-proyectos/specs/wizard-init-proyecto/spec.md": {
+    "mtime": 1779474907.3520691,
+    "ast_hash": "293b49d104d3a0203cbdc92af9d4a07a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-sidebar-proyectos/specs/deteccion-proyecto/spec.md": {
+    "mtime": 1779474907.3750415,
+    "ast_hash": "a55d75026e6b06a6353977d26ac84f28",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-23-sidebar-proyectos/specs/sidebar-proyectos/spec.md": {
+    "mtime": 1779474907.344993,
+    "ast_hash": "501a9ef3bb9d3c66f9cd4a08f8e85a4b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-sidebar-tarjetas-desvincular-y-footer/.openspec.yaml": {
+    "mtime": 1779580629.9928956,
+    "ast_hash": "85a5072b86855cc04e0eab8453b7ed25",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-sidebar-tarjetas-desvincular-y-footer/tasks.md": {
+    "mtime": 1779580834.029222,
+    "ast_hash": "5f9b2aa8f7ed75986dad0348d34264b3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-sidebar-tarjetas-desvincular-y-footer/design.md": {
+    "mtime": 1779580669.4597602,
+    "ast_hash": "4122312ced47410dae35dafedd7e13b5",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-sidebar-tarjetas-desvincular-y-footer/proposal.md": {
+    "mtime": 1779580669.4573886,
+    "ast_hash": "9c24e00e93b855228a467f5934e59331",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-24-sidebar-tarjetas-desvincular-y-footer/specs/sidebar-proyectos/spec.md": {
+    "mtime": 1779580669.461883,
+    "ast_hash": "941d8a73f605a3f5be1caf68c1f42ab0",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-tarjetas-activos-modal-edicion-y-copiado-tareas/.openspec.yaml": {
+    "mtime": 1779612405.0044308,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-tarjetas-activos-modal-edicion-y-copiado-tareas/tasks.md": {
+    "mtime": 1779612728.642705,
+    "ast_hash": "1be65921a1b4e0eedcff4537c337fc28",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-tarjetas-activos-modal-edicion-y-copiado-tareas/design.md": {
+    "mtime": 1779612487.5783436,
+    "ast_hash": "98ff407b053940571ea8631d72a1a017",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-tarjetas-activos-modal-edicion-y-copiado-tareas/proposal.md": {
+    "mtime": 1779612436.4744387,
+    "ast_hash": "a1f4bd43cdaab917047e85f27ebae025",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-tarjetas-activos-modal-edicion-y-copiado-tareas/specs/progreso-proyecto/spec.md": {
+    "mtime": 1779612487.5894969,
+    "ast_hash": "266c8dbc0e5c8d720a1eaf30be235304",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-tarjetas-activos-modal-edicion-y-copiado-tareas/specs/editor-markdown/spec.md": {
+    "mtime": 1779612487.587897,
+    "ast_hash": "18fa949dd56ec5ac41b1df7d5ec03af2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-tarjetas-activos-modal-edicion-y-copiado-tareas/specs/modal-activo-vista-edicion/spec.md": {
+    "mtime": 1779612487.5837157,
+    "ast_hash": "fde26cf6328c5b5775dc135b585010e7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-tarjetas-activos-modal-edicion-y-copiado-tareas/specs/dashboard-estado/spec.md": {
+    "mtime": 1779612487.5857372,
+    "ast_hash": "3ed41d2ef41beb38925a91706a8c76d2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-mostrar-schema-en-descripcion-proyecto/.openspec.yaml": {
+    "mtime": 1780137524.6736412,
+    "ast_hash": "6e9a0c5a97aa37e8dc19c2e630c4ef19",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-mostrar-schema-en-descripcion-proyecto/tasks.md": {
+    "mtime": 1780137524.6751397,
+    "ast_hash": "802441e2e3a544253b52810e3ef5f32d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-mostrar-schema-en-descripcion-proyecto/design.md": {
+    "mtime": 1780137524.673932,
+    "ast_hash": "17f404e177a493d84048317f60722a91",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-mostrar-schema-en-descripcion-proyecto/proposal.md": {
+    "mtime": 1780137524.6742449,
+    "ast_hash": "c804c09726cf64e3317c3dc29a188d80",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-mostrar-schema-en-descripcion-proyecto/specs/panel-descripcion-proyecto/spec.md": {
+    "mtime": 1780137524.674576,
+    "ast_hash": "c9e6d594fd33754e6ae8d57b9c1e7a17",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-mostrar-schema-en-descripcion-proyecto/specs/schema-en-descripcion-proyecto/spec.md": {
+    "mtime": 1780137524.674853,
+    "ast_hash": "d17312e99b665cc75b637989144fd6d9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-boton-consultar-archivados-icono-ojo/.openspec.yaml": {
+    "mtime": 1779611481.1583278,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-boton-consultar-archivados-icono-ojo/tasks.md": {
+    "mtime": 1779612810.0129511,
+    "ast_hash": "2d876fa3182ef235f2726b4a0e0d20f4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-boton-consultar-archivados-icono-ojo/design.md": {
+    "mtime": 1779611533.6180594,
+    "ast_hash": "e71a5859b1f673049301eebbf21e7ce2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-boton-consultar-archivados-icono-ojo/proposal.md": {
+    "mtime": 1779612759.6239092,
+    "ast_hash": "f351a182cd1888d43c7974fe88b58be8",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-boton-consultar-archivados-icono-ojo/specs/consulta-cambios-archivados/spec.md": {
+    "mtime": 1779611533.6289575,
+    "ast_hash": "6cbfdb7f4a16b8ba991c2e3fb58624f7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-boton-consultar-archivados-icono-ojo/specs/ui-controles-botones/spec.md": {
+    "mtime": 1779611533.6308136,
+    "ast_hash": "b8e6c4888ff9b4242688733d212aab77",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-boton-consultar-archivados-icono-ojo/specs/accion-consultar-archivado-icono/spec.md": {
+    "mtime": 1779611533.6268554,
+    "ast_hash": "ee6b162689bff586f83bead673518662",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-multiidioma-en-configuracion/.openspec.yaml": {
+    "mtime": 1780080372.1131954,
+    "ast_hash": "59cc35661f8e7cd9ef8ca0082302edb4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-multiidioma-en-configuracion/tasks.md": {
+    "mtime": 1780081131.5968099,
+    "ast_hash": "927f03943ff655fa46808774ee3e3073",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-multiidioma-en-configuracion/design.md": {
+    "mtime": 1780080418.6835003,
+    "ast_hash": "cdc93a8fbbad8cd2e1d5e968c20ad8d4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-multiidioma-en-configuracion/proposal.md": {
+    "mtime": 1780080391.3637998,
+    "ast_hash": "698fd8ba0f7999320696803ece3208f4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-multiidioma-en-configuracion/specs/internacionalizacion-ui/spec.md": {
+    "mtime": 1780080418.6905568,
+    "ast_hash": "731db639970b9c223ec08bc784c4fdc9",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-multiidioma-en-configuracion/specs/configuracion-densidad-y-color/spec.md": {
+    "mtime": 1780080418.72927,
+    "ast_hash": "aa9b280811eb47183117f47967a729a8",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-multiidioma-en-configuracion/specs/tema-aplicacion/spec.md": {
+    "mtime": 1780080418.7447512,
+    "ast_hash": "944962db744baa06d3842f7584c03d52",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-estado-general-con-barras/.openspec.yaml": {
+    "mtime": 1780076158.4130893,
+    "ast_hash": "59cc35661f8e7cd9ef8ca0082302edb4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-estado-general-con-barras/tasks.md": {
+    "mtime": 1780076978.9943068,
+    "ast_hash": "22b644958d25eb9c99b2bc329ff19e40",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-estado-general-con-barras/design.md": {
+    "mtime": 1780076203.789906,
+    "ast_hash": "36b8a4aebb42d6b032a2c49e4a42f7a5",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-estado-general-con-barras/proposal.md": {
+    "mtime": 1780076287.1138172,
+    "ast_hash": "45b81c931ad160c390a6db0b794ad94e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-estado-general-con-barras/specs/progreso-proyecto/spec.md": {
+    "mtime": 1780076228.7018514,
+    "ast_hash": "0f6182aff8e806310746cf948b421753",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-estado-general-con-barras/specs/panel-descripcion-proyecto/spec.md": {
+    "mtime": 1780076228.7145162,
+    "ast_hash": "214562ec36771bb10efdae8211c8298e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-estado-general-con-barras/specs/dashboard-estado/spec.md": {
+    "mtime": 1780076228.719742,
+    "ast_hash": "53f5a3ec78758c18e71e3d57f75e4802",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-panel-estado-general-con-barras/specs/estado-general-proyecto-barras/spec.md": {
+    "mtime": 1780076228.7019265,
+    "ast_hash": "0b55a8d2d07c9dddfc0353d23acf357f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-combo-schema-en-init-proyecto/.openspec.yaml": {
+    "mtime": 1780137524.677123,
+    "ast_hash": "6e9a0c5a97aa37e8dc19c2e630c4ef19",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-combo-schema-en-init-proyecto/tasks.md": {
+    "mtime": 1780137524.678712,
+    "ast_hash": "b60c189cf135299d727bda6850502557",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-combo-schema-en-init-proyecto/design.md": {
+    "mtime": 1780137524.677371,
+    "ast_hash": "d23a04237bc745dd9e6ae03278f0ea40",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-combo-schema-en-init-proyecto/proposal.md": {
+    "mtime": 1780137524.6776152,
+    "ast_hash": "98b7ffd12762c26cb2ce45770fcae431",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-combo-schema-en-init-proyecto/specs/selector-schema-init-proyecto/spec.md": {
+    "mtime": 1780137524.678005,
+    "ast_hash": "4145502dc1f98348c065cf920ca68326",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-30-combo-schema-en-init-proyecto/specs/wizard-init-proyecto/spec.md": {
+    "mtime": 1780137524.6782572,
+    "ast_hash": "8566b01061e69a2a583c37b3f7465f2c",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-why-en-tarjetas-de-cambios/.openspec.yaml": {
+    "mtime": 1779616807.5545778,
+    "ast_hash": "35afe55009af1d12262789f288f88498",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-why-en-tarjetas-de-cambios/tasks.md": {
+    "mtime": 1779617000.1885114,
+    "ast_hash": "ea98092a3ffc899db188d45fa7549d74",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-why-en-tarjetas-de-cambios/design.md": {
+    "mtime": 1779616852.4569192,
+    "ast_hash": "33bbfe16e397bb2a112c6804cacf58e1",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-why-en-tarjetas-de-cambios/proposal.md": {
+    "mtime": 1779616829.142625,
+    "ast_hash": "e3d506fbf1f4dbb45d1630feba82a386",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-why-en-tarjetas-de-cambios/specs/resumen-why-en-tarjetas-cambio/spec.md": {
+    "mtime": 1779616871.2838578,
+    "ast_hash": "358461f9dd5ea51991aba0b7161b6dd6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-why-en-tarjetas-de-cambios/specs/consulta-cambios-archivados/spec.md": {
+    "mtime": 1779616871.2884336,
+    "ast_hash": "cb38f925a107fe56bbc3ec4a04b15717",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/archive/2026-05-29-mostrar-why-en-tarjetas-de-cambios/specs/dashboard-estado/spec.md": {
+    "mtime": 1779616871.2865024,
+    "ast_hash": "01a9bb95b4e292dcbe699c19ddd7bfc6",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/app.html": {
+    "mtime": 1779474354.2649236,
+    "ast_hash": "91baf8024c006e814c54d85a56e4efdd",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/graphify-out/memory/query_20260531_084302_why_does_load_project___connect_community_3_to_com.md": {
+    "mtime": 1780216982.698792,
+    "ast_hash": "e24d42d797885442319407a5e24a8472",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/static/vite.svg": {
+    "mtime": 1779474354.265852,
+    "ast_hash": "8e3a10e157f75ada21ab742c022d5430",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/static/favicon.png": {
+    "mtime": 1779474354.266026,
+    "ast_hash": "3a387408ecc6cc283f724b39ca5fffb4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/static/svelte.svg": {
+    "mtime": 1779474354.2657657,
+    "ast_hash": "bf6f61806de2953fe8dfce3cf8040ec3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/static/tauri.svg": {
+    "mtime": 1779474354.2659414,
+    "ast_hash": "f49b888a6830a38f02ffeb65891186b1",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/static/brand/logo-horizontal-light.png": {
+    "mtime": 1780079179.5060709,
+    "ast_hash": "f15c79382c4b1703fe1b85007332d84a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/static/brand/logo-horizontal.png": {
+    "mtime": 1780078453.89369,
+    "ast_hash": "b7f7db9d661bf242ea35c882a33d3a85",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/static/brand/logo-symbol.png": {
+    "mtime": 1780079819.5183253,
+    "ast_hash": "1109a613cf2ff0d11a555188a005290e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/static/brand/logo-horizontal-dark.png": {
+    "mtime": 1780079440.6126976,
+    "ast_hash": "794c1efab4a62dffef09625d006f6d75",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/icon.png": {
+    "mtime": 1780082000.2386143,
+    "ast_hash": "bc6d5139bf9765ad01a34096f094c322",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/Square30x30Logo.png": {
+    "mtime": 1780081999.4750369,
+    "ast_hash": "eadf14d0dd8378da3574de17717fad45",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/Square150x150Logo.png": {
+    "mtime": 1780081999.5761056,
+    "ast_hash": "58758eee859af49ab98162d6be7d34fa",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/StoreLogo.png": {
+    "mtime": 1780081999.4621148,
+    "ast_hash": "56d0852ab79984350df58e90767f300b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/Square107x107Logo.png": {
+    "mtime": 1780081999.5375602,
+    "ast_hash": "7f6e62275717d05e34f3655e67af6fcc",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/Square89x89Logo.png": {
+    "mtime": 1780081999.5197425,
+    "ast_hash": "fd002fd9ebe922bae3f162914c5f1782",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/Square310x310Logo.png": {
+    "mtime": 1780081999.6345885,
+    "ast_hash": "65841ddec64c86d5d8ef922feff8f8b7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/Square142x142Logo.png": {
+    "mtime": 1780081999.556455,
+    "ast_hash": "82890aea850f5bfb424b0885a8dc1387",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/128x128.png": {
+    "mtime": 1780082000.1549897,
+    "ast_hash": "bbf70fdf7ff73040468c122415327ec2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/Square284x284Logo.png": {
+    "mtime": 1780081999.6041603,
+    "ast_hash": "4665389894c3f5170ad30f40f78c163a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/32x32.png": {
+    "mtime": 1780082000.1225803,
+    "ast_hash": "4ebe7c9e196594f7863ecbd3b462c56d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/Square44x44Logo.png": {
+    "mtime": 1780081999.4887078,
+    "ast_hash": "97cbd0b40c5dbd49978b1a55a1d20d3e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/Square71x71Logo.png": {
+    "mtime": 1780081999.5035813,
+    "ast_hash": "4f7ab7cbdc0daf2139059b1e4f070b39",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/128x128@2x.png": {
+    "mtime": 1780082000.179675,
+    "ast_hash": "56d3dbc62098e7b95d42f5b2843534df",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/64x64.png": {
+    "mtime": 1780082000.1370077,
+    "ast_hash": "84059ac30a08e8b01d6c1d1510a578ff",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/icon.prev.png": {
+    "mtime": 1780078486.2017274,
+    "ast_hash": "56943b74143464eb22ca7a9300566ec8",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-20x20@3x.png": {
+    "mtime": 1780082000.2965305,
+    "ast_hash": "78c2d4fb9c2101134a360e06d2d88c2c",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-512@2x.png": {
+    "mtime": 1780082000.643279,
+    "ast_hash": "a92df477891f285cc9b6fd33464bb966",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png": {
+    "mtime": 1780082000.508821,
+    "ast_hash": "5013b09a1040b6e191ee4fc3a212969b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-20x20@2x.png": {
+    "mtime": 1780082000.2816164,
+    "ast_hash": "d726b239bd103147551f5586929250b4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-29x29@3x.png": {
+    "mtime": 1780082000.3546891,
+    "ast_hash": "cb901a920059caf066351da90fcd4df2",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-40x40@2x.png": {
+    "mtime": 1780082000.399326,
+    "ast_hash": "2dc2db6de4c772e5efd52e1360c1318e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-60x60@3x.png": {
+    "mtime": 1780082000.454747,
+    "ast_hash": "b599197b474b0d8f80a6d8bced6c306a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-40x40@2x-1.png": {
+    "mtime": 1780082000.3701525,
+    "ast_hash": "2dc2db6de4c772e5efd52e1360c1318e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-20x20@2x-1.png": {
+    "mtime": 1780082000.2541869,
+    "ast_hash": "d726b239bd103147551f5586929250b4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-60x60@2x.png": {
+    "mtime": 1780082000.433859,
+    "ast_hash": "3cf759046c7d5e4d58c42318f0bd7bb7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-76x76@1x.png": {
+    "mtime": 1780082000.4699013,
+    "ast_hash": "b562f6bbad55464f6d559f012edeae51",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-40x40@3x.png": {
+    "mtime": 1780082000.4163258,
+    "ast_hash": "3cf759046c7d5e4d58c42318f0bd7bb7",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-29x29@2x.png": {
+    "mtime": 1780082000.3391309,
+    "ast_hash": "052a85a3bb144b248b4ba999b44ba661",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-76x76@2x.png": {
+    "mtime": 1780082000.488942,
+    "ast_hash": "d24bee93c49cff5047218c879386c42e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-29x29@1x.png": {
+    "mtime": 1780082000.3243291,
+    "ast_hash": "445d9948138cc0efde82070240ae7d92",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-40x40@1x.png": {
+    "mtime": 1780082000.3839731,
+    "ast_hash": "d726b239bd103147551f5586929250b4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-20x20@1x.png": {
+    "mtime": 1780082000.2677634,
+    "ast_hash": "018b4712eabdee358b5235a89feec897",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/ios/AppIcon-29x29@2x-1.png": {
+    "mtime": 1780082000.311203,
+    "ast_hash": "052a85a3bb144b248b4ba999b44ba661",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png": {
+    "mtime": 1780082000.6795785,
+    "ast_hash": "bda17a94e1c21afb7478d56af7f888bf",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-mdpi/ic_launcher.png": {
+    "mtime": 1780082000.8856761,
+    "ast_hash": "a887725cbb6f3061496ff13ccb8a9de5",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png": {
+    "mtime": 1780082000.8704011,
+    "ast_hash": "f0e27c70ffce8aa2cad39571be0114ff",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png": {
+    "mtime": 1780082000.6628654,
+    "ast_hash": "442d4865b2e60803cab16805b59abd86",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-hdpi/ic_launcher.png": {
+    "mtime": 1780082000.8551836,
+    "ast_hash": "bb1ac03f4cbba28bc815801da766ef35",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png": {
+    "mtime": 1780082000.8397565,
+    "ast_hash": "daff560cd9ac1e0d49514bcbe4af075d",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png": {
+    "mtime": 1780082000.824455,
+    "ast_hash": "97585e3fbc380ca516133a3ee373815b",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png": {
+    "mtime": 1780082001.000697,
+    "ast_hash": "e3e5a2b034f95dc9719e952df86decbe",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png": {
+    "mtime": 1780082000.9790528,
+    "ast_hash": "a3961078b4d31cde94694291282a87fb",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png": {
+    "mtime": 1780082000.7360654,
+    "ast_hash": "0bac21439894d96cefad16f61b2b6299",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png": {
+    "mtime": 1780082000.9572167,
+    "ast_hash": "1d9ec172518818de9f4c44d28bb7d4c4",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png": {
+    "mtime": 1780082000.9379861,
+    "ast_hash": "287c8cd47c1ac1149a8f429c99d5e4cf",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png": {
+    "mtime": 1780082000.7024124,
+    "ast_hash": "9fc7f5639828a2250d97bda88f708416",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png": {
+    "mtime": 1780082000.9191544,
+    "ast_hash": "0318844b90ec51aee550ebda644c9005",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png": {
+    "mtime": 1780082000.902295,
+    "ast_hash": "5ada2f09d1485582e0266f5369b8c49a",
+    "semantic_hash": ""
+  }
+}

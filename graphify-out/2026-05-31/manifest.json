@@ -1,0 +1,202 @@
+{
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/svelte.config.js": {
+    "mtime": 1779474354.2654068,
+    "ast_hash": "fae3b4234d5404c4d196bf6cf09d951a",
+    "semantic_hash": "fae3b4234d5404c4d196bf6cf09d951a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/vite.config.js": {
+    "mtime": 1779475359.7857225,
+    "ast_hash": "236a6e200f0ace8bbbb533c3d158b60f",
+    "semantic_hash": "236a6e200f0ace8bbbb533c3d158b60f"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/package.json": {
+    "mtime": 1780137524.4370985,
+    "ast_hash": "5b71ad66406fc1667d56526933a88d1a",
+    "semantic_hash": "5b71ad66406fc1667d56526933a88d1a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/tsconfig.json": {
+    "mtime": 1779474354.2655184,
+    "ast_hash": "415e23230fd503b970a67a0ebcc0cfee",
+    "semantic_hash": "415e23230fd503b970a67a0ebcc0cfee"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/package.json": {
+    "mtime": 1779530248.9591913,
+    "ast_hash": "bc4105f797304ae00bc7e12f4f85bd1a",
+    "semantic_hash": "bc4105f797304ae00bc7e12f4f85bd1a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/tauri.conf.json": {
+    "mtime": 1780082164.0026646,
+    "ast_hash": "bde8d69daf0d360f88d086687e92d21a",
+    "semantic_hash": "bde8d69daf0d360f88d086687e92d21a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/build.rs": {
+    "mtime": 1779474354.2607908,
+    "ast_hash": "1be34a5c61c2c35365de3dab14298f0b",
+    "semantic_hash": "1be34a5c61c2c35365de3dab14298f0b"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/capabilities/default.json": {
+    "mtime": 1779474354.260896,
+    "ast_hash": "d2b1ea61ac2075eb0d44587bf81ee127",
+    "semantic_hash": "d2b1ea61ac2075eb0d44587bf81ee127"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/gen/schemas/capabilities.json": {
+    "mtime": 1779475272.535683,
+    "ast_hash": "b4b4509fac6d93c938aeea37674d7c0e",
+    "semantic_hash": "b4b4509fac6d93c938aeea37674d7c0e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/gen/schemas/acl-manifests.json": {
+    "mtime": 1779476417.573617,
+    "ast_hash": "5dc1febef9c810ffc2e2ed05ab3e6ca4",
+    "semantic_hash": "5dc1febef9c810ffc2e2ed05ab3e6ca4"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/gen/schemas/macOS-schema.json": {
+    "mtime": 1779476417.577449,
+    "ast_hash": "178d41a2338178040f1e32a71157035e",
+    "semantic_hash": "178d41a2338178040f1e32a71157035e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/gen/schemas/desktop-schema.json": {
+    "mtime": 1779476417.577449,
+    "ast_hash": "178d41a2338178040f1e32a71157035e",
+    "semantic_hash": "178d41a2338178040f1e32a71157035e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/lib.rs": {
+    "mtime": 1780137524.6829288,
+    "ast_hash": "6c8b69536e40440f94875ae762d126d0",
+    "semantic_hash": "6c8b69536e40440f94875ae762d126d0"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/main.rs": {
+    "mtime": 1780082196.4563813,
+    "ast_hash": "53548d75ee9066628636d65d95853cea",
+    "semantic_hash": "53548d75ee9066628636d65d95853cea"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/commands/mod.rs": {
+    "mtime": 1779475182.2091281,
+    "ast_hash": "8c21442e282f90afff3797db09d28ef8",
+    "semantic_hash": "8c21442e282f90afff3797db09d28ef8"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/commands/project.rs": {
+    "mtime": 1780137524.6822944,
+    "ast_hash": "28a966217f61acfbe07f47cd574d5f97",
+    "semantic_hash": "28a966217f61acfbe07f47cd574d5f97"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/scanner.rs": {
+    "mtime": 1779475182.202169,
+    "ast_hash": "c8284b7f0ef72cd7f6e173f1f5fc431c",
+    "semantic_hash": "c8284b7f0ef72cd7f6e173f1f5fc431c"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/mod.rs": {
+    "mtime": 1779475182.198203,
+    "ast_hash": "d747cdfff06b0bce8903e13b800de9b9",
+    "semantic_hash": "d747cdfff06b0bce8903e13b800de9b9"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/loader.rs": {
+    "mtime": 1780137524.6831906,
+    "ast_hash": "16a8c5393a2fa9d431cd6fb0e4ef5df9",
+    "semantic_hash": "16a8c5393a2fa9d431cd6fb0e4ef5df9"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/parser.rs": {
+    "mtime": 1779475182.2044606,
+    "ast_hash": "f226fcef43f58ec0ac82807cc6d58c32",
+    "semantic_hash": "f226fcef43f58ec0ac82807cc6d58c32"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/model.rs": {
+    "mtime": 1780137524.6834667,
+    "ast_hash": "6e2f3399913b4f494435ba1182a8c815",
+    "semantic_hash": "6e2f3399913b4f494435ba1182a8c815"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.vscode/settings.json": {
+    "mtime": 1779474354.2645104,
+    "ast_hash": "01cd72541f9011df8d2361cbb382a230",
+    "semantic_hash": "01cd72541f9011df8d2361cbb382a230"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.vscode/extensions.json": {
+    "mtime": 1779474354.2644536,
+    "ast_hash": "66bc4d2caa831e7f64813c7fb1715f8a",
+    "semantic_hash": "66bc4d2caa831e7f64813c7fb1715f8a"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/ui-prefs.ts": {
+    "mtime": 1780080615.5659893,
+    "ast_hash": "8fc148ad26d681d9fb8c428c1cf6904d",
+    "semantic_hash": "8fc148ad26d681d9fb8c428c1cf6904d"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/i18n.ts": {
+    "mtime": 1780137524.6853397,
+    "ast_hash": "86e6c12a31b717826f5ebaad472ceba7",
+    "semantic_hash": "86e6c12a31b717826f5ebaad472ceba7"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/types.ts": {
+    "mtime": 1780137524.685773,
+    "ast_hash": "f2613866fc801a9e92bcdcef9bfe3c75",
+    "semantic_hash": "f2613866fc801a9e92bcdcef9bfe3c75"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ChangeDetail.svelte": {
+    "mtime": 1780081401.6770227,
+    "ast_hash": "29c9656c545dda75657de22cd6103296",
+    "semantic_hash": "29c9656c545dda75657de22cd6103296"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/EditorMarkdown.svelte": {
+    "mtime": 1780081390.6486702,
+    "ast_hash": "b3140b7497917fe28f0852117f74d134",
+    "semantic_hash": "b3140b7497917fe28f0852117f74d134"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ProposalModal.svelte": {
+    "mtime": 1779531756.5907981,
+    "ast_hash": "7bbe5c28270ae7bf9896bfc8d1834b65",
+    "semantic_hash": "7bbe5c28270ae7bf9896bfc8d1834b65"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ArchivedChangeModal.svelte": {
+    "mtime": 1780081080.3800256,
+    "ast_hash": "566049663502255cafba509c6c70d989",
+    "semantic_hash": "566049663502255cafba509c6c70d989"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ProjectDescriptionPanel.svelte": {
+    "mtime": 1780137524.6843388,
+    "ast_hash": "03bbe835fe2d1408c6dfc761c418764f",
+    "semantic_hash": "03bbe835fe2d1408c6dfc761c418764f"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/CircularProgress.svelte": {
+    "mtime": 1779527409.6230114,
+    "ast_hash": "ed395836690e0e10cd8e2125d675f75e",
+    "semantic_hash": "ed395836690e0e10cd8e2125d675f75e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ProgressBar.svelte": {
+    "mtime": 1779527409.620778,
+    "ast_hash": "baa4f9a5db9f2265e01bf238c09fbfaa",
+    "semantic_hash": "baa4f9a5db9f2265e01bf238c09fbfaa"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/SettingsModal.svelte": {
+    "mtime": 1780080740.051746,
+    "ast_hash": "a4bc6fb97997afa6e9faa5cd8d7ac6c1",
+    "semantic_hash": "a4bc6fb97997afa6e9faa5cd8d7ac6c1"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/ActiveChangeModal.svelte": {
+    "mtime": 1780081068.4854107,
+    "ast_hash": "9eef848e7dd35147de2de43e77eda76c",
+    "semantic_hash": "9eef848e7dd35147de2de43e77eda76c"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/Sidebar.svelte": {
+    "mtime": 1780080647.9165742,
+    "ast_hash": "f519282dd3c6057faaad8ebf52b5950e",
+    "semantic_hash": "f519282dd3c6057faaad8ebf52b5950e"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/WizardInit.svelte": {
+    "mtime": 1780137524.6847143,
+    "ast_hash": "ae43632340fa4d4a39ba16c19ced9664",
+    "semantic_hash": "ae43632340fa4d4a39ba16c19ced9664"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/lib/components/Dashboard.svelte": {
+    "mtime": 1780137524.6838908,
+    "ast_hash": "d509c614d2b9cca44df9711bd936c362",
+    "semantic_hash": "d509c614d2b9cca44df9711bd936c362"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/routes/+layout.ts": {
+    "mtime": 1779474354.2651293,
+    "ast_hash": "6fcc01a9e86b5ac2814ef7b2e6831657",
+    "semantic_hash": "6fcc01a9e86b5ac2814ef7b2e6831657"
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/routes/+page.svelte": {
+    "mtime": 1780081410.6393032,
+    "ast_hash": "d5272ff64475e265e6c06b5f5a80122e",
+    "semantic_hash": "d5272ff64475e265e6c06b5f5a80122e"
+  }
+}
