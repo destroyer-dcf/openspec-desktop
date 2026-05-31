@@ -171,6 +171,27 @@ OpenSpec Desktop es un front visual para [Fission-AI/OpenSpec](https://github.co
 
 La aplicación no pretende reemplazar los comandos `/opsx:*` ni el CLI. Su papel es facilitar la visualización, edición y seguimiento del estado de los proyectos.
 
+### Documentación y Graphify
+
+La documentación navegable del proyecto también puede construirse con Graphify, que genera un grafo de conocimiento a partir del código y documentos del repositorio.
+
+- Repositorio oficial: [safishamsi/graphify](https://github.com/safishamsi/graphify)
+- Salida principal en este proyecto: `graphify-out/`
+- Archivos clave generados:
+- `graphify-out/graph.json`: grafo estructurado (nodos y relaciones).
+- `graphify-out/graph.html`: visualización interactiva del grafo.
+- `graphify-out/GRAPH_REPORT.md`: reporte de comunidades, nodos relevantes y conexiones.
+- `graphify-out/manifest.json`: estado para actualizaciones incrementales.
+- `graphify-out/cache/`: cachés de extracción para acelerar reconstrucciones.
+
+Flujo recomendado en este repositorio:
+
+```bash
+graphify update .
+```
+
+Con eso se reextrae el grafo del estado actual del proyecto y se actualiza la documentación conectada basada en grafo.
+
 ### Licencia
 
 MIT.
@@ -330,6 +351,27 @@ OpenSpec Desktop is a visual front for [Fission-AI/OpenSpec](https://github.com/
 The app is not intended to replace `/opsx:*` commands or the OpenSpec CLI. Its role is to make project visualization, editing, and progress tracking easier.
 
 Core contract: this desktop app is always built on top of `openspec` CLI behavior and the AI-assisted artifacts generated in the OpenSpec workflow. From that baseline, the desktop UI helps you review, edit, organize, and track those artifacts locally.
+
+### Documentation and Graphify
+
+Project documentation can also be generated as a knowledge graph using Graphify, built from this repository's code and docs.
+
+- Official repository: [safishamsi/graphify](https://github.com/safishamsi/graphify)
+- Main output folder in this project: `graphify-out/`
+- Key generated files:
+- `graphify-out/graph.json`: structured graph data (nodes and relations).
+- `graphify-out/graph.html`: interactive graph visualization.
+- `graphify-out/GRAPH_REPORT.md`: report with communities, key nodes, and connections.
+- `graphify-out/manifest.json`: incremental update state.
+- `graphify-out/cache/`: extraction caches for faster rebuilds.
+
+Recommended flow in this repository:
+
+```bash
+graphify update .
+```
+
+This refreshes the graph from current project state and updates graph-based connected documentation artifacts.
 
 ### License
 
