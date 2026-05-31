@@ -2487,13 +2487,14 @@ dependencies = [
 
 [[package]]
 name = "openspec-desktop"
-version = "0.1.0"
+version = "0.2.1"
 dependencies = [
  "arboard",
  "notify",
  "objc2",
  "objc2-app-kit",
  "objc2-foundation",
+ "semver",
  "serde",
  "serde_json",
  "serde_yaml",

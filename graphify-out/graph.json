@@ -844,6 +844,24 @@
       "norm_label": "permissions"
     },
     {
+      "label": "cli_compatibility.json",
+      "file_type": "code",
+      "source_file": "src-tauri/config/cli_compatibility.json",
+      "source_location": "L1",
+      "id": "src_tauri_config_cli_compatibility_json",
+      "community": 424,
+      "norm_label": "cli_compatibility.json"
+    },
+    {
+      "label": "supported_ranges",
+      "file_type": "code",
+      "source_file": "src-tauri/config/cli_compatibility.json",
+      "source_location": "L2",
+      "id": "config_cli_compatibility_supported_ranges",
+      "community": 424,
+      "norm_label": "supported_ranges"
+    },
+    {
       "label": "capabilities.json",
       "file_type": "code",
       "source_file": "src-tauri/gen/schemas/capabilities.json",
@@ -1056,7 +1074,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_commands_allow",
-      "community": 0,
+      "community": 44,
       "norm_label": "allow"
     },
     {
@@ -1065,7 +1083,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_commands_deny",
-      "community": 44,
+      "community": 0,
       "norm_label": "deny"
     },
     {
@@ -1110,7 +1128,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_bundle_type",
-      "community": 317,
+      "community": 423,
       "norm_label": "allow-bundle-type"
     },
     {
@@ -1119,7 +1137,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_bundle_type_identifier",
-      "community": 317,
+      "community": 423,
       "norm_label": "identifier"
     },
     {
@@ -1128,7 +1146,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_bundle_type_description",
-      "community": 317,
+      "community": 423,
       "norm_label": "description"
     },
     {
@@ -1137,7 +1155,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_bundle_type_commands",
-      "community": 317,
+      "community": 423,
       "norm_label": "commands"
     },
     {
@@ -1290,7 +1308,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_register_listener",
-      "community": 13,
+      "community": 330,
       "norm_label": "allow-register-listener"
     },
     {
@@ -1299,7 +1317,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_register_listener_identifier",
-      "community": 13,
+      "community": 330,
       "norm_label": "identifier"
     },
     {
@@ -1308,7 +1326,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_register_listener_description",
-      "community": 13,
+      "community": 330,
       "norm_label": "description"
     },
     {
@@ -1317,7 +1335,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_register_listener_commands",
-      "community": 13,
+      "community": 330,
       "norm_label": "commands"
     },
     {
@@ -1362,7 +1380,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_remove_listener",
-      "community": 53,
+      "community": 43,
       "norm_label": "allow-remove-listener"
     },
     {
@@ -1371,7 +1389,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_remove_listener_identifier",
-      "community": 53,
+      "community": 43,
       "norm_label": "identifier"
     },
     {
@@ -1380,7 +1398,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_remove_listener_description",
-      "community": 53,
+      "community": 43,
       "norm_label": "description"
     },
     {
@@ -1389,7 +1407,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_remove_listener_commands",
-      "community": 53,
+      "community": 43,
       "norm_label": "commands"
     },
     {
@@ -1506,7 +1524,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_tauri_version",
-      "community": 46,
+      "community": 421,
       "norm_label": "allow-tauri-version"
     },
     {
@@ -1515,7 +1533,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_tauri_version_identifier",
-      "community": 46,
+      "community": 421,
       "norm_label": "identifier"
     },
     {
@@ -1524,7 +1542,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_tauri_version_description",
-      "community": 46,
+      "community": 421,
       "norm_label": "description"
     },
     {
@@ -1533,7 +1551,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_tauri_version_commands",
-      "community": 46,
+      "community": 421,
       "norm_label": "commands"
     },
     {
@@ -1542,7 +1560,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_version",
-      "community": 46,
+      "community": 421,
       "norm_label": "allow-version"
     },
     {
@@ -1551,7 +1569,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_version_identifier",
-      "community": 46,
+      "community": 421,
       "norm_label": "identifier"
     },
     {
@@ -1560,7 +1578,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_version_description",
-      "community": 46,
+      "community": 421,
       "norm_label": "description"
     },
     {
@@ -1569,7 +1587,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_version_commands",
-      "community": 46,
+      "community": 421,
       "norm_label": "commands"
     },
     {
@@ -1686,7 +1704,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_default_window_icon",
-      "community": 46,
+      "community": 330,
       "norm_label": "deny-default-window-icon"
     },
     {
@@ -1695,7 +1713,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_default_window_icon_identifier",
-      "community": 46,
+      "community": 330,
       "norm_label": "identifier"
     },
     {
@@ -1704,7 +1722,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_default_window_icon_description",
-      "community": 46,
+      "community": 330,
       "norm_label": "description"
     },
     {
@@ -1713,7 +1731,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_default_window_icon_commands",
-      "community": 46,
+      "community": 330,
       "norm_label": "commands"
     },
     {
@@ -1758,7 +1776,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_identifier",
-      "community": 338,
+      "community": 46,
       "norm_label": "deny-identifier"
     },
     {
@@ -1767,7 +1785,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_identifier_identifier",
-      "community": 338,
+      "community": 46,
       "norm_label": "identifier"
     },
     {
@@ -1776,7 +1794,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_identifier_description",
-      "community": 338,
+      "community": 46,
       "norm_label": "description"
     },
     {
@@ -1785,7 +1803,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_identifier_commands",
-      "community": 338,
+      "community": 46,
       "norm_label": "commands"
     },
     {
@@ -1794,7 +1812,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_name",
-      "community": 53,
+      "community": 43,
       "norm_label": "deny-name"
     },
     {
@@ -1803,7 +1821,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_name_identifier",
-      "community": 53,
+      "community": 43,
       "norm_label": "identifier"
     },
     {
@@ -1812,7 +1830,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_name_description",
-      "community": 53,
+      "community": 43,
       "norm_label": "description"
     },
     {
@@ -1821,7 +1839,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_name_commands",
-      "community": 53,
+      "community": 43,
       "norm_label": "commands"
     },
     {
@@ -1866,7 +1884,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_remove_data_store",
-      "community": 43,
+      "community": 330,
       "norm_label": "deny-remove-data-store"
     },
     {
@@ -1875,7 +1893,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_remove_data_store_identifier",
-      "community": 43,
+      "community": 330,
       "norm_label": "identifier"
     },
     {
@@ -1884,7 +1902,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_remove_data_store_description",
-      "community": 43,
+      "community": 330,
       "norm_label": "description"
     },
     {
@@ -1893,7 +1911,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_remove_data_store_commands",
-      "community": 43,
+      "community": 330,
       "norm_label": "commands"
     },
     {
@@ -1974,7 +1992,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_set_dock_visibility",
-      "community": 43,
+      "community": 46,
       "norm_label": "deny-set-dock-visibility"
     },
     {
@@ -1983,7 +2001,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_set_dock_visibility_identifier",
-      "community": 43,
+      "community": 46,
       "norm_label": "identifier"
     },
     {
@@ -1992,7 +2010,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_set_dock_visibility_description",
-      "community": 43,
+      "community": 46,
       "norm_label": "description"
     },
     {
@@ -2001,7 +2019,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_set_dock_visibility_commands",
-      "community": 43,
+      "community": 46,
       "norm_label": "commands"
     },
     {
@@ -2406,7 +2424,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_listen_commands",
-      "community": 44,
+      "community": 0,
       "norm_label": "commands"
     },
     {
@@ -2604,7 +2622,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_rgba",
-      "community": 53,
+      "community": 12,
       "norm_label": "allow-rgba"
     },
     {
@@ -2613,7 +2631,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_rgba_identifier",
-      "community": 53,
+      "community": 12,
       "norm_label": "identifier"
     },
     {
@@ -2622,7 +2640,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_rgba_description",
-      "community": 53,
+      "community": 12,
       "norm_label": "description"
     },
     {
@@ -2631,7 +2649,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_rgba_commands",
-      "community": 0,
+      "community": 12,
       "norm_label": "commands"
     },
     {
@@ -2775,7 +2793,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_new_commands",
-      "community": 53,
+      "community": 330,
       "norm_label": "commands"
     },
     {
@@ -2901,7 +2919,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_append",
-      "community": 46,
+      "community": 340,
       "norm_label": "allow-append"
     },
     {
@@ -2910,7 +2928,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_append_identifier",
-      "community": 46,
+      "community": 340,
       "norm_label": "identifier"
     },
     {
@@ -2919,7 +2937,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_append_description",
-      "community": 46,
+      "community": 340,
       "norm_label": "description"
     },
     {
@@ -2928,7 +2946,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_append_commands",
-      "community": 46,
+      "community": 340,
       "norm_label": "commands"
     },
     {
@@ -2937,7 +2955,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_create_default",
-      "community": 0,
+      "community": 330,
       "norm_label": "allow-create-default"
     },
     {
@@ -2946,7 +2964,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_create_default_identifier",
-      "community": 0,
+      "community": 330,
       "norm_label": "identifier"
     },
     {
@@ -2955,7 +2973,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_create_default_description",
-      "community": 0,
+      "community": 330,
       "norm_label": "description"
     },
     {
@@ -2973,7 +2991,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_get",
-      "community": 320,
+      "community": 0,
       "norm_label": "allow-get"
     },
     {
@@ -2982,7 +3000,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_get_identifier",
-      "community": 320,
+      "community": 0,
       "norm_label": "identifier"
     },
     {
@@ -2991,7 +3009,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_get_description",
-      "community": 320,
+      "community": 0,
       "norm_label": "description"
     },
     {
@@ -3000,7 +3018,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_get_commands",
-      "community": 320,
+      "community": 0,
       "norm_label": "commands"
     },
     {
@@ -3081,7 +3099,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_is_enabled",
-      "community": 13,
+      "community": 46,
       "norm_label": "allow-is-enabled"
     },
     {
@@ -3090,7 +3108,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_is_enabled_identifier",
-      "community": 13,
+      "community": 46,
       "norm_label": "identifier"
     },
     {
@@ -3099,7 +3117,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_is_enabled_description",
-      "community": 13,
+      "community": 46,
       "norm_label": "description"
     },
     {
@@ -3108,7 +3126,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_is_enabled_commands",
-      "community": 13,
+      "community": 46,
       "norm_label": "commands"
     },
     {
@@ -3153,7 +3171,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_popup",
-      "community": 0,
+      "community": 46,
       "norm_label": "allow-popup"
     },
     {
@@ -3162,7 +3180,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_popup_identifier",
-      "community": 0,
+      "community": 46,
       "norm_label": "identifier"
     },
     {
@@ -3171,7 +3189,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_popup_description",
-      "community": 0,
+      "community": 46,
       "norm_label": "description"
     },
     {
@@ -3180,7 +3198,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_popup_commands",
-      "community": 0,
+      "community": 46,
       "norm_label": "commands"
     },
     {
@@ -3225,7 +3243,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_remove",
-      "community": 53,
+      "community": 0,
       "norm_label": "allow-remove"
     },
     {
@@ -3234,7 +3252,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_remove_identifier",
-      "community": 53,
+      "community": 0,
       "norm_label": "identifier"
     },
     {
@@ -3243,7 +3261,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_remove_description",
-      "community": 53,
+      "community": 0,
       "norm_label": "description"
     },
     {
@@ -3252,7 +3270,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_remove_commands",
-      "community": 53,
+      "community": 0,
       "norm_label": "commands"
     },
     {
@@ -3405,7 +3423,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_set_as_window_menu",
-      "community": 329,
+      "community": 53,
       "norm_label": "allow-set-as-window-menu"
     },
     {
@@ -3414,7 +3432,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_as_window_menu_identifier",
-      "community": 329,
+      "community": 53,
       "norm_label": "identifier"
     },
     {
@@ -3423,7 +3441,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_as_window_menu_description",
-      "community": 329,
+      "community": 53,
       "norm_label": "description"
     },
     {
@@ -3432,7 +3450,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_as_window_menu_commands",
-      "community": 329,
+      "community": 53,
       "norm_label": "commands"
     },
     {
@@ -3441,7 +3459,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_set_as_windows_menu_for_nsapp",
-      "community": 330,
+      "community": 0,
       "norm_label": "allow-set-as-windows-menu-for-nsapp"
     },
     {
@@ -3450,7 +3468,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_as_windows_menu_for_nsapp_identifier",
-      "community": 330,
+      "community": 0,
       "norm_label": "identifier"
     },
     {
@@ -3459,7 +3477,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_as_windows_menu_for_nsapp_description",
-      "community": 330,
+      "community": 0,
       "norm_label": "description"
     },
     {
@@ -3468,7 +3486,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_as_windows_menu_for_nsapp_commands",
-      "community": 330,
+      "community": 0,
       "norm_label": "commands"
     },
     {
@@ -3477,7 +3495,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_set_checked",
-      "community": 46,
+      "community": 427,
       "norm_label": "allow-set-checked"
     },
     {
@@ -3486,7 +3504,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_checked_identifier",
-      "community": 46,
+      "community": 427,
       "norm_label": "identifier"
     },
     {
@@ -3495,7 +3513,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_checked_description",
-      "community": 46,
+      "community": 427,
       "norm_label": "description"
     },
     {
@@ -3504,7 +3522,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_checked_commands",
-      "community": 46,
+      "community": 427,
       "norm_label": "commands"
     },
     {
@@ -3540,7 +3558,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_enabled_commands",
-      "community": 0,
+      "community": 44,
       "norm_label": "commands"
     },
     {
@@ -3549,7 +3567,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_allow_set_icon",
-      "community": 0,
+      "community": 428,
       "norm_label": "allow-set-icon"
     },
     {
@@ -3558,7 +3576,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_icon_identifier",
-      "community": 0,
+      "community": 428,
       "norm_label": "identifier"
     },
     {
@@ -3567,7 +3585,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_icon_description",
-      "community": 0,
+      "community": 428,
       "norm_label": "description"
     },
     {
@@ -3576,7 +3594,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_allow_set_icon_commands",
-      "community": 0,
+      "community": 428,
       "norm_label": "commands"
     },
     {
@@ -3657,7 +3675,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_append",
-      "community": 334,
+      "community": 429,
       "norm_label": "deny-append"
     },
     {
@@ -3666,7 +3684,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_append_identifier",
-      "community": 334,
+      "community": 429,
       "norm_label": "identifier"
     },
     {
@@ -3675,7 +3693,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_append_description",
-      "community": 334,
+      "community": 429,
       "norm_label": "description"
     },
     {
@@ -3684,7 +3702,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_append_commands",
-      "community": 334,
+      "community": 429,
       "norm_label": "commands"
     },
     {
@@ -3693,7 +3711,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_create_default",
-      "community": 0,
+      "community": 422,
       "norm_label": "deny-create-default"
     },
     {
@@ -3702,7 +3720,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_create_default_identifier",
-      "community": 0,
+      "community": 422,
       "norm_label": "identifier"
     },
     {
@@ -3711,7 +3729,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_create_default_description",
-      "community": 0,
+      "community": 422,
       "norm_label": "description"
     },
     {
@@ -3720,7 +3738,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_create_default_commands",
-      "community": 0,
+      "community": 422,
       "norm_label": "commands"
     },
     {
@@ -3729,7 +3747,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_get",
-      "community": 337,
+      "community": 0,
       "norm_label": "deny-get"
     },
     {
@@ -3738,7 +3756,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_get_identifier",
-      "community": 337,
+      "community": 0,
       "norm_label": "identifier"
     },
     {
@@ -3747,7 +3765,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_get_description",
-      "community": 337,
+      "community": 0,
       "norm_label": "description"
     },
     {
@@ -3756,7 +3774,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_get_commands",
-      "community": 337,
+      "community": 0,
       "norm_label": "commands"
     },
     {
@@ -3765,7 +3783,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_insert",
-      "community": 0,
+      "community": 330,
       "norm_label": "deny-insert"
     },
     {
@@ -3774,7 +3792,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_insert_identifier",
-      "community": 0,
+      "community": 330,
       "norm_label": "identifier"
     },
     {
@@ -3783,7 +3801,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_insert_description",
-      "community": 0,
+      "community": 330,
       "norm_label": "description"
     },
     {
@@ -3792,7 +3810,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_insert_commands",
-      "community": 0,
+      "community": 330,
       "norm_label": "commands"
     },
     {
@@ -3837,7 +3855,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_is_enabled",
-      "community": 53,
+      "community": 0,
       "norm_label": "deny-is-enabled"
     },
     {
@@ -3846,7 +3864,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_is_enabled_identifier",
-      "community": 53,
+      "community": 0,
       "norm_label": "identifier"
     },
     {
@@ -3855,7 +3873,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_is_enabled_description",
-      "community": 53,
+      "community": 0,
       "norm_label": "description"
     },
     {
@@ -3864,7 +3882,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_is_enabled_commands",
-      "community": 53,
+      "community": 0,
       "norm_label": "commands"
     },
     {
@@ -3873,7 +3891,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_permissions_deny_items",
-      "community": 336,
+      "community": 46,
       "norm_label": "deny-items"
     },
     {
@@ -3882,7 +3900,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_items_identifier",
-      "community": 336,
+      "community": 46,
       "norm_label": "identifier"
     },
     {
@@ -3891,7 +3909,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_items_description",
-      "community": 336,
+      "community": 46,
       "norm_label": "description"
     },
     {
@@ -3900,7 +3918,7 @@
       "source_file": "src-tauri/gen/schemas/acl-manifests.json",
       "source_location": "L1",
       "id": "schemas_acl_manifests_deny_items_commands",
-      "community": 336,
+      "community": 46,
       "norm_label": "commands"
     },
     {
@@ -4071,7 +4089,7 @@
       "source_file": "src-tauri/gen/schemas/macOS-schema.json",
       "source_location": "L56",
       "id": "schemas_macos_schema_properties_remote",
-      "community": 5,
+      "community": 132,
       "norm_label": "remote"
     },
     {
@@ -4080,7 +4098,7 @@
       "source_file": "src-tauri/gen/schemas/macOS-schema.json",
       "source_location": "L57",
       "id": "schemas_macos_schema_remote_description",
-      "community": 5,
+      "community": 132,
       "norm_label": "description"
     },
     {
@@ -4089,7 +4107,7 @@
       "source_file": "src-tauri/gen/schemas/macOS-schema.json",
       "source_location": "L58",
       "id": "schemas_macos_schema_remote_anyof",
-      "community": 5,
+      "community": 132,
       "norm_label": "anyof"
     },
     {
@@ -4431,7 +4449,7 @@
       "source_file": "src-tauri/gen/schemas/macOS-schema.json",
       "source_location": "L2479",
       "id": "schemas_macos_schema_definitions_value",
-      "community": 115,
+      "community": 5,
       "norm_label": "value"
     },
     {
@@ -4440,7 +4458,7 @@
       "source_file": "src-tauri/gen/schemas/macOS-schema.json",
       "source_location": "L2480",
       "id": "schemas_macos_schema_value_description",
-      "community": 115,
+      "community": 5,
       "norm_label": "description"
     },
     {
@@ -4449,7 +4467,7 @@
       "source_file": "src-tauri/gen/schemas/macOS-schema.json",
       "source_location": "L2481",
       "id": "schemas_macos_schema_value_anyof",
-      "community": 115,
+      "community": 5,
       "norm_label": "anyof"
     },
     {
@@ -5275,7 +5293,7 @@
       "label": "ProjectHandle",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L15",
+      "source_location": "L16",
       "id": "commands_project_projecthandle",
       "community": 1,
       "norm_label": "projecthandle"
@@ -5284,7 +5302,7 @@
       "label": "String",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L16",
+      "source_location": "L17",
       "id": "src_tauri_src_commands_project_rs_string",
       "community": 1,
       "norm_label": "string"
@@ -5293,7 +5311,7 @@
       "label": "ProjectState",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L18",
+      "source_location": "L19",
       "id": "projectstate",
       "community": 1,
       "norm_label": "projectstate"
@@ -5302,7 +5320,7 @@
       "label": "PersistedAppState",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L22",
+      "source_location": "L23",
       "id": "commands_project_persistedappstate",
       "community": 1,
       "norm_label": "persistedappstate"
@@ -5311,7 +5329,7 @@
       "label": "Vec",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L23",
+      "source_location": "L24",
       "id": "src_tauri_src_commands_project_rs_vec",
       "community": 1,
       "norm_label": "vec"
@@ -5320,7 +5338,7 @@
       "label": "Option",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L24",
+      "source_location": "L25",
       "id": "src_tauri_src_commands_project_rs_option",
       "community": 1,
       "norm_label": "option"
@@ -5329,7 +5347,7 @@
       "label": "AppState",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L37",
+      "source_location": "L38",
       "id": "commands_project_appstate",
       "community": 1,
       "norm_label": "appstate"
@@ -5338,7 +5356,7 @@
       "label": "Mutex",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L38",
+      "source_location": "L39",
       "id": "mutex",
       "community": 1,
       "norm_label": "mutex"
@@ -5347,7 +5365,7 @@
       "label": "RecommendedWatcher",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L40",
+      "source_location": "L41",
       "id": "recommendedwatcher",
       "community": 1,
       "norm_label": "recommendedwatcher"
@@ -5356,7 +5374,7 @@
       "label": "OpenProjectResponse",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L45",
+      "source_location": "L46",
       "id": "commands_project_openprojectresponse",
       "community": 1,
       "norm_label": "openprojectresponse"
@@ -5365,7 +5383,7 @@
       "label": "InitProjectInput",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L51",
+      "source_location": "L52",
       "id": "commands_project_initprojectinput",
       "community": 1,
       "norm_label": "initprojectinput"
@@ -5374,7 +5392,7 @@
       "label": "Proposal",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L70",
+      "source_location": "L71",
       "id": "commands_project_proposal",
       "community": 1,
       "norm_label": "proposal"
@@ -5383,7 +5401,7 @@
       "label": "ProposalList",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L80",
+      "source_location": "L81",
       "id": "commands_project_proposallist",
       "community": 1,
       "norm_label": "proposallist"
@@ -5392,7 +5410,7 @@
       "label": "ProposalDetail",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L86",
+      "source_location": "L87",
       "id": "commands_project_proposaldetail",
       "community": 1,
       "norm_label": "proposaldetail"
@@ -5401,7 +5419,7 @@
       "label": "SpecDocument",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L92",
+      "source_location": "L93",
       "id": "commands_project_specdocument",
       "community": 1,
       "norm_label": "specdocument"
@@ -5410,16 +5428,43 @@
       "label": "VersionInfo",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L98",
+      "source_location": "L99",
       "id": "commands_project_versioninfo",
       "community": 1,
       "norm_label": "versioninfo"
     },
     {
+      "label": "CliCompatibilityStatus",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L106",
+      "id": "commands_project_clicompatibilitystatus",
+      "community": 1,
+      "norm_label": "clicompatibilitystatus"
+    },
+    {
+      "label": "CliCompatibilityInfo",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L113",
+      "id": "commands_project_clicompatibilityinfo",
+      "community": 1,
+      "norm_label": "clicompatibilityinfo"
+    },
+    {
+      "label": "CliCompatibilityConfig",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L120",
+      "id": "commands_project_clicompatibilityconfig",
+      "community": 1,
+      "norm_label": "clicompatibilityconfig"
+    },
+    {
       "label": "SchemaList",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L104",
+      "source_location": "L125",
       "id": "commands_project_schemalist",
       "community": 1,
       "norm_label": "schemalist"
@@ -5428,7 +5473,7 @@
       "label": "SchemaTemplateInfo",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L106",
+      "source_location": "L127",
       "id": "schematemplateinfo",
       "community": 1,
       "norm_label": "schematemplateinfo"
@@ -5437,7 +5482,7 @@
       "label": "SchemaTemplateInfo",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L110",
+      "source_location": "L131",
       "id": "commands_project_schematemplateinfo",
       "community": 1,
       "norm_label": "schematemplateinfo"
@@ -5446,7 +5491,7 @@
       "label": "RulesConfig",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L116",
+      "source_location": "L137",
       "id": "rulesconfig",
       "community": 1,
       "norm_label": "rulesconfig"
@@ -5455,7 +5500,7 @@
       "label": "SaveProposalInput",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L120",
+      "source_location": "L141",
       "id": "commands_project_saveproposalinput",
       "community": 1,
       "norm_label": "saveproposalinput"
@@ -5464,7 +5509,7 @@
       "label": "InitConfig",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L128",
+      "source_location": "L149",
       "id": "commands_project_initconfig",
       "community": 1,
       "norm_label": "initconfig"
@@ -5473,7 +5518,7 @@
       "label": "RulesConfig",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L140",
+      "source_location": "L161",
       "id": "commands_project_rulesconfig",
       "community": 1,
       "norm_label": "rulesconfig"
@@ -5482,7 +5527,7 @@
       "label": "bootstrap_state()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L147",
+      "source_location": "L168",
       "id": "commands_project_bootstrap_state",
       "community": 1,
       "norm_label": "bootstrap_state()"
@@ -5491,7 +5536,7 @@
       "label": "AppHandle",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L147",
+      "source_location": "L168",
       "id": "src_tauri_src_commands_project_rs_apphandle",
       "community": 1,
       "norm_label": "apphandle"
@@ -5500,7 +5545,7 @@
       "label": "State",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L147",
+      "source_location": "L168",
       "id": "state",
       "community": 1,
       "norm_label": "state"
@@ -5509,7 +5554,7 @@
       "label": "Result",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L147",
+      "source_location": "L168",
       "id": "src_tauri_src_commands_project_rs_result",
       "community": 1,
       "norm_label": "result"
@@ -5518,7 +5563,7 @@
       "label": "get_projects()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L203",
+      "source_location": "L224",
       "id": "commands_project_get_projects",
       "community": 1,
       "norm_label": "get_projects()"
@@ -5527,7 +5572,7 @@
       "label": "get_active_index()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L212",
+      "source_location": "L233",
       "id": "commands_project_get_active_index",
       "community": 1,
       "norm_label": "get_active_index()"
@@ -5536,7 +5581,7 @@
       "label": "set_active_project()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L221",
+      "source_location": "L242",
       "id": "commands_project_set_active_project",
       "community": 1,
       "norm_label": "set_active_project()"
@@ -5545,7 +5590,7 @@
       "label": "unlink_project()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L240",
+      "source_location": "L261",
       "id": "commands_project_unlink_project",
       "community": 1,
       "norm_label": "unlink_project()"
@@ -5554,7 +5599,7 @@
       "label": "pick_project_folder()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L278",
+      "source_location": "L299",
       "id": "commands_project_pick_project_folder",
       "community": 1,
       "norm_label": "pick_project_folder()"
@@ -5563,7 +5608,7 @@
       "label": "open_project()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L290",
+      "source_location": "L311",
       "id": "commands_project_open_project",
       "community": 1,
       "norm_label": "open_project()"
@@ -5572,7 +5617,7 @@
       "label": "get_state()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L301",
+      "source_location": "L322",
       "id": "commands_project_get_state",
       "community": 1,
       "norm_label": "get_state()"
@@ -5581,7 +5626,7 @@
       "label": "list_proposals()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L315",
+      "source_location": "L336",
       "id": "commands_project_list_proposals",
       "community": 1,
       "norm_label": "list_proposals()"
@@ -5590,7 +5635,7 @@
       "label": "get_proposal()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L330",
+      "source_location": "L351",
       "id": "commands_project_get_proposal",
       "community": 1,
       "norm_label": "get_proposal()"
@@ -5599,7 +5644,7 @@
       "label": "save_proposal()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L359",
+      "source_location": "L380",
       "id": "commands_project_save_proposal",
       "community": 1,
       "norm_label": "save_proposal()"
@@ -5608,7 +5653,7 @@
       "label": "archive_proposals()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L407",
+      "source_location": "L428",
       "id": "commands_project_archive_proposals",
       "community": 1,
       "norm_label": "archive_proposals()"
@@ -5617,7 +5662,7 @@
       "label": "delete_proposals()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L438",
+      "source_location": "L459",
       "id": "commands_project_delete_proposals",
       "community": 1,
       "norm_label": "delete_proposals()"
@@ -5626,7 +5671,7 @@
       "label": "copy_to_clipboard()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L459",
+      "source_location": "L480",
       "id": "commands_project_copy_to_clipboard",
       "community": 1,
       "norm_label": "copy_to_clipboard()"
@@ -5635,7 +5680,7 @@
       "label": "read_file()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L467",
+      "source_location": "L488",
       "id": "commands_project_read_file",
       "community": 1,
       "norm_label": "read_file()"
@@ -5644,7 +5689,7 @@
       "label": "write_file()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L476",
+      "source_location": "L497",
       "id": "commands_project_write_file",
       "community": 1,
       "norm_label": "write_file()"
@@ -5653,7 +5698,7 @@
       "label": "list_spec_documents()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L481",
+      "source_location": "L502",
       "id": "commands_project_list_spec_documents",
       "community": 1,
       "norm_label": "list_spec_documents()"
@@ -5662,7 +5707,7 @@
       "label": "create_spec_document()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L513",
+      "source_location": "L534",
       "id": "commands_project_create_spec_document",
       "community": 1,
       "norm_label": "create_spec_document()"
@@ -5671,7 +5716,7 @@
       "label": "check_openspec_cli()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L535",
+      "source_location": "L556",
       "id": "commands_project_check_openspec_cli",
       "community": 1,
       "norm_label": "check_openspec_cli()"
@@ -5680,16 +5725,97 @@
       "label": "get_versions()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L545",
+      "source_location": "L566",
       "id": "commands_project_get_versions",
       "community": 1,
       "norm_label": "get_versions()"
     },
     {
+      "label": "get_cli_compatibility()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L588",
+      "id": "commands_project_get_cli_compatibility",
+      "community": 1,
+      "norm_label": "get_cli_compatibility()"
+    },
+    {
+      "label": "detect_cli_version()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L615",
+      "id": "commands_project_detect_cli_version",
+      "community": 1,
+      "norm_label": "detect_cli_version()"
+    },
+    {
+      "label": "normalize_cli_version()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L628",
+      "id": "commands_project_normalize_cli_version",
+      "community": 1,
+      "norm_label": "normalize_cli_version()"
+    },
+    {
+      "label": "Version",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L628",
+      "id": "version",
+      "community": 1,
+      "norm_label": "version"
+    },
+    {
+      "label": "load_cli_compatibility_config()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L639",
+      "id": "commands_project_load_cli_compatibility_config",
+      "community": 1,
+      "norm_label": "load_cli_compatibility_config()"
+    },
+    {
+      "label": "evaluate_cli_compatibility()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L654",
+      "id": "commands_project_evaluate_cli_compatibility",
+      "community": 1,
+      "norm_label": "evaluate_cli_compatibility()"
+    },
+    {
+      "label": "normalize_cli_version_supports_prefix_and_text()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L685",
+      "id": "commands_project_normalize_cli_version_supports_prefix_and_text",
+      "community": 1,
+      "norm_label": "normalize_cli_version_supports_prefix_and_text()"
+    },
+    {
+      "label": "evaluate_cli_compatibility_with_lt_and_gt_ranges()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L691",
+      "id": "commands_project_evaluate_cli_compatibility_with_lt_and_gt_ranges",
+      "community": 1,
+      "norm_label": "evaluate_cli_compatibility_with_lt_and_gt_ranges()"
+    },
+    {
+      "label": "evaluate_cli_compatibility_returns_unknown_on_invalid_or_missing_config()",
+      "file_type": "code",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L715",
+      "id": "commands_project_evaluate_cli_compatibility_returns_unknown_on_invalid_or_missing_config",
+      "community": 1,
+      "norm_label": "evaluate_cli_compatibility_returns_unknown_on_invalid_or_missing_config()"
+    },
+    {
       "label": "list_schemas()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L567",
+      "source_location": "L733",
       "id": "commands_project_list_schemas",
       "community": 1,
       "norm_label": "list_schemas()"
@@ -5698,7 +5824,7 @@
       "label": "hydrate_suggested_rules()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L670",
+      "source_location": "L836",
       "id": "commands_project_hydrate_suggested_rules",
       "community": 1,
       "norm_label": "hydrate_suggested_rules()"
@@ -5707,7 +5833,7 @@
       "label": "rules_from_template_path()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L679",
+      "source_location": "L845",
       "id": "commands_project_rules_from_template_path",
       "community": 1,
       "norm_label": "rules_from_template_path()"
@@ -5716,7 +5842,7 @@
       "label": "extract_template_rules()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L689",
+      "source_location": "L855",
       "id": "commands_project_extract_template_rules",
       "community": 1,
       "norm_label": "extract_template_rules()"
@@ -5725,7 +5851,7 @@
       "label": "split_comment_into_rules()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L712",
+      "source_location": "L878",
       "id": "commands_project_split_comment_into_rules",
       "community": 1,
       "norm_label": "split_comment_into_rules()"
@@ -5734,7 +5860,7 @@
       "label": "init_project()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L725",
+      "source_location": "L891",
       "id": "commands_project_init_project",
       "community": 1,
       "norm_label": "init_project()"
@@ -5743,7 +5869,7 @@
       "label": "build_context()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L779",
+      "source_location": "L945",
       "id": "commands_project_build_context",
       "community": 1,
       "norm_label": "build_context()"
@@ -5752,7 +5878,7 @@
       "label": "build_rules()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L799",
+      "source_location": "L965",
       "id": "commands_project_build_rules",
       "community": 1,
       "norm_label": "build_rules()"
@@ -5761,7 +5887,7 @@
       "label": "normalize_rules()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L815",
+      "source_location": "L981",
       "id": "commands_project_normalize_rules",
       "community": 1,
       "norm_label": "normalize_rules()"
@@ -5770,7 +5896,7 @@
       "label": "default_rules()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L829",
+      "source_location": "L995",
       "id": "commands_project_default_rules",
       "community": 1,
       "norm_label": "default_rules()"
@@ -5779,7 +5905,7 @@
       "label": "normalize_opt()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L883",
+      "source_location": "L1049",
       "id": "commands_project_normalize_opt",
       "community": 1,
       "norm_label": "normalize_opt()"
@@ -5788,7 +5914,7 @@
       "label": "tools_for_provider()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L894",
+      "source_location": "L1060",
       "id": "commands_project_tools_for_provider",
       "community": 1,
       "norm_label": "tools_for_provider()"
@@ -5797,7 +5923,7 @@
       "label": "upsert_project()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L914",
+      "source_location": "L1080",
       "id": "commands_project_upsert_project",
       "community": 1,
       "norm_label": "upsert_project()"
@@ -5806,7 +5932,7 @@
       "label": "register_all_watchers()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L947",
+      "source_location": "L1113",
       "id": "commands_project_register_all_watchers",
       "community": 1,
       "norm_label": "register_all_watchers()"
@@ -5815,7 +5941,7 @@
       "label": "path_name()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L989",
+      "source_location": "L1155",
       "id": "commands_project_path_name",
       "community": 1,
       "norm_label": "path_name()"
@@ -5824,7 +5950,7 @@
       "label": "app_state_path()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L996",
+      "source_location": "L1162",
       "id": "commands_project_app_state_path",
       "community": 1,
       "norm_label": "app_state_path()"
@@ -5833,7 +5959,7 @@
       "label": "PathBuf",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L996",
+      "source_location": "L1162",
       "id": "src_tauri_src_commands_project_rs_pathbuf",
       "community": 1,
       "norm_label": "pathbuf"
@@ -5842,7 +5968,7 @@
       "label": "load_app_state()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1005",
+      "source_location": "L1171",
       "id": "commands_project_load_app_state",
       "community": 1,
       "norm_label": "load_app_state()"
@@ -5851,7 +5977,7 @@
       "label": "save_app_state()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1017",
+      "source_location": "L1183",
       "id": "commands_project_save_app_state",
       "community": 1,
       "norm_label": "save_app_state()"
@@ -5860,7 +5986,7 @@
       "label": "persist_window_size()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1057",
+      "source_location": "L1223",
       "id": "commands_project_persist_window_size",
       "community": 1,
       "norm_label": "persist_window_size()"
@@ -5869,7 +5995,7 @@
       "label": "apply_window_bounds()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1070",
+      "source_location": "L1236",
       "id": "commands_project_apply_window_bounds",
       "community": 1,
       "norm_label": "apply_window_bounds()"
@@ -5878,7 +6004,7 @@
       "label": "active_project_root()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1101",
+      "source_location": "L1267",
       "id": "commands_project_active_project_root",
       "community": 1,
       "norm_label": "active_project_root()"
@@ -5887,7 +6013,7 @@
       "label": "read_proposals_from_dir()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1117",
+      "source_location": "L1283",
       "id": "commands_project_read_proposals_from_dir",
       "community": 1,
       "norm_label": "read_proposals_from_dir()"
@@ -5896,7 +6022,7 @@
       "label": "Path",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1117",
+      "source_location": "L1283",
       "id": "src_tauri_src_commands_project_rs_path",
       "community": 1,
       "norm_label": "path"
@@ -5905,7 +6031,7 @@
       "label": "parse_markdown_with_frontmatter()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1149",
+      "source_location": "L1315",
       "id": "commands_project_parse_markdown_with_frontmatter",
       "community": 1,
       "norm_label": "parse_markdown_with_frontmatter()"
@@ -5914,7 +6040,7 @@
       "label": "Mapping",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1149",
+      "source_location": "L1315",
       "id": "mapping",
       "community": 1,
       "norm_label": "mapping"
@@ -5923,7 +6049,7 @@
       "label": "extract_created_at()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1165",
+      "source_location": "L1331",
       "id": "commands_project_extract_created_at",
       "community": 1,
       "norm_label": "extract_created_at()"
@@ -5932,7 +6058,7 @@
       "label": "file_stem_or_default()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1185",
+      "source_location": "L1351",
       "id": "commands_project_file_stem_or_default",
       "community": 1,
       "norm_label": "file_stem_or_default()"
@@ -5941,7 +6067,7 @@
       "label": "normalize_proposal_type()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1192",
+      "source_location": "L1358",
       "id": "commands_project_normalize_proposal_type",
       "community": 1,
       "norm_label": "normalize_proposal_type()"
@@ -5950,7 +6076,7 @@
       "label": "build_proposal_summary()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1199",
+      "source_location": "L1365",
       "id": "commands_project_build_proposal_summary",
       "community": 1,
       "norm_label": "build_proposal_summary()"
@@ -5959,7 +6085,7 @@
       "label": "slugify()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1236",
+      "source_location": "L1402",
       "id": "commands_project_slugify",
       "community": 1,
       "norm_label": "slugify()"
@@ -5968,7 +6094,7 @@
       "label": "unique_file_path()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1256",
+      "source_location": "L1422",
       "id": "commands_project_unique_file_path",
       "community": 1,
       "norm_label": "unique_file_path()"
@@ -5977,7 +6103,7 @@
       "label": "now_unix()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1277",
+      "source_location": "L1443",
       "id": "commands_project_now_unix",
       "community": 1,
       "norm_label": "now_unix()"
@@ -5986,7 +6112,7 @@
       "label": "now_iso_like()",
       "file_type": "code",
       "source_file": "src-tauri/src/commands/project.rs",
-      "source_location": "L1284",
+      "source_location": "L1450",
       "id": "commands_project_now_iso_like",
       "community": 1,
       "norm_label": "now_iso_like()"
@@ -6555,7 +6681,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L1",
       "id": "src_lib_types_ts",
-      "community": 1,
+      "community": 317,
       "norm_label": "types.ts"
     },
     {
@@ -6564,7 +6690,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L1",
       "id": "lib_types_artifact",
-      "community": 1,
+      "community": 317,
       "norm_label": "artifact"
     },
     {
@@ -6573,7 +6699,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L7",
       "id": "lib_types_taskprogress",
-      "community": 1,
+      "community": 317,
       "norm_label": "taskprogress"
     },
     {
@@ -6582,7 +6708,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L12",
       "id": "lib_types_change",
-      "community": 1,
+      "community": 317,
       "norm_label": "change"
     },
     {
@@ -6591,7 +6717,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L23",
       "id": "lib_types_projectstate",
-      "community": 1,
+      "community": 317,
       "norm_label": "projectstate"
     },
     {
@@ -6600,7 +6726,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L32",
       "id": "lib_types_projecthandle",
-      "community": 1,
+      "community": 317,
       "norm_label": "projecthandle"
     },
     {
@@ -6609,7 +6735,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L38",
       "id": "lib_types_openprojectresponse",
-      "community": 1,
+      "community": 317,
       "norm_label": "openprojectresponse"
     },
     {
@@ -6627,7 +6753,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L60",
       "id": "lib_types_proposaltype",
-      "community": 1,
+      "community": 317,
       "norm_label": "proposaltype"
     },
     {
@@ -6645,7 +6771,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L71",
       "id": "lib_types_proposallist",
-      "community": 1,
+      "community": 317,
       "norm_label": "proposallist"
     },
     {
@@ -6654,7 +6780,7 @@
       "source_file": "src/lib/types.ts",
       "source_location": "L76",
       "id": "lib_types_proposaldetail",
-      "community": 1,
+      "community": 317,
       "norm_label": "proposaldetail"
     },
     {
@@ -9314,6 +9440,15 @@
       "norm_label": "skill.md"
     },
     {
+      "label": "propuestas-archivadas.md",
+      "file_type": "document",
+      "source_file": "openspec/propose/actives/propuestas-archivadas.md",
+      "source_location": "L1",
+      "id": "openspec_propose_actives_propuestas_archivadas_md",
+      "community": 426,
+      "norm_label": "propuestas-archivadas.md"
+    },
+    {
       "label": "bug-lectura-de-spec.md",
       "file_type": "document",
       "source_file": "openspec/propose/archived/bug-lectura-de-spec.md",
@@ -9348,6 +9483,15 @@
       "id": "openspec_propose_archived_quitar_botones_de_propuestas_md",
       "community": 416,
       "norm_label": "quitar-botones-de-propuestas.md"
+    },
+    {
+      "label": "chequeo-de-version-cli-de-opencode.md",
+      "file_type": "document",
+      "source_file": "openspec/propose/archived/chequeo-de-version-cli-de-opencode.md",
+      "source_location": "L1",
+      "id": "openspec_propose_archived_chequeo_de_version_cli_de_opencode_md",
+      "community": 431,
+      "norm_label": "chequeo-de-version-cli-de-opencode.md"
     },
     {
       "label": "mejoras-en-content.md",
@@ -13119,6 +13263,195 @@
       "id": "openspec_specs_tema_aplicacion_spec_md_tema_aplicacion_spec_scenario_panel_de_versiones_en_tema_light",
       "community": 56,
       "norm_label": "scenario: panel de versiones en tema light"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/tasks.md",
+      "source_location": "L1",
+      "id": "openspec_changes_hide_edit_button_for_archived_proposals_tasks_md",
+      "community": 430,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "1. Ajuste de acciones en UI de propuestas",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/tasks.md",
+      "source_location": "L1",
+      "id": "hide_edit_button_for_archived_proposals_tasks_1_ajuste_de_acciones_en_ui_de_propuestas",
+      "community": 430,
+      "norm_label": "1. ajuste de acciones en ui de propuestas"
+    },
+    {
+      "label": "2. Verificaci\u00f3n y regresi\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/tasks.md",
+      "source_location": "L7",
+      "id": "hide_edit_button_for_archived_proposals_tasks_2_verificaci\u00f3n_y_regresi\u00f3n",
+      "community": 430,
+      "norm_label": "2. verificacion y regresion"
+    },
+    {
+      "label": "design.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/design.md",
+      "source_location": "L1",
+      "id": "openspec_changes_hide_edit_button_for_archived_proposals_design_md",
+      "community": 338,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/design.md",
+      "source_location": "L1",
+      "id": "hide_edit_button_for_archived_proposals_design_context",
+      "community": 338,
+      "norm_label": "context"
+    },
+    {
+      "label": "Goals / Non-Goals",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/design.md",
+      "source_location": "L5",
+      "id": "hide_edit_button_for_archived_proposals_design_goals_non_goals",
+      "community": 338,
+      "norm_label": "goals / non-goals"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/design.md",
+      "source_location": "L17",
+      "id": "hide_edit_button_for_archived_proposals_design_decisions",
+      "community": 338,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "Risks / Trade-offs",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/design.md",
+      "source_location": "L32",
+      "id": "hide_edit_button_for_archived_proposals_design_risks_trade_offs",
+      "community": 338,
+      "norm_label": "risks / trade-offs"
+    },
+    {
+      "label": "proposal.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L1",
+      "id": "openspec_changes_hide_edit_button_for_archived_proposals_proposal_md",
+      "community": 336,
+      "norm_label": "proposal.md"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L1",
+      "id": "hide_edit_button_for_archived_proposals_proposal_why",
+      "community": 336,
+      "norm_label": "why"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L5",
+      "id": "hide_edit_button_for_archived_proposals_proposal_what_changes",
+      "community": 336,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L11",
+      "id": "hide_edit_button_for_archived_proposals_proposal_capabilities",
+      "community": 336,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "New Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L13",
+      "id": "hide_edit_button_for_archived_proposals_proposal_new_capabilities",
+      "community": 336,
+      "norm_label": "new capabilities"
+    },
+    {
+      "label": "Modified Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L16",
+      "id": "hide_edit_button_for_archived_proposals_proposal_modified_capabilities",
+      "community": 336,
+      "norm_label": "modified capabilities"
+    },
+    {
+      "label": "Impact",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L19",
+      "id": "hide_edit_button_for_archived_proposals_proposal_impact",
+      "community": 336,
+      "norm_label": "impact"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L1",
+      "id": "openspec_changes_hide_edit_button_for_archived_proposals_specs_ux_acciones_propuestas_spec_md",
+      "community": 337,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "MODIFIED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L1",
+      "id": "ux_acciones_propuestas_spec_modified_requirements",
+      "community": 337,
+      "norm_label": "modified requirements"
+    },
+    {
+      "label": "Requirement: Acciones contextuales por tarjeta con iconos y tooltip",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L3",
+      "id": "openspec_changes_hide_edit_button_for_archived_proposals_specs_ux_acciones_propuestas_spec_md_ux_acciones_propuestas_spec_requirement_acciones_contextuales_por_tarjeta_con_iconos_y_tooltip",
+      "community": 337,
+      "norm_label": "requirement: acciones contextuales por tarjeta con iconos y tooltip"
+    },
+    {
+      "label": "Scenario: Descubrimiento de acci\u00f3n por tooltip",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L6",
+      "id": "openspec_changes_hide_edit_button_for_archived_proposals_specs_ux_acciones_propuestas_spec_md_ux_acciones_propuestas_spec_scenario_descubrimiento_de_acci\u00f3n_por_tooltip",
+      "community": 337,
+      "norm_label": "scenario: descubrimiento de accion por tooltip"
+    },
+    {
+      "label": "Scenario: Edici\u00f3n disponible en propuesta activa",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L10",
+      "id": "ux_acciones_propuestas_spec_scenario_edici\u00f3n_disponible_en_propuesta_activa",
+      "community": 337,
+      "norm_label": "scenario: edicion disponible en propuesta activa"
+    },
+    {
+      "label": "Scenario: Edici\u00f3n oculta en propuesta archivada",
+      "file_type": "document",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L14",
+      "id": "ux_acciones_propuestas_spec_scenario_edici\u00f3n_oculta_en_propuesta_archivada",
+      "community": 337,
+      "norm_label": "scenario: edicion oculta en propuesta archivada"
     },
     {
       "label": "tasks.md",
@@ -24668,6 +25001,312 @@
       "norm_label": "scenario: texto largo de why"
     },
     {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/tasks.md",
+      "source_location": "L1",
+      "id": "openspec_changes_add_cli_version_compatibility_panel_tasks_md",
+      "community": 334,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "1. Configuraci\u00f3n de compatibilidad",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/tasks.md",
+      "source_location": "L1",
+      "id": "add_cli_version_compatibility_panel_tasks_1_configuraci\u00f3n_de_compatibilidad",
+      "community": 334,
+      "norm_label": "1. configuracion de compatibilidad"
+    },
+    {
+      "label": "2. Detecci\u00f3n y evaluaci\u00f3n de versi\u00f3n CLI",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/tasks.md",
+      "source_location": "L6",
+      "id": "add_cli_version_compatibility_panel_tasks_2_detecci\u00f3n_y_evaluaci\u00f3n_de_versi\u00f3n_cli",
+      "community": 334,
+      "norm_label": "2. deteccion y evaluacion de version cli"
+    },
+    {
+      "label": "3. Panel de compatibilidad en UI",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/tasks.md",
+      "source_location": "L12",
+      "id": "add_cli_version_compatibility_panel_tasks_3_panel_de_compatibilidad_en_ui",
+      "community": 334,
+      "norm_label": "3. panel de compatibilidad en ui"
+    },
+    {
+      "label": "4. Pruebas y verificaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/tasks.md",
+      "source_location": "L18",
+      "id": "add_cli_version_compatibility_panel_tasks_4_pruebas_y_verificaci\u00f3n",
+      "community": 334,
+      "norm_label": "4. pruebas y verificacion"
+    },
+    {
+      "label": "design.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/design.md",
+      "source_location": "L1",
+      "id": "openspec_changes_add_cli_version_compatibility_panel_design_md",
+      "community": 329,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/design.md",
+      "source_location": "L1",
+      "id": "add_cli_version_compatibility_panel_design_context",
+      "community": 329,
+      "norm_label": "context"
+    },
+    {
+      "label": "Goals / Non-Goals",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/design.md",
+      "source_location": "L5",
+      "id": "add_cli_version_compatibility_panel_design_goals_non_goals",
+      "community": 329,
+      "norm_label": "goals / non-goals"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/design.md",
+      "source_location": "L18",
+      "id": "add_cli_version_compatibility_panel_design_decisions",
+      "community": 329,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "Risks / Trade-offs",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/design.md",
+      "source_location": "L41",
+      "id": "add_cli_version_compatibility_panel_design_risks_trade_offs",
+      "community": 329,
+      "norm_label": "risks / trade-offs"
+    },
+    {
+      "label": "proposal.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L1",
+      "id": "openspec_changes_add_cli_version_compatibility_panel_proposal_md",
+      "community": 320,
+      "norm_label": "proposal.md"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L1",
+      "id": "add_cli_version_compatibility_panel_proposal_why",
+      "community": 320,
+      "norm_label": "why"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L5",
+      "id": "add_cli_version_compatibility_panel_proposal_what_changes",
+      "community": 320,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L16",
+      "id": "add_cli_version_compatibility_panel_proposal_capabilities",
+      "community": 320,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "New Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L18",
+      "id": "add_cli_version_compatibility_panel_proposal_new_capabilities",
+      "community": 320,
+      "norm_label": "new capabilities"
+    },
+    {
+      "label": "Modified Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L21",
+      "id": "add_cli_version_compatibility_panel_proposal_modified_capabilities",
+      "community": 320,
+      "norm_label": "modified capabilities"
+    },
+    {
+      "label": "Impact",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L24",
+      "id": "add_cli_version_compatibility_panel_proposal_impact",
+      "community": 320,
+      "norm_label": "impact"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L1",
+      "id": "openspec_changes_add_cli_version_compatibility_panel_specs_compatibilidad_version_cli_spec_md",
+      "community": 13,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L1",
+      "id": "compatibilidad_version_cli_spec_added_requirements",
+      "community": 13,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: Archivo interno de compatibilidad de versiones CLI",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L3",
+      "id": "compatibilidad_version_cli_spec_requirement_archivo_interno_de_compatibilidad_de_versiones_cli",
+      "community": 13,
+      "norm_label": "requirement: archivo interno de compatibilidad de versiones cli"
+    },
+    {
+      "label": "Scenario: Carga correcta de reglas de compatibilidad",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L6",
+      "id": "compatibilidad_version_cli_spec_scenario_carga_correcta_de_reglas_de_compatibilidad",
+      "community": 13,
+      "norm_label": "scenario: carga correcta de reglas de compatibilidad"
+    },
+    {
+      "label": "Requirement: Soporte de rangos sem\u00e1nticos con operadores relacionales",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L10",
+      "id": "compatibilidad_version_cli_spec_requirement_soporte_de_rangos_sem\u00e1nticos_con_operadores_relacionales",
+      "community": 13,
+      "norm_label": "requirement: soporte de rangos semanticos con operadores relacionales"
+    },
+    {
+      "label": "Scenario: Regla con operador menor que",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L13",
+      "id": "compatibilidad_version_cli_spec_scenario_regla_con_operador_menor_que",
+      "community": 13,
+      "norm_label": "scenario: regla con operador menor que"
+    },
+    {
+      "label": "Scenario: Regla con operador mayor que",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L17",
+      "id": "compatibilidad_version_cli_spec_scenario_regla_con_operador_mayor_que",
+      "community": 13,
+      "norm_label": "scenario: regla con operador mayor que"
+    },
+    {
+      "label": "Requirement: Evaluaci\u00f3n de compatibilidad de la versi\u00f3n CLI instalada",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L21",
+      "id": "compatibilidad_version_cli_spec_requirement_evaluaci\u00f3n_de_compatibilidad_de_la_versi\u00f3n_cli_instalada",
+      "community": 13,
+      "norm_label": "requirement: evaluacion de compatibilidad de la version cli instalada"
+    },
+    {
+      "label": "Scenario: Versi\u00f3n compatible",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L24",
+      "id": "compatibilidad_version_cli_spec_scenario_versi\u00f3n_compatible",
+      "community": 13,
+      "norm_label": "scenario: version compatible"
+    },
+    {
+      "label": "Scenario: Versi\u00f3n no compatible",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L28",
+      "id": "compatibilidad_version_cli_spec_scenario_versi\u00f3n_no_compatible",
+      "community": 13,
+      "norm_label": "scenario: version no compatible"
+    },
+    {
+      "label": "Scenario: Estado indeterminado por error de detecci\u00f3n o configuraci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L32",
+      "id": "compatibilidad_version_cli_spec_scenario_estado_indeterminado_por_error_de_detecci\u00f3n_o_configuraci\u00f3n",
+      "community": 13,
+      "norm_label": "scenario: estado indeterminado por error de deteccion o configuracion"
+    },
+    {
+      "label": "Requirement: Panel visual de compatibilidad en cabecera derecha",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L36",
+      "id": "compatibilidad_version_cli_spec_requirement_panel_visual_de_compatibilidad_en_cabecera_derecha",
+      "community": 13,
+      "norm_label": "requirement: panel visual de compatibilidad en cabecera derecha"
+    },
+    {
+      "label": "Scenario: Render del panel con datos de versi\u00f3n y estado",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L39",
+      "id": "compatibilidad_version_cli_spec_scenario_render_del_panel_con_datos_de_versi\u00f3n_y_estado",
+      "community": 13,
+      "norm_label": "scenario: render del panel con datos de version y estado"
+    },
+    {
+      "label": "Requirement: Sem\u00e1ntica de color del panel por estado",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L43",
+      "id": "compatibilidad_version_cli_spec_requirement_sem\u00e1ntica_de_color_del_panel_por_estado",
+      "community": 13,
+      "norm_label": "requirement: semantica de color del panel por estado"
+    },
+    {
+      "label": "Scenario: Panel en verde",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L46",
+      "id": "compatibilidad_version_cli_spec_scenario_panel_en_verde",
+      "community": 13,
+      "norm_label": "scenario: panel en verde"
+    },
+    {
+      "label": "Scenario: Panel en rojo",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L50",
+      "id": "compatibilidad_version_cli_spec_scenario_panel_en_rojo",
+      "community": 13,
+      "norm_label": "scenario: panel en rojo"
+    },
+    {
+      "label": "Scenario: Panel en amarillo",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L54",
+      "id": "compatibilidad_version_cli_spec_scenario_panel_en_amarillo",
+      "community": 13,
+      "norm_label": "scenario: panel en amarillo"
+    },
+    {
       "label": "query_20260531_085955_why_does_commands_connect_so_many_communities.md",
       "file_type": "document",
       "source_file": "graphify-out/memory/query_20260531_085955_why_does_commands_connect_so_many_communities.md",
@@ -24738,6 +25377,15 @@
       "id": "memory_query_20260531_084302_why_does_load_project_connect_community_3_to_com_source_nodes",
       "community": 308,
       "norm_label": "source nodes"
+    },
+    {
+      "label": "chequeo-de-version-cli-de-opencode.md",
+      "file_type": "document",
+      "source_file": "openspec/propose/actives/chequeo-de-version-cli-de-opencode.md",
+      "source_location": "L1",
+      "community": 425,
+      "norm_label": "chequeo-de-version-cli-de-opencode.md",
+      "id": "openspec_propose_actives_chequeo_de_version_cli_de_opencode_md"
     },
     {
       "label": "sidebar-proyectos Specification",
@@ -25868,9 +26516,9 @@
       "source_file": ".opencode/opencode.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "opencode_opencode_json",
-      "target": "opencode_opencode_schema",
-      "confidence_score": 1.0
+      "target": "opencode_opencode_schema"
     },
     {
       "relation": "contains",
@@ -25928,9 +26576,9 @@
       "source_file": "scripts/sync-version.mjs",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_sync_version_mjs",
-      "target": "scripts_sync_version_cargotoml",
-      "confidence_score": 1.0
+      "target": "scripts_sync_version_cargotoml"
     },
     {
       "relation": "contains",
@@ -25938,9 +26586,9 @@
       "source_file": "scripts/sync-version.mjs",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_sync_version_mjs",
-      "target": "scripts_sync_version_cargotomlpath",
-      "confidence_score": 1.0
+      "target": "scripts_sync_version_cargotomlpath"
     },
     {
       "relation": "contains",
@@ -25948,9 +26596,9 @@
       "source_file": "scripts/sync-version.mjs",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_sync_version_mjs",
-      "target": "scripts_sync_version_packagejson",
-      "confidence_score": 1.0
+      "target": "scripts_sync_version_packagejson"
     },
     {
       "relation": "contains",
@@ -25958,9 +26606,9 @@
       "source_file": "scripts/sync-version.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_sync_version_mjs",
-      "target": "scripts_sync_version_packagejsonpath",
-      "confidence_score": 1.0
+      "target": "scripts_sync_version_packagejsonpath"
     },
     {
       "relation": "contains",
@@ -25968,9 +26616,9 @@
       "source_file": "scripts/sync-version.mjs",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_sync_version_mjs",
-      "target": "scripts_sync_version_tauriconfig",
-      "confidence_score": 1.0
+      "target": "scripts_sync_version_tauriconfig"
     },
     {
       "relation": "contains",
@@ -25978,9 +26626,9 @@
       "source_file": "scripts/sync-version.mjs",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_sync_version_mjs",
-      "target": "scripts_sync_version_tauriconfigpath",
-      "confidence_score": 1.0
+      "target": "scripts_sync_version_tauriconfigpath"
     },
     {
       "relation": "contains",
@@ -25988,9 +26636,9 @@
       "source_file": "scripts/sync-version.mjs",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_sync_version_mjs",
-      "target": "scripts_sync_version_updatedcargotoml",
-      "confidence_score": 1.0
+      "target": "scripts_sync_version_updatedcargotoml"
     },
     {
       "relation": "contains",
@@ -26221,6 +26869,16 @@
       "confidence_score": 1.0,
       "source": "src_tauri_capabilities_default_json",
       "target": "capabilities_default_windows"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/config/cli_compatibility.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_config_cli_compatibility_json",
+      "target": "config_cli_compatibility_supported_ranges"
     },
     {
       "relation": "contains",
@@ -36824,6 +37482,36 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_clicompatibilityconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_clicompatibilityinfo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_clicompatibilitystatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
       "source_location": "L459",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -36864,6 +37552,46 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L615",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_detect_cli_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L654",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_evaluate_cli_compatibility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L715",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_evaluate_cli_compatibility_returns_unknown_on_invalid_or_missing_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L691",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_evaluate_cli_compatibility_with_lt_and_gt_ranges"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
       "source_location": "L1165",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -36899,6 +37627,16 @@
       "confidence_score": 1.0,
       "source": "src_tauri_src_commands_project_rs",
       "target": "commands_project_get_active_index"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L588",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_get_cli_compatibility"
     },
     {
       "relation": "contains",
@@ -37019,6 +37757,36 @@
       "confidence_score": 1.0,
       "source": "src_tauri_src_commands_project_rs",
       "target": "commands_project_load_app_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L639",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_load_cli_compatibility_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L628",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_normalize_cli_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L685",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tauri_src_commands_project_rs",
+      "target": "commands_project_normalize_cli_version_supports_prefix_and_text"
     },
     {
       "relation": "contains",
@@ -37589,6 +38357,28 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L121",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "commands_project_clicompatibilityconfig",
+      "target": "src_tauri_src_commands_project_rs_string"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "field",
+      "confidence_score": 1.0,
+      "source": "commands_project_clicompatibilityinfo",
+      "target": "src_tauri_src_commands_project_rs_string"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
       "source_location": "L459",
       "weight": 1.0,
       "context": "generic_arg",
@@ -37616,6 +38406,17 @@
       "context": "generic_arg",
       "confidence_score": 1.0,
       "source": "commands_project_delete_proposals",
+      "target": "src_tauri_src_commands_project_rs_string"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L615",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "commands_project_detect_cli_version",
       "target": "src_tauri_src_commands_project_rs_string"
     },
     {
@@ -37660,6 +38461,17 @@
       "context": "generic_arg",
       "confidence_score": 1.0,
       "source": "commands_project_get_active_index",
+      "target": "src_tauri_src_commands_project_rs_string"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L588",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "commands_project_get_cli_compatibility",
       "target": "src_tauri_src_commands_project_rs_string"
     },
     {
@@ -37781,6 +38593,17 @@
       "context": "generic_arg",
       "confidence_score": 1.0,
       "source": "commands_project_load_app_state",
+      "target": "src_tauri_src_commands_project_rs_string"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L639",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "commands_project_load_cli_compatibility_config",
       "target": "src_tauri_src_commands_project_rs_string"
     },
     {
@@ -38271,6 +39094,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L121",
+      "weight": 1.0,
+      "context": "field",
+      "confidence_score": 1.0,
+      "source": "commands_project_clicompatibilityconfig",
+      "target": "src_tauri_src_commands_project_rs_vec"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
       "source_location": "L438",
       "weight": 1.0,
       "context": "parameter_type",
@@ -38447,6 +39281,28 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L615",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "commands_project_detect_cli_version",
+      "target": "src_tauri_src_commands_project_rs_option"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L654",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "commands_project_evaluate_cli_compatibility",
+      "target": "src_tauri_src_commands_project_rs_option"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
       "source_location": "L212",
       "weight": 1.0,
       "context": "generic_arg",
@@ -38485,6 +39341,17 @@
       "context": "field",
       "confidence_score": 1.0,
       "source": "commands_project_initprojectinput",
+      "target": "src_tauri_src_commands_project_rs_option"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L628",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "commands_project_normalize_cli_version",
       "target": "src_tauri_src_commands_project_rs_option"
     },
     {
@@ -38948,6 +39815,61 @@
       "confidence_score": 1.0,
       "source": "commands_project_get_versions",
       "target": "commands_project_versioninfo"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L116",
+      "weight": 1.0,
+      "context": "field",
+      "confidence_score": 1.0,
+      "source": "commands_project_clicompatibilityinfo",
+      "target": "commands_project_clicompatibilitystatus"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L654",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "commands_project_evaluate_cli_compatibility",
+      "target": "commands_project_clicompatibilitystatus"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L588",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "commands_project_get_cli_compatibility",
+      "target": "commands_project_clicompatibilityinfo"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L654",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "commands_project_evaluate_cli_compatibility",
+      "target": "commands_project_clicompatibilityconfig"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L639",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "commands_project_load_cli_compatibility_config",
+      "target": "commands_project_clicompatibilityconfig"
     },
     {
       "relation": "references",
@@ -39591,6 +40513,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L588",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "commands_project_get_cli_compatibility",
+      "target": "src_tauri_src_commands_project_rs_result"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
       "source_location": "L203",
       "weight": 1.0,
       "context": "return_type",
@@ -39684,6 +40617,17 @@
       "context": "return_type",
       "confidence_score": 1.0,
       "source": "commands_project_load_app_state",
+      "target": "src_tauri_src_commands_project_rs_result"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L639",
+      "weight": 1.0,
+      "context": "return_type",
+      "confidence_score": 1.0,
+      "source": "commands_project_load_cli_compatibility_config",
       "target": "src_tauri_src_commands_project_rs_result"
     },
     {
@@ -40102,6 +41046,83 @@
       "confidence_score": 1.0,
       "source": "lib_types_initprojectinput",
       "target": "commands_project_check_openspec_cli"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L589",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "commands_project_get_cli_compatibility",
+      "target": "commands_project_detect_cli_version"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L607",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "commands_project_get_cli_compatibility",
+      "target": "commands_project_evaluate_cli_compatibility"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L606",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "commands_project_get_cli_compatibility",
+      "target": "commands_project_load_cli_compatibility_config"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L598",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "commands_project_get_cli_compatibility",
+      "target": "commands_project_normalize_cli_version"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L628",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "confidence_score": 1.0,
+      "source": "commands_project_normalize_cli_version",
+      "target": "version"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L686",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "commands_project_normalize_cli_version_supports_prefix_and_text",
+      "target": "commands_project_normalize_cli_version"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src-tauri/src/commands/project.rs",
+      "source_location": "L654",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "commands_project_evaluate_cli_compatibility",
+      "target": "version"
     },
     {
       "relation": "calls",
@@ -48114,6 +49135,176 @@
       "confidence_score": 1.0,
       "source": "openspec_specs_tema_aplicacion_spec_md_tema_aplicacion_spec_requirement_tokens_visuales_estilo_github",
       "target": "openspec_specs_tema_aplicacion_spec_md_tema_aplicacion_spec_scenario_tema_light_con_contraste_github_like"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_tasks_md",
+      "target": "hide_edit_button_for_archived_proposals_tasks_1_ajuste_de_acciones_en_ui_de_propuestas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/tasks.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_tasks_md",
+      "target": "hide_edit_button_for_archived_proposals_tasks_2_verificaci\u00f3n_y_regresi\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_design_md",
+      "target": "hide_edit_button_for_archived_proposals_design_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/design.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_design_md",
+      "target": "hide_edit_button_for_archived_proposals_design_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/design.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_design_md",
+      "target": "hide_edit_button_for_archived_proposals_design_goals_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/design.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_design_md",
+      "target": "hide_edit_button_for_archived_proposals_design_risks_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_proposal_md",
+      "target": "hide_edit_button_for_archived_proposals_proposal_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_proposal_md",
+      "target": "hide_edit_button_for_archived_proposals_proposal_impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_proposal_md",
+      "target": "hide_edit_button_for_archived_proposals_proposal_what_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_proposal_md",
+      "target": "hide_edit_button_for_archived_proposals_proposal_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "hide_edit_button_for_archived_proposals_proposal_capabilities",
+      "target": "hide_edit_button_for_archived_proposals_proposal_modified_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/proposal.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "hide_edit_button_for_archived_proposals_proposal_capabilities",
+      "target": "hide_edit_button_for_archived_proposals_proposal_new_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_specs_ux_acciones_propuestas_spec_md",
+      "target": "ux_acciones_propuestas_spec_modified_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "ux_acciones_propuestas_spec_modified_requirements",
+      "target": "openspec_changes_hide_edit_button_for_archived_proposals_specs_ux_acciones_propuestas_spec_md_ux_acciones_propuestas_spec_requirement_acciones_contextuales_por_tarjeta_con_iconos_y_tooltip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_specs_ux_acciones_propuestas_spec_md_ux_acciones_propuestas_spec_requirement_acciones_contextuales_por_tarjeta_con_iconos_y_tooltip",
+      "target": "openspec_changes_hide_edit_button_for_archived_proposals_specs_ux_acciones_propuestas_spec_md_ux_acciones_propuestas_spec_scenario_descubrimiento_de_acci\u00f3n_por_tooltip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_specs_ux_acciones_propuestas_spec_md_ux_acciones_propuestas_spec_requirement_acciones_contextuales_por_tarjeta_con_iconos_y_tooltip",
+      "target": "ux_acciones_propuestas_spec_scenario_edici\u00f3n_disponible_en_propuesta_activa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/hide-edit-button-for-archived-proposals/specs/ux-acciones-propuestas/spec.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_changes_hide_edit_button_for_archived_proposals_specs_ux_acciones_propuestas_spec_md_ux_acciones_propuestas_spec_requirement_acciones_contextuales_por_tarjeta_con_iconos_y_tooltip",
+      "target": "ux_acciones_propuestas_spec_scenario_edici\u00f3n_oculta_en_propuesta_archivada",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -58958,12 +60149,312 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_tasks_md",
+      "target": "add_cli_version_compatibility_panel_tasks_1_configuraci\u00f3n_de_compatibilidad"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_tasks_md",
+      "target": "add_cli_version_compatibility_panel_tasks_2_detecci\u00f3n_y_evaluaci\u00f3n_de_versi\u00f3n_cli"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/tasks.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_tasks_md",
+      "target": "add_cli_version_compatibility_panel_tasks_3_panel_de_compatibilidad_en_ui"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/tasks.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_tasks_md",
+      "target": "add_cli_version_compatibility_panel_tasks_4_pruebas_y_verificaci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_design_md",
+      "target": "add_cli_version_compatibility_panel_design_context"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/design.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_design_md",
+      "target": "add_cli_version_compatibility_panel_design_decisions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/design.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_design_md",
+      "target": "add_cli_version_compatibility_panel_design_goals_non_goals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/design.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_design_md",
+      "target": "add_cli_version_compatibility_panel_design_risks_trade_offs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_proposal_md",
+      "target": "add_cli_version_compatibility_panel_proposal_capabilities"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_proposal_md",
+      "target": "add_cli_version_compatibility_panel_proposal_impact"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_proposal_md",
+      "target": "add_cli_version_compatibility_panel_proposal_what_changes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_proposal_md",
+      "target": "add_cli_version_compatibility_panel_proposal_why"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "add_cli_version_compatibility_panel_proposal_capabilities",
+      "target": "add_cli_version_compatibility_panel_proposal_modified_capabilities"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/proposal.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "add_cli_version_compatibility_panel_proposal_capabilities",
+      "target": "add_cli_version_compatibility_panel_proposal_new_capabilities"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "openspec_changes_add_cli_version_compatibility_panel_specs_compatibilidad_version_cli_spec_md",
+      "target": "compatibilidad_version_cli_spec_added_requirements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_added_requirements",
+      "target": "compatibilidad_version_cli_spec_requirement_archivo_interno_de_compatibilidad_de_versiones_cli"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_added_requirements",
+      "target": "compatibilidad_version_cli_spec_requirement_evaluaci\u00f3n_de_compatibilidad_de_la_versi\u00f3n_cli_instalada"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_added_requirements",
+      "target": "compatibilidad_version_cli_spec_requirement_panel_visual_de_compatibilidad_en_cabecera_derecha"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_added_requirements",
+      "target": "compatibilidad_version_cli_spec_requirement_sem\u00e1ntica_de_color_del_panel_por_estado"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_added_requirements",
+      "target": "compatibilidad_version_cli_spec_requirement_soporte_de_rangos_sem\u00e1nticos_con_operadores_relacionales"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_archivo_interno_de_compatibilidad_de_versiones_cli",
+      "target": "compatibilidad_version_cli_spec_scenario_carga_correcta_de_reglas_de_compatibilidad"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_soporte_de_rangos_sem\u00e1nticos_con_operadores_relacionales",
+      "target": "compatibilidad_version_cli_spec_scenario_regla_con_operador_mayor_que"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_soporte_de_rangos_sem\u00e1nticos_con_operadores_relacionales",
+      "target": "compatibilidad_version_cli_spec_scenario_regla_con_operador_menor_que"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_evaluaci\u00f3n_de_compatibilidad_de_la_versi\u00f3n_cli_instalada",
+      "target": "compatibilidad_version_cli_spec_scenario_estado_indeterminado_por_error_de_detecci\u00f3n_o_configuraci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_evaluaci\u00f3n_de_compatibilidad_de_la_versi\u00f3n_cli_instalada",
+      "target": "compatibilidad_version_cli_spec_scenario_versi\u00f3n_compatible"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_evaluaci\u00f3n_de_compatibilidad_de_la_versi\u00f3n_cli_instalada",
+      "target": "compatibilidad_version_cli_spec_scenario_versi\u00f3n_no_compatible"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_panel_visual_de_compatibilidad_en_cabecera_derecha",
+      "target": "compatibilidad_version_cli_spec_scenario_render_del_panel_con_datos_de_versi\u00f3n_y_estado"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_sem\u00e1ntica_de_color_del_panel_por_estado",
+      "target": "compatibilidad_version_cli_spec_scenario_panel_en_amarillo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_sem\u00e1ntica_de_color_del_panel_por_estado",
+      "target": "compatibilidad_version_cli_spec_scenario_panel_en_rojo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "compatibilidad_version_cli_spec_requirement_sem\u00e1ntica_de_color_del_panel_por_estado",
+      "target": "compatibilidad_version_cli_spec_scenario_panel_en_verde"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "graphify-out/memory/query_20260531_085955_why_does_commands_connect_so_many_communities.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "graphify_out_memory_query_20260531_085955_why_does_commands_connect_so_many_communities_md",
-      "target": "memory_query_20260531_085955_why_does_commands_connect_so_many_communities_q_why_does_commands_connect_so_many_communities",
-      "confidence_score": 1.0
+      "target": "memory_query_20260531_085955_why_does_commands_connect_so_many_communities_q_why_does_commands_connect_so_many_communities"
     },
     {
       "relation": "contains",
@@ -58971,9 +60462,9 @@
       "source_file": "graphify-out/memory/query_20260531_085955_why_does_commands_connect_so_many_communities.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260531_085955_why_does_commands_connect_so_many_communities_q_why_does_commands_connect_so_many_communities",
-      "target": "memory_query_20260531_085955_why_does_commands_connect_so_many_communities_answer",
-      "confidence_score": 1.0
+      "target": "memory_query_20260531_085955_why_does_commands_connect_so_many_communities_answer"
     },
     {
       "relation": "contains",
@@ -58981,9 +60472,9 @@
       "source_file": "graphify-out/memory/query_20260531_085955_why_does_commands_connect_so_many_communities.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "memory_query_20260531_085955_why_does_commands_connect_so_many_communities_q_why_does_commands_connect_so_many_communities",
-      "target": "memory_query_20260531_085955_why_does_commands_connect_so_many_communities_source_nodes",
-      "confidence_score": 1.0
+      "target": "memory_query_20260531_085955_why_does_commands_connect_so_many_communities_source_nodes"
     },
     {
       "relation": "contains",
@@ -59387,5 +60878,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d991018aea8572fff7e24bf40e430e4852a45e91"
+  "built_at_commit": "2806f1149b48ebf4bfaf6d25beb46720485e534e"
 }

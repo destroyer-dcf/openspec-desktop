@@ -308,14 +308,16 @@
               <p class="proposal-summary" title={proposalSummary(proposal)}>{proposalSummary(proposal)}</p>
               <span>{proposal.proposal_type === "bug" ? t("bug") : t("feature")} · {formatProposalDate(proposal.created_at)}</span>
               <div class="proposal-row-actions">
-                <button
-                  class="icon-only"
-                  on:click={() => void openEditProposal(proposal.path)}
-                  aria-label={`${t("modify")} ${proposal.name}`}
-                  title={`${t("modify")} ${proposal.name}`}
-                >
-                  <Pencil size={14} />
-                </button>
+                {#if filterStatus === "active"}
+                  <button
+                    class="icon-only"
+                    on:click={() => void openEditProposal(proposal.path)}
+                    aria-label={`${t("modify")} ${proposal.name}`}
+                    title={`${t("modify")} ${proposal.name}`}
+                  >
+                    <Pencil size={14} />
+                  </button>
+                {/if}
                 <button
                   class="icon-only"
                   on:click={() => void copyProposalMarkdown(proposal.path)}

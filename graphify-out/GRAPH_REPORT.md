@@ -1,16 +1,16 @@
 # Graph Report - openspec-manager  (2026-05-31)
 
 ## Corpus Check
-- 367 files · ~350,497 words
+- 378 files · ~415,996 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2795 nodes · 3373 edges · 420 communities (399 shown, 21 thin omitted)
+- 2867 nodes · 3455 edges · 432 communities (409 shown, 23 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 18 edges (avg confidence: 0.81)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d991018a`
+- Built from commit: `2806f114`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -346,6 +346,7 @@
 - [[_COMMUNITY_Community 337|Community 337]]
 - [[_COMMUNITY_Community 338|Community 338]]
 - [[_COMMUNITY_Community 339|Community 339]]
+- [[_COMMUNITY_Community 340|Community 340]]
 - [[_COMMUNITY_Community 341|Community 341]]
 - [[_COMMUNITY_Community 342|Community 342]]
 - [[_COMMUNITY_Community 343|Community 343]]
@@ -354,6 +355,14 @@
 - [[_COMMUNITY_Community 346|Community 346]]
 - [[_COMMUNITY_Community 347|Community 347]]
 - [[_COMMUNITY_Community 348|Community 348]]
+- [[_COMMUNITY_Community 421|Community 421]]
+- [[_COMMUNITY_Community 422|Community 422]]
+- [[_COMMUNITY_Community 423|Community 423]]
+- [[_COMMUNITY_Community 424|Community 424]]
+- [[_COMMUNITY_Community 427|Community 427]]
+- [[_COMMUNITY_Community 428|Community 428]]
+- [[_COMMUNITY_Community 429|Community 429]]
+- [[_COMMUNITY_Community 430|Community 430]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `permissions` - 79 edges
@@ -361,8 +370,8 @@
 3. `deny` - 76 edges
 4. `commands` - 75 edges
 5. `identifier` - 74 edges
-6. `String` - 62 edges
-7. `Result` - 32 edges
+6. `String` - 67 edges
+7. `Result` - 34 edges
 8. `permissions` - 31 edges
 9. `permissions` - 30 edges
 10. `$lib/components/Dashboard.svelte` - 29 edges
@@ -384,15 +393,15 @@
 - 1-file cycle: `src-tauri/src/commands/project.rs -> src-tauri/src/commands/project.rs`
 - 1-file cycle: `src-tauri/src/openspec/parser.rs -> src-tauri/src/openspec/parser.rs`
 
-## Communities (420 total, 21 thin omitted)
+## Communities (432 total, 23 thin omitted)
 
 ### Community 0 - "Permisos Tauri (ACL)"
 Cohesion: 0.05
-Nodes (52): commands, description, identifier, commands, description, identifier, commands, description (+44 more)
+Nodes (52): commands, commands, description, identifier, commands, description, identifier, commands (+44 more)
 
 ### Community 1 - "Núcleo de comandos del proyecto"
-Cohesion: 0.08
-Nodes (90): active_project_root(), app_state_path(), apply_window_bounds(), AppState, archive_proposals(), bootstrap_state(), build_context(), build_proposal_summary() (+82 more)
+Cohesion: 0.09
+Nodes (91): active_project_root(), app_state_path(), apply_window_bounds(), AppState, archive_proposals(), bootstrap_state(), build_context(), build_proposal_summary() (+83 more)
 
 ### Community 2 - "Frontend Svelte (UI principal)"
 Cohesion: 0.12
@@ -408,7 +417,7 @@ Nodes (12): anyOf, anyOf, description, Application, Number, PermissionEntry, any
 
 ### Community 5 - "Esquema macOS (JSON)"
 Cohesion: 0.15
-Nodes (12): anyOf, anyOf, description, Application, Number, anyOf, description, remote (+4 more)
+Nodes (12): anyOf, anyOf, description, Application, Number, Value, anyOf, description (+4 more)
 
 ### Community 6 - "Specs funcionales OpenSpec"
 Cohesion: 0.29
@@ -436,11 +445,11 @@ Nodes (22): core, core:app, default_permission, global_scope_schema, permission_
 
 ### Community 12 - "Bootstrap y ciclo de vida app"
 Cohesion: 0.06
-Nodes (38): commands, description, identifier, commands, description, identifier, commands, description (+30 more)
+Nodes (42): commands, description, identifier, commands, description, identifier, commands, description (+34 more)
 
 ### Community 13 - "Tipos compartidos frontend"
-Cohesion: 0.21
-Nodes (8): commands, description, identifier, commands, description, identifier, allow-is-enabled, allow-register-listener
+Cohesion: 0.12
+Nodes (16): ADDED Requirements, Requirement: Archivo interno de compatibilidad de versiones CLI, Requirement: Evaluación de compatibilidad de la versión CLI instalada, Requirement: Panel visual de compatibilidad en cabecera derecha, Requirement: Semántica de color del panel por estado, Requirement: Soporte de rangos semánticos con operadores relacionales, Scenario: Carga correcta de reglas de compatibilidad, Scenario: Estado indeterminado por error de detección o configuración (+8 more)
 
 ### Community 14 - "Capacidades de permisos"
 Cohesion: 0.29
@@ -503,8 +512,8 @@ Cohesion: 0.10
 Nodes (19): Codebase Analysis, Graceful Exit Handling, Guardrails, Phase 10: Archive, Phase 11: Recap & Next Steps, Phase 1: Welcome, Phase 2: Task Selection, Phase 3: Explore Demo (+11 more)
 
 ### Community 53 - "Community 53"
-Cohesion: 0.10
-Nodes (20): commands, description, identifier, commands, description, identifier, description, identifier (+12 more)
+Cohesion: 0.50
+Nodes (4): commands, description, identifier, allow-set-as-window-menu
 
 ### Community 54 - "Community 54"
 Cohesion: 0.11
@@ -751,8 +760,8 @@ Cohesion: 0.22
 Nodes (9): description, required, type, description, properties, required, type, Capability (+1 more)
 
 ### Community 115 - "Community 115"
-Cohesion: 0.20
-Nodes (12): definitions, Identifier, Target, Value, description, oneOf, type, identifier (+4 more)
+Cohesion: 0.28
+Nodes (9): definitions, Identifier, Target, description, oneOf, type, identifier, description (+1 more)
 
 ### Community 116 - "Community 116"
 Cohesion: 0.25
@@ -819,8 +828,8 @@ Cohesion: 0.29
 Nodes (8): Value, description, default, description, type, local, anyOf, description
 
 ### Community 132 - "Community 132"
-Cohesion: 0.40
-Nodes (5): properties, default, description, type, description
+Cohesion: 0.25
+Nodes (8): properties, default, description, type, description, remote, anyOf, description
 
 ### Community 133 - "Community 133"
 Cohesion: 0.29
@@ -1559,8 +1568,8 @@ Cohesion: 0.50
 Nodes (4): commands, description, identifier, allow-app-show
 
 ### Community 317 - "Community 317"
-Cohesion: 0.50
-Nodes (4): commands, description, identifier, allow-bundle-type
+Cohesion: 0.20
+Nodes (9): Artifact, Change, OpenProjectResponse, ProjectHandle, ProjectState, ProposalDetail, ProposalList, ProposalType (+1 more)
 
 ### Community 318 - "Community 318"
 Cohesion: 0.25
@@ -1571,8 +1580,8 @@ Cohesion: 0.50
 Nodes (4): commands, description, identifier, allow-fetch-data-store-identifiers
 
 ### Community 320 - "Community 320"
-Cohesion: 0.50
-Nodes (4): commands, description, identifier, allow-get
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 321 - "Community 321"
 Cohesion: 0.50
@@ -1607,12 +1616,12 @@ Cohesion: 0.50
 Nodes (4): commands, description, identifier, allow-set-as-help-menu-for-nsapp
 
 ### Community 329 - "Community 329"
-Cohesion: 0.50
-Nodes (4): commands, description, identifier, allow-set-as-window-menu
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
 
 ### Community 330 - "Community 330"
-Cohesion: 0.50
-Nodes (4): commands, description, identifier, allow-set-as-windows-menu-for-nsapp
+Cohesion: 0.10
+Nodes (20): description, identifier, commands, description, identifier, commands, description, identifier (+12 more)
 
 ### Community 331 - "Community 331"
 Cohesion: 0.50
@@ -1627,28 +1636,32 @@ Cohesion: 0.50
 Nodes (4): commands, description, identifier, deny-app-show
 
 ### Community 334 - "Community 334"
-Cohesion: 0.50
-Nodes (4): commands, description, identifier, deny-append
+Cohesion: 0.40
+Nodes (4): 1. Configuración de compatibilidad, 2. Detección y evaluación de versión CLI, 3. Panel de compatibilidad en UI, 4. Pruebas y verificación
 
 ### Community 335 - "Community 335"
 Cohesion: 0.50
 Nodes (4): commands, description, identifier, deny-bundle-type
 
 ### Community 336 - "Community 336"
-Cohesion: 0.50
-Nodes (4): commands, description, identifier, deny-items
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 337 - "Community 337"
-Cohesion: 0.50
-Nodes (4): commands, description, identifier, deny-get
+Cohesion: 0.33
+Nodes (5): Requirement: Acciones contextuales por tarjeta con iconos y tooltip, Scenario: Descubrimiento de acción por tooltip, MODIFIED Requirements, Scenario: Edición disponible en propuesta activa, Scenario: Edición oculta en propuesta archivada
 
 ### Community 338 - "Community 338"
-Cohesion: 0.50
-Nodes (4): commands, description, identifier, deny-identifier
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
 
 ### Community 339 - "Community 339"
 Cohesion: 0.50
 Nodes (4): commands, description, identifier, deny-is-checked
+
+### Community 340 - "Community 340"
+Cohesion: 0.50
+Nodes (4): commands, description, identifier, allow-append
 
 ### Community 341 - "Community 341"
 Cohesion: 0.50
@@ -1658,25 +1671,49 @@ Nodes (4): commands, description, identifier, deny-tauri-version
 Cohesion: 0.50
 Nodes (4): commands, description, identifier, deny-version
 
+### Community 421 - "Community 421"
+Cohesion: 0.21
+Nodes (8): commands, description, identifier, commands, description, identifier, allow-tauri-version, allow-version
+
+### Community 422 - "Community 422"
+Cohesion: 0.50
+Nodes (4): commands, description, identifier, deny-create-default
+
+### Community 423 - "Community 423"
+Cohesion: 0.50
+Nodes (4): commands, description, identifier, allow-bundle-type
+
+### Community 427 - "Community 427"
+Cohesion: 0.50
+Nodes (4): commands, description, identifier, allow-set-checked
+
+### Community 428 - "Community 428"
+Cohesion: 0.50
+Nodes (4): commands, description, identifier, allow-set-icon
+
+### Community 429 - "Community 429"
+Cohesion: 0.50
+Nodes (4): commands, description, identifier, deny-append
+
 ## Knowledge Gaps
-- **1505 isolated node(s):** `config`, `name`, `version`, `description`, `type` (+1500 more)
+- **1543 isolated node(s):** `config`, `name`, `version`, `description`, `type` (+1538 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **21 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `permissions` connect `Permisos core (ACL sets)` to `Permisos Tauri (ACL)`, `Bootstrap y ciclo de vida app`, `Tipos compartidos frontend`, `Community 43`, `Community 44`, `Community 46`, `Community 53`, `Community 316`, `Community 317`, `Community 319`, `Community 320`, `Community 321`, `Community 323`, `Community 324`, `Community 325`, `Community 326`, `Community 327`, `Community 328`, `Community 329`, `Community 330`, `Community 331`, `Community 332`, `Community 333`, `Community 334`, `Community 335`, `Community 336`, `Community 337`, `Community 338`, `Community 339`, `Community 341`, `Community 342`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Why does `commands` connect `Community 53` to `Permisos Tauri (ACL)`, `Bootstrap y ciclo de vida app`, `Tipos compartidos frontend`, `Community 43`, `Community 44`, `Community 46`, `Community 316`, `Community 317`, `Community 319`, `Community 320`, `Community 321`, `Community 323`, `Community 324`, `Community 325`, `Community 326`, `Community 327`, `Community 328`, `Community 329`, `Community 330`, `Community 331`, `Community 332`, `Community 333`, `Community 334`, `Community 335`, `Community 336`, `Community 337`, `Community 338`, `Community 339`, `Community 341`, `Community 342`?**
+- **Why does `permissions` connect `Permisos core (ACL sets)` to `Permisos Tauri (ACL)`, `Bootstrap y ciclo de vida app`, `Community 421`, `Community 422`, `Community 423`, `Community 43`, `Community 44`, `Community 427`, `Community 46`, `Community 428`, `Community 429`, `Community 53`, `Community 316`, `Community 319`, `Community 321`, `Community 323`, `Community 324`, `Community 325`, `Community 326`, `Community 327`, `Community 328`, `Community 330`, `Community 331`, `Community 332`, `Community 333`, `Community 335`, `Community 339`, `Community 340`, `Community 341`, `Community 342`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `commands` connect `Community 330` to `Permisos Tauri (ACL)`, `Bootstrap y ciclo de vida app`, `Community 421`, `Community 422`, `Community 423`, `Community 43`, `Community 44`, `Community 427`, `Community 46`, `Community 428`, `Community 429`, `Community 53`, `Community 316`, `Community 319`, `Community 321`, `Community 323`, `Community 324`, `Community 325`, `Community 326`, `Community 327`, `Community 328`, `Community 331`, `Community 332`, `Community 333`, `Community 335`, `Community 339`, `Community 340`, `Community 341`, `Community 342`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `identifier` connect `Community 46` to `Permisos Tauri (ACL)`, `Permisos core (ACL sets)`, `Bootstrap y ciclo de vida app`, `Tipos compartidos frontend`, `Community 43`, `Community 44`, `Community 53`, `Community 316`, `Community 317`, `Community 319`, `Community 320`, `Community 321`, `Community 323`, `Community 324`, `Community 325`, `Community 326`, `Community 327`, `Community 328`, `Community 329`, `Community 330`, `Community 331`, `Community 332`, `Community 333`, `Community 334`, `Community 335`, `Community 336`, `Community 337`, `Community 338`, `Community 339`, `Community 341`, `Community 342`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+- **Why does `identifier` connect `Community 46` to `Permisos Tauri (ACL)`, `Permisos core (ACL sets)`, `Bootstrap y ciclo de vida app`, `Community 421`, `Community 422`, `Community 423`, `Community 43`, `Community 44`, `Community 427`, `Community 428`, `Community 429`, `Community 53`, `Community 316`, `Community 319`, `Community 321`, `Community 323`, `Community 324`, `Community 325`, `Community 326`, `Community 327`, `Community 328`, `Community 330`, `Community 331`, `Community 332`, `Community 333`, `Community 335`, `Community 339`, `Community 340`, `Community 341`, `Community 342`?**
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `config`, `name`, `version` to the rest of the system?**
-  _1521 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1559 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Permisos Tauri (ACL)` be split into smaller, more focused modules?**
   _Cohesion score 0.04675716440422323 - nodes in this community are weakly interconnected._
 - **Should `Núcleo de comandos del proyecto` be split into smaller, more focused modules?**
-  _Cohesion score 0.08438522674146798 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08600223964165733 - nodes in this community are weakly interconnected._
 - **Should `Frontend Svelte (UI principal)` be split into smaller, more focused modules?**
   _Cohesion score 0.11688311688311688 - nodes in this community are weakly interconnected._

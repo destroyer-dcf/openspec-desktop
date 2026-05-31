@@ -9,6 +9,11 @@
 [![Rust](https://img.shields.io/badge/Rust-stable-black.svg)](https://www.rust-lang.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6.svg)](https://www.typescriptlang.org/)
 
+<p align="center">
+  <img src="docs/openspec-desktop.png" alt="OpenSpec Desktop" />
+</p>
+
+
 ## Español
 
 OpenSpec Desktop es una aplicación de escritorio para gestionar proyectos basados en [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec). Su objetivo es actuar como una interfaz visual para el flujo de trabajo de OpenSpec: propuestas, cambios activos, tareas, especificaciones, documentos markdown, cambios archivados y configuración del proyecto.

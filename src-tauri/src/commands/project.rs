@@ -2,6 +2,7 @@ use crate::openspec::loader::load_project;
 use crate::openspec::model::ProjectState;
 use arboard::Clipboard;
 use notify::{recommended_watcher, RecursiveMode, Watcher};
+use semver::{Version, VersionReq};
 use serde::{Deserialize, Serialize};
 use serde_yaml::Value;
 use std::fs;
@@ -98,6 +99,26 @@ pub struct SpecDocument {
 pub struct VersionInfo {
     pub app_version: String,
     pub openspec_version: String,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
+pub enum CliCompatibilityStatus {
+    Compatible,
+    Incompatible,
+    Unknown,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct CliCompatibilityInfo {
+    pub cli_name: String,
+    pub cli_version: String,
+    pub status: CliCompatibilityStatus,
+}
+
+#[derive(Debug, Clone, Deserialize)]
+struct CliCompatibilityConfig {
+    supported_ranges: Vec<String>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -561,6 +582,151 @@ pub fn get_versions() -> Result<VersionInfo, String> {
         app_version,
         openspec_version,
     })
+}
+
+#[tauri::command]
+pub fn get_cli_compatibility() -> Result<CliCompatibilityInfo, String> {
+    let cli_version_raw = detect_cli_version("openspec");
+    let Some(raw) = cli_version_raw else {
+        return Ok(CliCompatibilityInfo {
+            cli_name: "openspec".to_string(),
+            cli_version: "No disponible".to_string(),
+            status: CliCompatibilityStatus::Unknown,
+        });
+    };
+
+    let Some(version) = normalize_cli_version(&raw) else {
+        return Ok(CliCompatibilityInfo {
+            cli_name: "openspec".to_string(),
+            cli_version: raw,
+            status: CliCompatibilityStatus::Unknown,
+        });
+    };
+
+    let config = load_cli_compatibility_config().ok();
+    let status = evaluate_cli_compatibility(&version, config.as_ref());
+    Ok(CliCompatibilityInfo {
+        cli_name: "openspec".to_string(),
+        cli_version: version.to_string(),
+        status,
+    })
+}
+
+fn detect_cli_version(cli_name: &str) -> Option<String> {
+    let output = Command::new(cli_name).arg("--version").output().ok()?;
+    if !output.status.success() {
+        return None;
+    }
+    let stdout = String::from_utf8_lossy(&output.stdout).trim().to_string();
+    if stdout.is_empty() {
+        None
+    } else {
+        Some(stdout)
+    }
+}
+
+fn normalize_cli_version(raw: &str) -> Option<Version> {
+    for token in raw.split_whitespace() {
+        let cleaned = token.trim_matches(|c: char| !(c.is_ascii_alphanumeric() || c == '.' || c == '-' || c == '+' || c == 'v'));
+        let normalized = cleaned.strip_prefix('v').unwrap_or(cleaned);
+        if let Ok(version) = Version::parse(normalized) {
+            return Some(version);
+        }
+    }
+    None
+}
+
+fn load_cli_compatibility_config() -> Result<CliCompatibilityConfig, String> {
+    let config_path = Path::new(env!("CARGO_MANIFEST_DIR")).join("config/cli_compatibility.json");
+    let content = fs::read_to_string(&config_path)
+        .map_err(|e| format!("No se pudo leer config de compatibilidad {}: {e}", config_path.display()))?;
+    let config: CliCompatibilityConfig = serde_json::from_str(&content)
+        .map_err(|e| format!("Config de compatibilidad inválida en {}: {e}", config_path.display()))?;
+    if config.supported_ranges.is_empty() {
+        return Err(format!(
+            "Config de compatibilidad inválida en {}: supported_ranges no puede estar vacío",
+            config_path.display()
+        ));
+    }
+    Ok(config)
+}
+
+fn evaluate_cli_compatibility(
+    cli_version: &Version,
+    config: Option<&CliCompatibilityConfig>,
+) -> CliCompatibilityStatus {
+    let Some(config) = config else {
+        return CliCompatibilityStatus::Unknown;
+    };
+
+    let mut any_valid_req = false;
+    for raw_req in &config.supported_ranges {
+        let Ok(req) = VersionReq::parse(raw_req) else {
+            continue;
+        };
+        any_valid_req = true;
+        if req.matches(cli_version) {
+            return CliCompatibilityStatus::Compatible;
+        }
+    }
+
+    if any_valid_req {
+        CliCompatibilityStatus::Incompatible
+    } else {
+        CliCompatibilityStatus::Unknown
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn normalize_cli_version_supports_prefix_and_text() {
+        let parsed = normalize_cli_version("openspec version v1.4.2").expect("version should parse");
+        assert_eq!(parsed.to_string(), "1.4.2");
+    }
+
+    #[test]
+    fn evaluate_cli_compatibility_with_lt_and_gt_ranges() {
+        let config = CliCompatibilityConfig {
+            supported_ranges: vec!["<2.0.0".to_string(), ">3.0.0".to_string()],
+        };
+
+        let lower = Version::parse("1.9.9").expect("valid semver");
+        let middle = Version::parse("2.5.0").expect("valid semver");
+        let higher = Version::parse("3.1.0").expect("valid semver");
+
+        assert!(matches!(
+            evaluate_cli_compatibility(&lower, Some(&config)),
+            CliCompatibilityStatus::Compatible
+        ));
+        assert!(matches!(
+            evaluate_cli_compatibility(&middle, Some(&config)),
+            CliCompatibilityStatus::Incompatible
+        ));
+        assert!(matches!(
+            evaluate_cli_compatibility(&higher, Some(&config)),
+            CliCompatibilityStatus::Compatible
+        ));
+    }
+
+    #[test]
+    fn evaluate_cli_compatibility_returns_unknown_on_invalid_or_missing_config() {
+        let version = Version::parse("1.2.3").expect("valid semver");
+        let invalid_config = CliCompatibilityConfig {
+            supported_ranges: vec!["not-a-range".to_string()],
+        };
+
+        assert!(matches!(
+            evaluate_cli_compatibility(&version, Some(&invalid_config)),
+            CliCompatibilityStatus::Unknown
+        ));
+        assert!(matches!(
+            evaluate_cli_compatibility(&version, None),
+            CliCompatibilityStatus::Unknown
+        ));
+    }
 }
 
 #[tauri::command]

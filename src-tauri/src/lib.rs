@@ -3,7 +3,7 @@ mod openspec;
 
 use commands::project::{
     archive_proposals, bootstrap_state, check_openspec_cli, delete_proposals, get_active_index, get_projects,
-    get_versions, list_schemas,
+    get_versions, get_cli_compatibility, list_schemas,
     create_spec_document, get_proposal, get_state, init_project, list_proposals, list_spec_documents, open_project, pick_project_folder,
     read_file, save_proposal, set_active_project, unlink_project, write_file, AppState,
     copy_to_clipboard, persist_window_size,
@@ -159,6 +159,7 @@ pub fn run() {
             copy_to_clipboard,
             check_openspec_cli,
             get_versions,
+            get_cli_compatibility,
             list_schemas,
             init_project
         ])

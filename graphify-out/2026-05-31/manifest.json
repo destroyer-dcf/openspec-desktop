@@ -25,9 +25,9 @@
     "semantic_hash": "bc4105f797304ae00bc7e12f4f85bd1a"
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/tauri.conf.json": {
-    "mtime": 1780082164.0026646,
-    "ast_hash": "bde8d69daf0d360f88d086687e92d21a",
-    "semantic_hash": "bde8d69daf0d360f88d086687e92d21a"
+    "mtime": 1780221641.2190983,
+    "ast_hash": "0f4cccdd9810ab2f98980dad0698ea3e",
+    "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/build.rs": {
     "mtime": 1779474354.2607908,
@@ -60,9 +60,9 @@
     "semantic_hash": "178d41a2338178040f1e32a71157035e"
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/lib.rs": {
-    "mtime": 1780137524.6829288,
-    "ast_hash": "6c8b69536e40440f94875ae762d126d0",
-    "semantic_hash": "6c8b69536e40440f94875ae762d126d0"
+    "mtime": 1780222581.5518477,
+    "ast_hash": "4c98e5337c1a9a84f756cd1fa34577ba",
+    "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/main.rs": {
     "mtime": 1780082196.4563813,
@@ -75,9 +75,9 @@
     "semantic_hash": "8c21442e282f90afff3797db09d28ef8"
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/commands/project.rs": {
-    "mtime": 1780137524.6822944,
-    "ast_hash": "28a966217f61acfbe07f47cd574d5f97",
-    "semantic_hash": "28a966217f61acfbe07f47cd574d5f97"
+    "mtime": 1780222652.255115,
+    "ast_hash": "9f837b7435cf543747e878da8650672f",
+    "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/src/openspec/scanner.rs": {
     "mtime": 1779475182.202169,
@@ -195,13 +195,13 @@
     "semantic_hash": "6fcc01a9e86b5ac2814ef7b2e6831657"
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src/routes/+page.svelte": {
-    "mtime": 1780081410.6393032,
-    "ast_hash": "d5272ff64475e265e6c06b5f5a80122e",
-    "semantic_hash": "d5272ff64475e265e6c06b5f5a80122e"
+    "mtime": 1780222608.3755896,
+    "ast_hash": "4d20cc575eda3e4c737431360bce4b95",
+    "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/opencode.json": {
-    "mtime": 1780217386.1403496,
-    "ast_hash": "abcc8b9dcd80bca5f9dde6d9f0c3ae79",
+    "mtime": 1780219207.4229038,
+    "ast_hash": "e5f74d14a81702b55bdf53b33ec991d7",
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.opencode/plugins/graphify.js": {
@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/scripts/build.sh": {
-    "mtime": 1780138394.5609314,
-    "ast_hash": "7591e107c286de03b968e72c6a43c39e",
+    "mtime": 1780221611.5852728,
+    "ast_hash": "245dd124b33c8fc7e22ba5cf931b56a5",
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/README.md": {
@@ -405,8 +405,8 @@
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/workflows/build.yml": {
-    "mtime": 1780138396.581006,
-    "ast_hash": "a5e16906f7478e2ac0bcc5716f3d99f7",
+    "mtime": 1780220302.3309712,
+    "ast_hash": "0f7ac67c2e4a359513b4f873147c45dd",
     "semantic_hash": ""
   },
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/.github/prompts/opsx-verify.prompt.md": {
@@ -2297,6 +2297,56 @@
   "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png": {
     "mtime": 1780082000.902295,
     "ast_hash": "5ada2f09d1485582e0266f5369b8c49a",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/scripts/sync-version.mjs": {
+    "mtime": 1780219379.5758808,
+    "ast_hash": "24229017737d3eb19ae214016f9cc945",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/graphify-out/memory/query_20260531_085955_why_does_commands_connect_so_many_communities.md": {
+    "mtime": 1780217995.118198,
+    "ast_hash": "25d868a1f1b3d626dc809d9f840e223e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/src-tauri/config/cli_compatibility.json": {
+    "mtime": 1780222587.161803,
+    "ast_hash": "2d1ea6625bfe52d713b5db481c410b1e",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/actives/chequeo-de-version-cli-de-opencode.md": {
+    "mtime": 1780222308.8299673,
+    "ast_hash": "1b43e408e79dae56557c239660624e2f",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/propose/actives/propuestas-archivadas.md": {
+    "mtime": 1780222669.5957744,
+    "ast_hash": "d4888928ed872d31abeaffcb956fdfd3",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/add-cli-version-compatibility-panel/.openspec.yaml": {
+    "mtime": 1780222332.5318153,
+    "ast_hash": "51dc568b9cbeba6e85af494e3a64a063",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/add-cli-version-compatibility-panel/tasks.md": {
+    "mtime": 1780222679.2383742,
+    "ast_hash": "80b0c35f02fc237fded14d39f0785f47",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/add-cli-version-compatibility-panel/design.md": {
+    "mtime": 1780222398.0297506,
+    "ast_hash": "ee9793e4d479ee9f16bc0bc7e85e6aad",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/add-cli-version-compatibility-panel/proposal.md": {
+    "mtime": 1780222356.527679,
+    "ast_hash": "0520f2fcbd8fd9060b89fbcad28f12f5",
+    "semantic_hash": ""
+  },
+  "/Users/destroyer/MIS_PROYECTOS/openspec-manager/openspec/changes/add-cli-version-compatibility-panel/specs/compatibilidad-version-cli/spec.md": {
+    "mtime": 1780222398.064554,
+    "ast_hash": "d50507fee0b9e1154a7fcdda8dbbdfd4",
     "semantic_hash": ""
   }
 }

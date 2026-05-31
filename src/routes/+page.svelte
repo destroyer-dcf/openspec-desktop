@@ -40,6 +40,14 @@
   let cardColors: CardColorPrefs = { ...DEFAULT_CARD_COLORS };
   let sidebarWidth = 320;
   let isResizingSidebar = false;
+  let cliVersion = "No disponible";
+  let cliCompatibilityStatus: "compatible" | "incompatible" | "unknown" = "unknown";
+  $: cliCompatibilityLabel =
+    cliCompatibilityStatus === "compatible"
+      ? "Supported"
+      : cliCompatibilityStatus === "incompatible"
+        ? "Not supported"
+        : "Unknown";
 
   function normalizeCardColor(value: unknown): CardColorChoice {
     if (value === "blue" || value === "green" || value === "red" || value === "yellow" || value === "gray" || value === "orange") return value;
@@ -109,6 +117,21 @@
     state = await invoke<ProjectState | null>("get_state");
   }
 
+  async function loadCliCompatibility() {
+    try {
+      const compatibility = await invoke<{
+        cli_name: string;
+        cli_version: string;
+        status: "compatible" | "incompatible" | "unknown";
+      }>("get_cli_compatibility");
+      cliVersion = compatibility.cli_version || "No disponible";
+      cliCompatibilityStatus = compatibility.status ?? "unknown";
+    } catch {
+      cliVersion = "No disponible";
+      cliCompatibilityStatus = "unknown";
+    }
+  }
+
   async function addProject() {
     error = "";
     const folder = await invoke<string | null>("pick_project_folder");
@@ -174,6 +197,7 @@
   onMount(async () => {
     restoreUiPrefs();
     await loadProjectsFromBackend();
+    await loadCliCompatibility();
   });
 
   const unlistenPromise = listen<string>("project-updated", async (event) => {
@@ -242,6 +266,17 @@
           <span>Desktop</span>
         </div>
       </div>
+      <aside class={`cli-compatibility cli-compatibility--${cliCompatibilityStatus}`} aria-label="OpenSpec Desktop compatibility">
+        <div class="cli-compatibility-title">OpenSpec Desktop</div>
+        <div class="cli-compatibility-row">
+          <span>CLI</span>
+          <code>{cliVersion}</code>
+        </div>
+        <div class="cli-compatibility-status">
+          <span>Status</span>
+          <strong>{cliCompatibilityLabel}</strong>
+        </div>
+      </aside>
     </div>
 
     {#if error}<p class="error">{error}</p>{/if}
@@ -431,7 +466,7 @@
     min-height: 0;
     overflow: auto;
   }
-  .content-head { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+  .content-head { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
   .app-brand {
     display: inline-flex;
     align-items: center;
@@ -452,6 +487,54 @@
     font-size: 24px;
     font-weight: 700;
     color: var(--accent-color);
+  }
+  .cli-compatibility {
+    margin-left: auto;
+    border: 1px solid var(--border-default);
+    border-radius: 8px;
+    padding: 8px 10px;
+    min-width: 220px;
+    box-sizing: border-box;
+  }
+  .cli-compatibility-title {
+    font-weight: 700;
+    font-size: var(--font-size-small);
+    margin-bottom: 6px;
+  }
+  .cli-compatibility-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: var(--font-size-small);
+  }
+  .cli-compatibility-status {
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: var(--font-size-small);
+  }
+  .cli-compatibility-status strong {
+    font-weight: 800;
+  }
+  .cli-compatibility-row code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: var(--font-size-small);
+    background: transparent;
+  }
+  .cli-compatibility--compatible {
+    background: color-mix(in srgb, #2da44e 14%, var(--bg-secondary));
+    border-color: color-mix(in srgb, #2da44e 45%, var(--border-default));
+  }
+  .cli-compatibility--incompatible {
+    background: color-mix(in srgb, #cf222e 14%, var(--bg-secondary));
+    border-color: color-mix(in srgb, #cf222e 45%, var(--border-default));
+  }
+  .cli-compatibility--unknown {
+    background: color-mix(in srgb, #bf8700 16%, var(--bg-secondary));
+    border-color: color-mix(in srgb, #bf8700 45%, var(--border-default));
   }
   .error { color: var(--danger-color); font-size: var(--font-size-small); }
 </style>
