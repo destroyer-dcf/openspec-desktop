@@ -5,6 +5,8 @@ use notify::{recommended_watcher, RecursiveMode, Watcher};
 use semver::{Version, VersionReq};
 use serde::{Deserialize, Serialize};
 use serde_yaml::Value;
+use std::env;
+use std::collections::BTreeSet;
 use std::fs;
 use std::path::{Path, PathBuf};
 use std::process::Command;
@@ -33,6 +35,7 @@ const DEFAULT_WINDOW_WIDTH: u32 = 1280;
 const DEFAULT_WINDOW_HEIGHT: u32 = 800;
 const MIN_WINDOW_WIDTH: u32 = 1024;
 const MIN_WINDOW_HEIGHT: u32 = 700;
+const CLI_COMPATIBILITY_CONFIG_JSON: &str = include_str!("../../config/cli_compatibility.json");
 
 #[derive(Default)]
 pub struct AppState {
@@ -554,11 +557,12 @@ pub fn create_spec_document(specs_dir: String, capability: String) -> Result<Str
 
 #[tauri::command]
 pub fn check_openspec_cli() -> Result<bool, String> {
-    let output = Command::new("which")
-        .arg("openspec")
-        .output()
-        .map_err(|e| format!("No se pudo ejecutar verificación de CLI: {e}"))?;
-
+    let Ok(mut command) = cli_command("openspec") else {
+        return Ok(false);
+    };
+    let Ok(output) = command.arg("--version").output() else {
+        return Ok(false);
+    };
     Ok(output.status.success())
 }
 
@@ -566,7 +570,9 @@ pub fn check_openspec_cli() -> Result<bool, String> {
 pub fn get_versions() -> Result<VersionInfo, String> {
     let app_version = env!("CARGO_PKG_VERSION").to_string();
 
-    let openspec_version = match Command::new("openspec").arg("--version").output() {
+    let openspec_version = match cli_command("openspec")
+        .and_then(|mut cmd| cmd.arg("--version").output().map_err(|_| "run failed".to_string()))
+    {
         Ok(output) if output.status.success() => {
             let stdout = String::from_utf8_lossy(&output.stdout).trim().to_string();
             if stdout.is_empty() {
@@ -613,7 +619,8 @@ pub fn get_cli_compatibility() -> Result<CliCompatibilityInfo, String> {
 }
 
 fn detect_cli_version(cli_name: &str) -> Option<String> {
-    let output = Command::new(cli_name).arg("--version").output().ok()?;
+    let mut command = cli_command(cli_name).ok()?;
+    let output = command.arg("--version").output().ok()?;
     if !output.status.success() {
         return None;
     }
@@ -637,18 +644,127 @@ fn normalize_cli_version(raw: &str) -> Option<Version> {
 }
 
 fn load_cli_compatibility_config() -> Result<CliCompatibilityConfig, String> {
-    let config_path = Path::new(env!("CARGO_MANIFEST_DIR")).join("config/cli_compatibility.json");
-    let content = fs::read_to_string(&config_path)
-        .map_err(|e| format!("No se pudo leer config de compatibilidad {}: {e}", config_path.display()))?;
-    let config: CliCompatibilityConfig = serde_json::from_str(&content)
-        .map_err(|e| format!("Config de compatibilidad inválida en {}: {e}", config_path.display()))?;
+    let config: CliCompatibilityConfig = serde_json::from_str(CLI_COMPATIBILITY_CONFIG_JSON)
+        .map_err(|e| format!("Config de compatibilidad inválida embebida: {e}"))?;
     if config.supported_ranges.is_empty() {
-        return Err(format!(
-            "Config de compatibilidad inválida en {}: supported_ranges no puede estar vacío",
-            config_path.display()
-        ));
+        return Err("Config de compatibilidad inválida embebida: supported_ranges no puede estar vacío".to_string());
     }
     Ok(config)
+}
+
+fn cli_command(cli_name: &str) -> Result<Command, String> {
+    let executable = resolve_cli_executable(cli_name)
+        .ok_or_else(|| format!("{cli_name} no está instalado o no se pudo resolver su ubicación"))?;
+    let mut command = Command::new(&executable);
+    command.env("PATH", build_cli_runtime_path(&executable));
+    Ok(command)
+}
+
+fn resolve_cli_executable(cli_name: &str) -> Option<PathBuf> {
+    if cli_name.contains(std::path::MAIN_SEPARATOR) {
+        let candidate = PathBuf::from(cli_name);
+        return candidate.is_file().then_some(candidate);
+    }
+
+    if let Some(path) = find_cli_in_path(cli_name, env::var_os("PATH")) {
+        return Some(path);
+    }
+
+    if let Some(path) = detect_cli_with_login_shell(cli_name) {
+        return Some(path);
+    }
+
+    common_cli_directories()
+        .into_iter()
+        .map(|dir| dir.join(cli_name))
+        .find(|candidate| candidate.is_file())
+}
+
+fn find_cli_in_path(cli_name: &str, path_var: Option<std::ffi::OsString>) -> Option<PathBuf> {
+    let path_var = path_var?;
+    env::split_paths(&path_var)
+        .map(|dir| dir.join(cli_name))
+        .find(|candidate| candidate.is_file())
+}
+
+fn detect_cli_with_login_shell(cli_name: &str) -> Option<PathBuf> {
+    let mut shells = Vec::new();
+    if let Some(shell) = env::var_os("SHELL") {
+        let shell = PathBuf::from(shell);
+        if shell.is_file() {
+            shells.push(shell);
+        }
+    }
+
+    for fallback in ["/bin/zsh", "/bin/bash", "/bin/sh"] {
+        let shell = PathBuf::from(fallback);
+        if shell.is_file() && !shells.iter().any(|existing| existing == &shell) {
+            shells.push(shell);
+        }
+    }
+
+    for shell in shells {
+        let Ok(output) = Command::new(&shell)
+            .arg("-lc")
+            .arg(format!("command -v {cli_name}"))
+            .output()
+        else {
+            continue;
+        };
+        if !output.status.success() {
+            continue;
+        }
+        let stdout = String::from_utf8_lossy(&output.stdout).to_string();
+        let Some(first_line) = stdout.lines().next() else {
+            continue;
+        };
+        let resolved = first_line.trim().to_string();
+        if resolved.is_empty() {
+            continue;
+        }
+        let path = PathBuf::from(resolved);
+        if path.is_file() {
+            return Some(path);
+        }
+    }
+
+    None
+}
+
+fn common_cli_directories() -> Vec<PathBuf> {
+    let mut directories = vec![PathBuf::from("/opt/homebrew/bin"), PathBuf::from("/usr/local/bin")];
+    if let Some(home) = env::var_os("HOME") {
+        let home = PathBuf::from(home);
+        directories.push(home.join(".local/bin"));
+        directories.push(home.join(".cargo/bin"));
+        directories.push(home.join(".npm-global/bin"));
+        directories.push(home.join("Library/pnpm/bin"));
+        directories.push(home.join(".bun/bin"));
+    }
+    directories
+}
+
+fn build_cli_runtime_path(executable: &Path) -> String {
+    let mut directories = BTreeSet::new();
+
+    if let Some(parent) = executable.parent() {
+        directories.insert(parent.to_path_buf());
+    }
+
+    for dir in common_cli_directories() {
+        directories.insert(dir);
+    }
+
+    if let Some(path_var) = env::var_os("PATH") {
+        for dir in env::split_paths(&path_var) {
+            directories.insert(dir);
+        }
+    }
+
+    env::join_paths(directories).map_or_else(
+        |_| "/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin:/usr/local/bin".to_string(),
+        |paths| paths.to_string_lossy().into_owned(),
+    )
 }
 
 fn evaluate_cli_compatibility(
@@ -731,7 +847,7 @@ mod tests {
 
 #[tauri::command]
 pub fn list_schemas() -> Result<SchemaList, String> {
-    let output = match Command::new("openspec").arg("templates").output() {
+    let output = match cli_command("openspec").and_then(|mut cmd| cmd.arg("templates").output().map_err(|_| "run failed".to_string())) {
         Ok(out) if out.status.success() => out,
         _ => {
             return Ok(SchemaList {
@@ -923,7 +1039,9 @@ pub fn init_project(input: InitProjectInput, app: AppHandle, state: State<'_, Ap
     fs::write(openspec_dir.join("config.yaml"), yaml)
         .map_err(|e| format!("No se pudo escribir config.yaml: {e}"))?;
 
-    let output = Command::new("openspec")
+    let mut command = cli_command("openspec")
+        .map_err(|e| format!("No se pudo resolver openspec CLI: {e}"))?;
+    let output = command
         .arg("init")
         .arg("--tools")
         .arg(tools_for_provider(&input.ai_provider))
